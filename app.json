@@ -1,0 +1,27 @@
+{
+	"a": 500
+	, "author": "besta.pe"
+	, "b2": 100
+	, "borderColour": "black"
+	, "borderSize": 2
+	, "colours": [
+		"blue"
+		, "red"
+		, "green"
+		, "purple"
+		, "yellow"
+		, "teal"
+		, "brown"
+		, "orange"
+	]
+	, "fileLoci": "./images/resonance.svg"
+	, "lead": true
+	, "loop": true
+	, "repeat": 50
+	, "rotateCenter": "0, 0"
+	, "speed": "2s"
+	, "viewBoxAdd": {
+		"width": 0
+		, "height": 150
+	}
+}
