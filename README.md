@@ -1,10 +1,10 @@
 # alchemy
 
-## an animated SVG printer using a *metal-pythag* engine
+## an animated SVG printer using a *metal-Pythag* engine
 
 ### what
 
-Create moving images like:
+Create cellular automata moving images like:
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/100by50.svg?raw=true" width="50%" >
 
