@@ -1,14 +1,16 @@
 # alchemy
 
-## "a *metal-pythag* engined animated SVG printer"
+## an animated SVG printer using a *metal-pythag* engine
 
 ### what
 
 Create moving images like:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/500by50.svg?raw=true" width="70%">
+<img src="https://github.com/bestape/alchemy/blob/master/images/100by50.svg?raw=true" >
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/2000by50.svg?raw=true" width="40%">
+<img src="https://github.com/bestape/alchemy/blob/master/images/500by50.svg?raw=true" >
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/2000by50.svg?raw=true" >
 
 ### do
 

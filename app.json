@@ -1,27 +1,24 @@
 {
-	"a": 2000
+	"a": 100
 	, "author": "besta.pe"
 	, "b2": 100
 	, "borderColour": "black"
 	, "borderSize": 2
 	, "colours": [
-		"plum"
-		, "plum"
-		, "indianred"
-		, "goldenrod"
-		, "indianred"
-		, "tomato"
-		, "plum"
-		, "plum"
+		"gold"
+		, "coral"
+		, "yellowgreen"
+		, "turquoise"
+		, "violet"
 	]
 	, "file": "./images/resonance.svg"
-	, "lead": true
+	, "lead": false
 	, "loop": true
-	, "repeat": 200
+	, "repeat": 14
 	, "rotateCenter": "0, 0"
-	, "speed": "0.5s"
+	, "speed": "1s"
 	, "viewBoxAdd": {
-		"width": 200
-		, "height": 200
+		"width": 20
+		, "height": 20
 	}
 }
