@@ -5,23 +5,23 @@
 	, "borderColour": "black"
 	, "borderSize": 2
 	, "colours": [
-		"blue"
+		"khaki"
 		, "red"
 		, "green"
+		, "wheat"
+		, "palegoldenrod"
 		, "purple"
-		, "yellow"
-		, "teal"
 		, "brown"
-		, "orange"
+		, "navajowhite"
 	]
-	, "fileLoci": "./images/resonance.svg"
+	, "file": "./images/resonance.svg"
 	, "lead": true
 	, "loop": true
 	, "repeat": 50
 	, "rotateCenter": "0, 0"
 	, "speed": "2s"
 	, "viewBoxAdd": {
-		"width": 0
-		, "height": 150
+		"width": 100
+		, "height": 100
 	}
 }

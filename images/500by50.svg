@@ -2,7 +2,7 @@
 	xmlns="http://www.w3.org/2000/svg"
  	xmlns:xlink="http://www.w3.org/1999/xlink"
 	version="1.1"
-	viewBox="0 -150 502 854.4937810560446"
+	viewBox="-100 -100 702 754.4937810560446"
 	fill="none" >
   <!-- static objects -->
   <rect
@@ -25,7 +25,7 @@
 	  id="rectangle1"
 	  width="0"
 	  height="0"
-	  fill="blue" />
+	  fill="khaki" />
   <rect
 	  id="rectangle2"
 	  width="0"
@@ -40,17 +40,17 @@
 	  id="rectangle4"
 	  width="0"
 	  height="0"
-	  fill="purple" />
+	  fill="wheat" />
   <rect
 	  id="rectangle5"
 	  width="0"
 	  height="0"
-	  fill="yellow" />
+	  fill="palegoldenrod" />
   <rect
 	  id="rectangle6"
 	  width="0"
 	  height="0"
-	  fill="teal" />
+	  fill="purple" />
   <rect
 	  id="rectangle7"
 	  width="0"
@@ -60,12 +60,12 @@
 	  id="rectangle8"
 	  width="0"
 	  height="0"
-	  fill="orange" />
+	  fill="navajowhite" />
   <rect
 	  id="rectangle9"
 	  width="0"
 	  height="0"
-	  fill="blue" />
+	  fill="khaki" />
   <rect
 	  id="rectangle10"
 	  width="0"
@@ -80,17 +80,17 @@
 	  id="rectangle12"
 	  width="0"
 	  height="0"
-	  fill="purple" />
+	  fill="wheat" />
   <rect
 	  id="rectangle13"
 	  width="0"
 	  height="0"
-	  fill="yellow" />
+	  fill="palegoldenrod" />
   <rect
 	  id="rectangle14"
 	  width="0"
 	  height="0"
-	  fill="teal" />
+	  fill="purple" />
   <rect
 	  id="rectangle15"
 	  width="0"
@@ -100,12 +100,12 @@
 	  id="rectangle16"
 	  width="0"
 	  height="0"
-	  fill="orange" />
+	  fill="navajowhite" />
   <rect
 	  id="rectangle17"
 	  width="0"
 	  height="0"
-	  fill="blue" />
+	  fill="khaki" />
   <rect
 	  id="rectangle18"
 	  width="0"
@@ -120,17 +120,17 @@
 	  id="rectangle20"
 	  width="0"
 	  height="0"
-	  fill="purple" />
+	  fill="wheat" />
   <rect
 	  id="rectangle21"
 	  width="0"
 	  height="0"
-	  fill="yellow" />
+	  fill="palegoldenrod" />
   <rect
 	  id="rectangle22"
 	  width="0"
 	  height="0"
-	  fill="teal" />
+	  fill="purple" />
   <rect
 	  id="rectangle23"
 	  width="0"
@@ -140,12 +140,12 @@
 	  id="rectangle24"
 	  width="0"
 	  height="0"
-	  fill="orange" />
+	  fill="navajowhite" />
   <rect
 	  id="rectangle25"
 	  width="0"
 	  height="0"
-	  fill="blue" />
+	  fill="khaki" />
   <rect
 	  id="rectangle26"
 	  width="0"
@@ -160,17 +160,17 @@
 	  id="rectangle28"
 	  width="0"
 	  height="0"
-	  fill="purple" />
+	  fill="wheat" />
   <rect
 	  id="rectangle29"
 	  width="0"
 	  height="0"
-	  fill="yellow" />
+	  fill="palegoldenrod" />
   <rect
 	  id="rectangle30"
 	  width="0"
 	  height="0"
-	  fill="teal" />
+	  fill="purple" />
   <rect
 	  id="rectangle31"
 	  width="0"
@@ -180,12 +180,12 @@
 	  id="rectangle32"
 	  width="0"
 	  height="0"
-	  fill="orange" />
+	  fill="navajowhite" />
   <rect
 	  id="rectangle33"
 	  width="0"
 	  height="0"
-	  fill="blue" />
+	  fill="khaki" />
   <rect
 	  id="rectangle34"
 	  width="0"
@@ -200,17 +200,17 @@
 	  id="rectangle36"
 	  width="0"
 	  height="0"
-	  fill="purple" />
+	  fill="wheat" />
   <rect
 	  id="rectangle37"
 	  width="0"
 	  height="0"
-	  fill="yellow" />
+	  fill="palegoldenrod" />
   <rect
 	  id="rectangle38"
 	  width="0"
 	  height="0"
-	  fill="teal" />
+	  fill="purple" />
   <rect
 	  id="rectangle39"
 	  width="0"
@@ -220,12 +220,12 @@
 	  id="rectangle40"
 	  width="0"
 	  height="0"
-	  fill="orange" />
+	  fill="navajowhite" />
   <rect
 	  id="rectangle41"
 	  width="0"
 	  height="0"
-	  fill="blue" />
+	  fill="khaki" />
   <rect
 	  id="rectangle42"
 	  width="0"
@@ -240,17 +240,17 @@
 	  id="rectangle44"
 	  width="0"
 	  height="0"
-	  fill="purple" />
+	  fill="wheat" />
   <rect
 	  id="rectangle45"
 	  width="0"
 	  height="0"
-	  fill="yellow" />
+	  fill="palegoldenrod" />
   <rect
 	  id="rectangle46"
 	  width="0"
 	  height="0"
-	  fill="teal" />
+	  fill="purple" />
   <rect
 	  id="rectangle47"
 	  width="0"
@@ -260,12 +260,12 @@
 	  id="rectangle48"
 	  width="0"
 	  height="0"
-	  fill="orange" />
+	  fill="navajowhite" />
   <rect
 	  id="rectangle49"
 	  width="0"
 	  height="0"
-	  fill="blue" />
+	  fill="khaki" />
   <rect
 	  id="rectangle50"
 	  width="0"
@@ -421,7 +421,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="purple"
+	  values="wheat"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -558,7 +558,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="yellow"
+	  values="palegoldenrod"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -738,7 +738,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="teal"
+	  values="purple"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -1227,7 +1227,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="orange"
+	  values="navajowhite"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -1536,7 +1536,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="blue"
+	  values="khaki"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -2721,7 +2721,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="purple"
+	  values="wheat"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -3202,7 +3202,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="yellow"
+	  values="palegoldenrod"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -3726,7 +3726,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="teal"
+	  values="purple"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -4903,7 +4903,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="orange"
+	  values="navajowhite"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -5556,7 +5556,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="blue"
+	  values="khaki"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -7773,7 +7773,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="purple"
+	  values="wheat"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -8598,7 +8598,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="yellow"
+	  values="palegoldenrod"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -9466,7 +9466,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="teal"
+	  values="purple"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -11331,7 +11331,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="orange"
+	  values="navajowhite"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -12328,7 +12328,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="blue"
+	  values="khaki"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -15577,7 +15577,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="purple"
+	  values="wheat"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -16746,7 +16746,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="yellow"
+	  values="palegoldenrod"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -17958,7 +17958,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="teal"
+	  values="purple"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -20511,7 +20511,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="orange"
+	  values="navajowhite"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -21852,7 +21852,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="blue"
+	  values="khaki"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -26133,7 +26133,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="purple"
+	  values="wheat"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -27646,7 +27646,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="yellow"
+	  values="palegoldenrod"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -29202,7 +29202,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="teal"
+	  values="purple"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -32443,7 +32443,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="orange"
+	  values="navajowhite"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -34128,7 +34128,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="blue"
+	  values="khaki"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -39441,7 +39441,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="purple"
+	  values="wheat"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -41298,7 +41298,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="yellow"
+	  values="palegoldenrod"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -43198,7 +43198,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="teal"
+	  values="purple"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -47127,7 +47127,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="orange"
+	  values="navajowhite"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -49156,7 +49156,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="blue"
+	  values="khaki"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -53343,7 +53343,7 @@
   <animate
 	  xlink:href="#rectangle51"
 	  attributeName="fill"
-	  values="orange"
+	  values="navajowhite"
 	  dur="0s"
 	  begin="0s; endAnimate.end"
 	  fill="freeze" />
@@ -55501,7 +55501,7 @@
 	  xlink:href="#rectangle51"
 	  id="resetAnimate"
 	  attributeName="fill"
-	  values="orange"
+	  values="navajowhite"
 	  dur="2s"
 	  begin="rectangle50animate50.end"
 	  fill="freeze" />

@@ -39,9 +39,7 @@ function dynamicObjects( $0 ) {
 	; _1.count --
 	;
 	if ( _1.count + 1 ) {
-		_0.writeFile(
-			_0.fileLoci, _1.string, _0.writeOptions, _1.next
-		)
+		_0.writeFile( _0.file, _1.string, _0.writeOptions, _1.next )
 		; return
 		;
 	}
@@ -68,7 +66,7 @@ function footer() {
 			;
 		}
 		console.log(
-			'> log <\n', 'finished making ' + _0.fileLoci, '\n< log >'
+			'> log <\n', 'finished making ' + _0.file, '\n< log >'
 		)
 		;
 	}
@@ -116,9 +114,7 @@ function footer() {
 		;
 	}
 	_1.string += '</svg>\n'
-	; _0.writeFile(
-		_0.fileLoci, _1.string, _0.writeOptions, _1.next
-	)
+	; _0.writeFile( _0.file, _1.string, _0.writeOptions, _1.next )
 	;
 	function Footer() {
 		this.count = _0.loop ? 1 : _0.repeat + 1
@@ -137,9 +133,7 @@ function header() {
 		;
 	}
 	const _1 = new Header
-	; _0.writeFile(
-		_0.fileLoci, _1.string, _0.writeOptions, _1.next
-	)
+	; _0.writeFile(	_0.file, _1.string, _0.writeOptions, _1.next )
 	;
 	function Header() {
 		this.next = next
@@ -288,9 +282,7 @@ function part1() {
 			, localId: _0.localCount
 			, begin: _1.begin
 		} )
-	; _0.writeFile(
-		_0.fileLoci, _1.string, _0.writeOptions, _1.next
-	)
+	; _0.writeFile(	_0.file, _1.string, _0.writeOptions, _1.next )
 	;
 	function Part1() {
 		this.addToRecord = addToRecord
@@ -412,9 +404,7 @@ function part2() {
 			, localId: _0.localCount
 			, begin: _1.begin
 		} )
-	; _0.writeFile(
-		_0.fileLoci, _1.string, _0.writeOptions, _1.next
-	)
+	; _0.writeFile(	_0.file, _1.string, _0.writeOptions, _1.next )
 	;
 	function Part2() {
 		this.addToRecord = addToRecord
@@ -533,9 +523,7 @@ function part3() {
 			, localId: _0.localCount
 			, begin: _1.begin
 		} )
-	; _0.writeFile(
-		_0.fileLoci, _1.string, _0.writeOptions, _1.next
-	)
+	; _0.writeFile(	_0.file, _1.string, _0.writeOptions, _1.next )
 	;
 	function Part3() {
 		this.addToRecord = addToRecord
@@ -656,9 +644,7 @@ function part4() {
 			, localId: _0.localCount
 			, begin: _1.begin
 		} )
-	; _0.writeFile(
-		_0.fileLoci, _1.string, _0.writeOptions, _1.next
-	)
+	; _0.writeFile( _0.file, _1.string, _0.writeOptions, _1.next )
 	;
 	function Part4() {
 		this.addToRecord = addToRecord
@@ -708,7 +694,7 @@ function App() {
 	; this.borderSize = this.data.borderSize
 	; this.colours = this.data.colours
 	; this.dynamicObjects = dynamicObjects
-	; this.fileLoci = this.data.fileLoci
+	; this.file = this.data.file
 	; this.footer = footer
 	; this.globalCount = 1
 	; this.header = header
