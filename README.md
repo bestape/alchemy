@@ -4,21 +4,27 @@
 
 ### what
 
-Create images like:
+Create moving images like:
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/500by50.svg?raw=true" width="70%">
 
-### how
+<img src="https://github.com/bestape/alchemy/blob/master/images/2000by50.svg?raw=true" width="40%">
+
+### do
 
 1. Have `node.js` installed on your machine.
 
 2. Download the `app.js` and `app.json` files. Ensure `app.js` is executable.
 
-3. Change the values in `app.json` file to your preference. 
+3. Change the values in `app.json` to your preference. 
 
 4. Run `./app.js` in your terminal.
 
-5. Enjoy the SVG printout. 
+5. Enjoy the SVG printout.
+
+### how
+
+### why
 
 ### license
 
