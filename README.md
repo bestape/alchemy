@@ -20,7 +20,7 @@ These images can be used, among other things, as visual clocks or a box of Infin
 
 1. Have `node.js` installed on your machine.
 
-2. Download the `app.js` and `app.json` files. Ensure `app.js` is executable.
+2. Download the `app.js` and `app.json` files; ensure `app.js` is executable.
 
 3. Change the values in `app.json` to your preference. 
 
