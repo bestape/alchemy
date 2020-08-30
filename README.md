@@ -6,11 +6,11 @@
 
 Create moving images like:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/100by50.svg?raw=true" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/100by50.svg?raw=true" width="50%" >
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/500by50.svg?raw=true" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/500by50.svg?raw=true" width="50%" >
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/2000by50.svg?raw=true" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/2000by50.svg?raw=true" width="50%" >
 
 ### do
 
