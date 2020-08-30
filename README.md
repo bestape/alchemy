@@ -46,7 +46,7 @@ This positive (forward) & negative (backward) number-line exists as an exponent 
 
 ### problem & opportunity 
 
-Phenomenologically, the irrational number of a right triangle diagonal like `2^(1/2)` is not so much irrational Nature as it is a non-halting *anthyphairesis* process.
+Phenomenologically, the irrational number of a right triangle diagonal like `2^( 1 / 2 )` is not so much irrational Nature as it is a non-halting *anthyphairesis* process.
 
 When measure is intended to reconcile an irrational number with a rational unit, the non-halting process of the irrational number means it's incommensurate unless approximate.
 
@@ -66,9 +66,9 @@ This rectangular resonance zig-zags between positive and negative exponents.
 
 For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` and the resonating rectangle is `( a^2 + 2b^2 )^( 1 / 2 )`.
 
-The function as an object is `( a^2 + (b + c)^2 )^(1/2)`, the function as an action is `( c - b )/a`, the input-output data as an object is `( a^2 + 2b^2 )^( 1 / 2 )` and the unique identifier of an input-output data object is `( ( c - b )/a )^n`.
+The function as an object is `( a^2 + (b + c)^2 )^( 1 / 2 )`, the function as an action is `( c - b ) / a`, the input-output data as an object is `( a^2 + 2b^2 )^( 1 / 2 )` and the unique identifier of an input-output data object is `( ( c - b ) / a )^n`.
 
-### tech
+### technology
 
 Please read `app.js`.
 
@@ -86,13 +86,17 @@ In other words, I built a Hierarchical Script Database, then I threw out the dat
 
 [This Wolfram blog post](https://community.wolfram.com/groups/-/m/t/1719229) explores other potential uses of the non-halting property, including many beyond the scope of this repository.
 
-[These YouTube videos](https://www.youtube.com/playlist?list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe) also explore other potential uses of the non-halting property:
+[These YouTube videos](https://www.youtube.com/playlist?list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe) also explore other potential uses of the non-halting property, including:
 
 [![how to make generic Metallic Means part 4: probability tiles of "a-by-(diagonal-minus-b)" rectangles](https://img.youtube.com/vi/d83iVzpaHPc/0.jpg)](https://www.youtube.com/watch?v=d83iVzpaHPc&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
 
 [![Thalesian Pinwheel Rotation](https://img.youtube.com/vi/s2_8grzsYvw/0.jpg)](https://www.youtube.com/watch?v=s2_8grzsYvw&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
 
 [![The Hyper Metal Multi-Dimension](https://img.youtube.com/vi/I84qsslRH8w/0.jpg)](https://www.youtube.com/watch?v=I84qsslRH8w&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
+
+[This Instagram profile](https://www.instagram.com/bestape/) explores some of the artistic values of the non-halting property, including:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/lucky.png?raw=true" width="50%" >
 
 ### license
 
