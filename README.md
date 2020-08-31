@@ -70,9 +70,9 @@ Please visit [seedtree.io](https://seedtreedb.com) for more about the kernel and
 
 I define code (function, verb):
 
-* as data (object, noun);
+* as data (object, noun); with
 
-* with the potential to produce (action) an Infinite stack of unique input-output data:
+* the potential to produce (action) an Infinite stack of unique input-output data:
 
   * within itself if along a positive count; and
 
@@ -84,9 +84,9 @@ This means that a torus's point-at-Infinity loop-around cannot fixate my definit
 
 Instead, this repository uses a *metal-Pythag* point-at-Infinity loop-around I invented that can fixate my definition of code.
 
-A *metal-Pythag*'s point-at-Infinity loop-around has a finite modulo sequence (rotation), like a torus does.
+A *metal-Pythag*'s point-at-Infinity loop-around has a finite modulo sequence (rotation, iteration), like a torus does.
 
-However, unlike a torus, a *metal-Pythag*'s point-at-Infinity loop-around also has a positive & negative Infinite number-line sequence (recursion).
+However, unlike a torus, a *metal-Pythag*'s point-at-Infinity loop-around also has a positive & negative Infinite number-line sequence (fractal, recursion).
 
 This positive (forward) & negative (backward) number-line exists as an exponent of a scale-symmetry base and provides the Infinite stack index for my definition of unique input-output data, like a sequence generating function does.
 
