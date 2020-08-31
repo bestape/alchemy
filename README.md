@@ -14,7 +14,7 @@ The famous Golden Ratio, shown above, and additional [Metallic Means](https://ve
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/2000by50.svg?raw=true" width="50%" >
 
-These images can be used, among other things, as visual clocks or a box of Infinite objects with every object observable from above. 
+These images can be used, among other things, as visual clocks or a box of Infinite objects with every object observable from above.
 
 ### use
 
@@ -27,6 +27,24 @@ These images can be used, among other things, as visual clocks or a box of Infin
 4. Run `./app.js` in your terminal.
 
 5. Enjoy the SVG printout!
+
+### contents
+
+1. [what](#what)
+
+2. [use](#use)
+
+3. [technology](#technology)
+
+4. [why](#why)
+
+5. [problem & opportunity](#problem--opportunity)
+
+6. [how](#how)
+
+7. [next](#next)
+
+8. [license](#license)
 
 ### technology
 
@@ -56,9 +74,9 @@ I define code (function, verb):
 
 * with the potential to produce (action) an Infinite stack of unique input-output data:
 
-* * within itself if along a positive count.
+  * within itself if along a positive count; and
 
-* * beyond itself if along a negative count.
+  * beyond itself if along a negative count.
 
 I do this so that I can define a module as a subject and write complete sentences -- computational prose -- in JavaScript.
 
