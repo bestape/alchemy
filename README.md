@@ -50,7 +50,15 @@ Please visit [seedtree.io](https://seedtreedb.com) for more about the kernel and
 
 ### why
 
-I define code (function, verb) as data (object, noun) with the potential to produce an Infinite stack of unique input-output data.
+I define code (function, verb):
+
+* as data (object, noun);
+
+* with the potential to produce (action) an Infinite stack of unique input-output data:
+
+* * within itself if along a positive count.
+
+* * beyond itself if along a negative count.
 
 I do this so that I can define a module as a subject and write complete sentences -- computational prose -- in JavaScript.
 
@@ -62,7 +70,7 @@ A *metal-Pythag*'s point-at-Infinity loop-around has a finite modulo sequence (r
 
 However, unlike a torus, a *metal-Pythag*'s point-at-Infinity loop-around also has a positive & negative Infinite number-line sequence (recursion).
 
-This positive (forward) & negative (backward) number-line exists as an exponent of a scale-symmetry base and provides the Infinite stack index for my definition of unique input-output data.
+This positive (forward) & negative (backward) number-line exists as an exponent of a scale-symmetry base and provides the Infinite stack index for my definition of unique input-output data, like a sequence generating function does.
 
 ### problem & opportunity 
 
@@ -84,7 +92,7 @@ This non-halting part is the scale-symmetry base & exponent recursion of a recta
 
 This rectangular resonance zig-zags between positive and negative exponents. 
 
-For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` and the resonating rectangle is `( a^2 + ( 2 * b^2 ) )^( 1 / 2 )`.
+For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` and the resonating rectangle is `( a^2 + ( 2 * b )^2 )^( 1 / 2 )`.
 
 * The function as an object is `( a^2 + ( b + c )^2 )^( 1 / 2 )`; 
 
