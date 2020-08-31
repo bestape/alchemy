@@ -178,7 +178,7 @@ function metalPythag() {
 		; this.b = _0.b2 / 2
 		; this.bSquared = Math.pow( this.b, 2 )
 		; this.cSquared = this.aSquared + this.bSquared
-		; this.c = Math.pow( this.cSquared, 1/2 )
+		; this.c = Math.pow( this.cSquared, 1 / 2 )
 		;
 	}
 }
