@@ -26,7 +26,27 @@ These images can be used, among other things, as visual clocks or a box of Infin
 
 4. Run `./app.js` in your terminal.
 
-5. Enjoy the SVG printout.
+5. Enjoy the SVG printout!
+
+### technology
+
+Please read `app.js`.
+
+`app.js` uses a grammar structure I invented with inspiration from music and contract techniques. 
+
+`app.js` is a well-woven tapestry kind of script.
+
+To make `app.js` without being overwhelmed by the grammar's interconnections, I built it with my patent pending Hierarchical Script Database "kernel" module.
+
+After I was done building `app.js`, I removed the kernel as if it was a loom or scaffolding used to construct and then take down when finished.
+
+In other words, I built a Hierarchical Script Database, then I threw out the database part and published the hierarchical script end product.
+
+[Here's a YouTube demo](https://www.youtube.com/watch?v=IaNc1jQLnX4&list=PLL0gyjXno6eihH_BNd5rtpglSyJnsgk5P) of an app that retains its Hierarchical Script Database kernel & structure during runtime:
+
+[![SeedTreeDB programmable SMS "2020-PAGER" demo](https://img.youtube.com/vi/IaNc1jQLnX4/0.jpg)](https://www.youtube.com/watch?v=IaNc1jQLnX4&list=PLL0gyjXno6eihH_BNd5rtpglSyJnsgk5P)
+
+Please visit [seedtree.io](https://seedtreedb.com) for more about the kernel and Hierarchical Script Databases.
 
 ### why
 
@@ -64,29 +84,15 @@ This non-halting part is the scale-symmetry base & exponent recursion of a recta
 
 This rectangular resonance zig-zags between positive and negative exponents. 
 
-For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` and the resonating rectangle is `( a^2 + 2b^2 )^( 1 / 2 )`.
+For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` and the resonating rectangle is `( a^2 + ( 2 * b^2 ) )^( 1 / 2 )`.
 
-* The function as an object is `( a^2 + (b + c)^2 )^( 1 / 2 )`; 
+* The function as an object is `( a^2 + ( b + c )^2 )^( 1 / 2 )`; 
 
 * the function as an action is `( c - b ) / a`; 
 
-* the input-output data as an object is `( a^2 + 2b^2 )^( 1 / 2 )`; and
+* the input-output data as an object is `( a^2 + ( 2 * b )^2 )^( 1 / 2 )`; and
 
 * the unique identifier of an input-output data object is `( ( c - b ) / a )^n`.
-
-### technology
-
-Please read `app.js`.
-
-`app.js` uses a grammar structure I invented with inspiration from music and contract techniques. 
-
-`app.js` is a well-woven tapestry kind of script.
-
-To make `app.js` without being overwhelmed by the grammar's interconnections, I built it with my patent pending Hierarchical Script Database "kernel" module.
-
-After I was done building `app.js`, I removed the kernel as if it was a loom or scaffolding used to construct and then take down when finished.
-
-In other words, I built a Hierarchical Script Database, then I threw out the database part and published the hierarchical script end product.
 
 ### next
 
