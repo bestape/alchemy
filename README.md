@@ -40,7 +40,7 @@ Instead, this repository uses a *metal-Pythag* point-at-Infinity loop-around I i
 
 A *metal-Pythag*'s point-at-Infinity loop-around has a finite modulo sequence (rotation), like a torus does.
 
-However, unlike a torus, a *metal-Pythag*'s point-at-Infinity loop-around also has a positive & negative Infinite number-line sequence (scale).
+However, unlike a torus, a *metal-Pythag*'s point-at-Infinity loop-around also has a positive & negative Infinite number-line sequence (recursion).
 
 This positive (forward) & negative (backward) number-line exists as an exponent of a scale-symmetry base and provides the Infinite stack index for my definition of unique input-output data.
 
@@ -66,7 +66,13 @@ This rectangular resonance zig-zags between positive and negative exponents.
 
 For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` and the resonating rectangle is `( a^2 + 2b^2 )^( 1 / 2 )`.
 
-The function as an object is `( a^2 + (b + c)^2 )^( 1 / 2 )`, the function as an action is `( c - b ) / a`, the input-output data as an object is `( a^2 + 2b^2 )^( 1 / 2 )` and the unique identifier of an input-output data object is `( ( c - b ) / a )^n`.
+* The function as an object is `( a^2 + (b + c)^2 )^( 1 / 2 )`; 
+
+* the function as an action is `( c - b ) / a`; 
+
+* the input-output data as an object is `( a^2 + 2b^2 )^( 1 / 2 )`; and
+
+* the unique identifier of an input-output data object is `( ( c - b ) / a )^n`.
 
 ### technology
 
@@ -78,7 +84,7 @@ Please read `app.js`.
 
 To make `app.js` without being overwhelmed by the grammar's interconnections, I built it with my patent pending Hierarchical Script Database "kernel" module.
 
-After I was done building `app.js`, I removed the kernel as if it was a loom or scaffold used to construct and then take down when finished.
+After I was done building `app.js`, I removed the kernel as if it was a loom or scaffolding used to construct and then take down when finished.
 
 In other words, I built a Hierarchical Script Database, then I threw out the database part and published the hierarchical script end product.
 
