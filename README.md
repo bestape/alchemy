@@ -88,7 +88,7 @@ A *metal-Pythag*'s point-at-Infinity loop-around has a finite modulo sequence (r
 
 However, unlike a torus, a *metal-Pythag*'s point-at-Infinity loop-around also has a positive & negative Infinite number-line sequence (fractal, recursion).
 
-This positive (forward) & negative (backward) number-line exists as an exponent of a scale-symmetry base and provides the Infinite stack index for my definition of unique input-output data, like a sequence generating function does.
+This positive (forward) & negative (backward) number-line exists as an exponent of a scale-symmetry base and provides the Infinite stack index for my definition of unique input-output data, like a [sequence generating function](https://en.wikipedia.org/wiki/Generating_function) does.
 
 ### problem & opportunity 
 
@@ -98,7 +98,7 @@ When measure is intended to reconcile an irrational number with a rational unit,
 
 In this context, without a [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm#/media/File:Euclidean_algorithm_1071_462.gif) *greatest common divisor*, an irrational number is problematic because its measure is inaccurate compared to rational numbers.
 
-However, when measure is intended to perpetuate an ongoing sequence, an irrational number's non-halting process is an invaluable engine.
+However, when measure is intended to perpetuate an ongoing sequence, an irrational number's non-halting process is an invaluable abstract perpetual motion engine.
 
 ### how
 
