@@ -89,7 +89,7 @@ To run the following animations:
 
 1. click on the image, it'll open in a new tab; and
 
-2. within the new tab, click on the repeating rectangle at the top of the parent rectangle (parent might be hidden).
+2. within the new tab, click on the repeating rectangle at the top of the parent rectangle.
 
 Vera's [Metallic Means](https://verasmathematicworld.org/) can be SVG printed by `app.js`:
 
@@ -101,27 +101,27 @@ As a continuum rather than a natural count, the Metallic Means are SVG printed b
 
 Here's the first Metallic Mean natural count, the Golden Ratio:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/goldenRatio.svg?raw=true" width="50%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/goldenRatio.svg?raw=true" width="10%" >
 
 Here's the fifth Metallic Mean natural count:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/fifth.svg?raw=true" width="50%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/fifth.svg?raw=true" width="10%" >
 
 As `b2` tends toward Infinity, the repeating rectangles quickly become invisible to the naked eye.
 
 Here's the tenth Metallic Mean natural count, with `a = 100; b2 = 1000` in `app.json`:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/metalTen.svg?raw=true" width="50%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/metalTen.svg?raw=true" width="10%" >
 
 However, if `b2 <= a` in `app.json`, the repeating rectangle takes much longer to become invisible to the naked eye, and not because of `x` scale exponentiation.
 
 Here's the second natural count in the `b2 <= a` direction:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/beyondMetal.svg?raw=true" width="50%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/beyondMetal.svg?raw=true" width="10%" >
 
 Here's `b2 <= a` when `x = 99/100`:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/yellowBrickRoad.svg?raw=true" width="50%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/yellowBrickRoad.svg?raw=true" width="10%" >
 
 As `b2` approaches a magnitude Infinitely larger than `a`, the automation approaches a more accurate definition of `2^( 1 / 2 )`.
 
