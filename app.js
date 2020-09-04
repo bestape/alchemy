@@ -471,7 +471,7 @@ function part2() {
 		_1.addToRecord()
 		;
 	}
-	_1.string += '  <!-- rectangle' + _0.globalCount
+	_1.string += '<!-- rectangle' + _0.globalCount
 		+ ' animate' + _0.localCount + ' -->\n'
 	;
 	if ( _0.globalCount == _0.localCount || ! _0.lead ) {
@@ -718,7 +718,7 @@ function part4() {
 		_1.addToRecord()
 		;
 	}
-	_1.string += '  <!-- rectangle' + _0.globalCount
+	_1.string += '<!-- rectangle' + _0.globalCount
 		+ ' animate' + _0.localCount + ' -->\n'
 	;
 	if ( _0.globalCount == _0.localCount || ! _0.lead ) {
@@ -793,7 +793,7 @@ const _0 = new App
 function App() {
 	this.data = require( './app.json' )
 	; this.a = this.data.a
-//	; this.a = 990000/199
+	//	; this.a = 990000/199
 	; this.animateFromTo = animateFromTo
 	; this.animateSize = animateSize
 	; this.animateTransform = animateTransform
