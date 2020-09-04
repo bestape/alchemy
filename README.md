@@ -1,6 +1,6 @@
 # alchemy
 
-## an animated SVG printer using a *metal-Pythag* engine
+## *an animated SVG printer using a* metal-Pythag *engine*
 
 ### what
 
@@ -214,6 +214,8 @@ For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` 
 [This Instagram profile](https://www.instagram.com/bestape/) explores some of the artistic values of the non-halting property, including:
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/lucky.png?raw=true" width="50%" >
+
+##
 
 ### license
 
