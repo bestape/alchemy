@@ -793,7 +793,7 @@ const _0 = new App
 function App() {
 	this.data = require( './app.json' )
 	; this.a = this.data.a
-	//	; this.a = 990000/199
+//	; this.a = 990000/199
 	; this.animateFromTo = animateFromTo
 	; this.animateSize = animateSize
 	; this.animateTransform = animateTransform
