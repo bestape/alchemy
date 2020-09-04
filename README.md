@@ -42,7 +42,7 @@ These images can be used, among other things, as geometric clock timers or a box
 
 9. [next](#next)
 
-10. [app.js](#app.js)
+10. [app.js](#appjs)
 
 11. [license](#license)
 
@@ -222,62 +222,69 @@ For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` 
 Text-sequence function-object structure:
 
 * `app.js`
- * `animateToFrom( ... ) { ... }`
- * `animateSize( ... ) { ... }`
- * `animateTransform( ... ) { ... }`
- * `animateXY( ... ) { ... }`
- * `dynamicObjects( ... ) { ... }`
-  * `next( ... ) { ... }`
-  * `*instructions*`
-  * `DynamicObjects() { ... }`
- * `footer() { ... }`
-  * `next( ... ) { ... }`
-  * `*instructions*`
-  * `Footer() { ... }`
- * `header() { ... }`
-  * `next( ... ) { ... }`
-  * `*instructions*`
-  * `Header() { ... }`
- * `metalPythag() { ... }`
-  * `*instructions*`
-  * `MetalPythag() { ... }`
- * `part1() { ... }`
-  * `addToRecord() { ... }`
-  * `next( ... ) { ... }`
-  * `*instructions*`
-  * `Part1() { ... }`
- * `part2() { ... }`
-  * `addToRecord() { ... }`
-  * `next( ... ) { ... }`
-  * `*instructions*`
-  * `Part2() { ... }`
- * `part3() { ... }`
-  * `addToRecord() { ... }`
-  * `next( ... ) { ... }`
-  * `*instructions*`
-  * `Part3() { ... }`
- * `part4() { ... }`
-  * `addToRecord() { ... }`
-  * `next( ... ) { ... }`
-  * `*instructions*`
-  * `Part4() { ... }`
- * `*instructions*`
- * `App() { ... }`
+  * `animateToFrom( ... ) { ... }`
+  * `animateSize( ... ) { ... }`
+  * `animateTransform( ... ) { ... }`
+  * `animateXY( ... ) { ... }`
+  * `dynamicObjects( ... ) { ... }`
+    * `next( ... ) { ... }`
+    * *instructions*
+    * `DynamicObjects() { ... }`
+  * `footer() { ... }`
+    * `next( ... ) { ... }`
+    * *instructions*
+    * `Footer() { ... }`
+  * `header() { ... }`
+    * `next( ... ) { ... }`
+    * *instructions*
+    * `Header() { ... }`
+  * `metalPythag() { ... }`
+    * *instructions*
+    * `MetalPythag() { ... }`
+  * `part1() { ... }`
+    * `addToRecord() { ... }`
+    * `next( ... ) { ... }`
+    * *instructions*
+    * `Part1() { ... }`
+  * `part2() { ... }`
+    * `addToRecord() { ... }`
+    * `next( ... ) { ... }`
+    * *instructions*
+    * `Part2() { ... }`
+  * `part3() { ... }`
+    * `addToRecord() { ... }`
+    * `next( ... ) { ... }`
+    * *instructions*
+    * `Part3() { ... }`
+  * `part4() { ... }`
+    * `addToRecord() { ... }`
+    * `next( ... ) { ... }`
+    * *instructions*
+    * `Part4() { ... }`
+  * *instructions*
+  * `App() { ... }`
 
 Action-sequence function-object structure at the functions-with-internal-constructor-functions level:
 
 1. `app()`
+
 2. `metalPythag()`
+
 3. `header()`
+
 4. `dynamicObjects()`
-5. `Part1()`
-6. `Part2()`
-7. `Part3()`
-8. `Part4()`
+
+5. `part1()`
+
+6. `part2()`
+
+7. `part3()`
+
+8. `part4()`
+
 9. `footer()`
 
-`Part1()` to `part4()` loop until the repeat option in `app.json` is met and then `footer()` is called. 
-
+`part1()` to `part4()` loop until the repeat option in `app.json` is met and then `footer()` is called. 
 
 ##
 
