@@ -1,24 +1,29 @@
 {
-	"a": 100
+	"a": 1000
 	, "author": "besta.pe"
 	, "b2": 100
+	, "background": "navajowhite"
 	, "borderColour": "black"
 	, "borderSize": 2
+	, "cellBorderColour": "black"
+	, "cellBorderSize": ".5"
+	, "clickStart": true
 	, "colours": [
-		"gold"
-		, "coral"
-		, "yellowgreen"
-		, "turquoise"
-		, "violet"
+		"greenyellow"
+		, "orange"
+		, "burlywood"
+		, "gold"
+		, "magenta"
 	]
-	, "file": "./images/resonance.svg"
-	, "lead": false
+	, "cork": "deepskyblue"
+	, "file": "./resonance.svg"
+	, "lead": true
 	, "loop": true
-	, "repeat": 14
+	, "repeat": 50
 	, "rotateCenter": "0, 0"
-	, "speed": "1s"
+	, "speed": "2s"
 	, "viewBoxAdd": {
-		"width": 20
-		, "height": 20
+		"width": 40
+		, "height": 40
 	}
 }

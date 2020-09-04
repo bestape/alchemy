@@ -1,0 +1,861 @@
+<svg 
+	xmlns="http://www.w3.org/2000/svg"
+ 	xmlns:xlink="http://www.w3.org/1999/xlink"
+	version="1.1"
+	viewBox="-40 -40 182 1091.9019513592784"
+	fill="none" >
+  <!-- static objects -->
+  <rect
+	  id="rectangle0"
+	  width="102"
+	  height="1011.9019513592784"
+	  x="0"
+	  y="0"
+	  fill="coral"
+	  stroke="black"
+	  stroke-width="2" />
+  <rect
+	  id="rectangle7"
+	  width="100"
+	  height="1000"
+	  x="1"
+	  y="1"
+	  fill="greenyellow"
+	  stroke="black"
+	  stroke-width=".5" />
+  <!-- dynamic objects -->
+  <rect
+	  id="rectangle1"
+	  width="0"
+	  height="0"
+	  stroke="black"
+	  stroke-width=".5"
+	  fill="greenyellow" />
+  <rect
+	  id="rectangle2"
+	  width="0"
+	  height="0"
+	  stroke="black"
+	  stroke-width=".5"
+	  fill="orange" />
+  <rect
+	  id="rectangle3"
+	  width="0"
+	  height="0"
+	  stroke="black"
+	  stroke-width=".5"
+	  fill="burlywood" />
+  <rect
+	  id="rectangle4"
+	  width="0"
+	  height="0"
+	  stroke="black"
+	  stroke-width=".5"
+	  fill="gold" />
+  <rect
+	  id="rectangle5"
+	  width="0"
+	  height="0"
+	  stroke="black"
+	  stroke-width=".5"
+	  fill="magenta" />
+  <rect
+	  id="rectangle6"
+	  width="0"
+	  height="0"
+	  stroke="black"
+	  stroke-width=".5"
+	  fill="greenyellow" />
+  <rect
+	  id="rectangleInfinity"
+	  width="100.00000000000001"
+	  height="9.901951359278485"
+	  x="1"
+	  y="1001"
+	  stroke="black"
+	  stroke-width=".5"
+	  fill="deepskyblue" />
+<!-- next dynamic object automation -->
+<!-- rectangle1 animate1 -->
+  <animate
+	  xlink:href="#rectangle7"
+	  attributeName="fill"
+	  values="orange"
+	  dur="0s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle1"
+	  attributeName="width"
+	  from="100"
+	  to="9.901951359278485"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle1"
+	  attributeName="height"
+	  from="1000"
+	  to="99.01951359278485"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle1"
+	  attributeName="x"
+	  from="1"
+	  to="-1010.9019513592784"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle1"
+	  attributeName="y"
+	  from="1"
+	  to="1"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="width"
+	  from="100.00000000000001"
+	  to="9.901951359278486"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="height"
+	  from="9.901951359278485"
+	  to="0.9804864072151703"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="x"
+	  from="1"
+	  to="-1010.9019513592784"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="y"
+	  from="1001"
+	  to="100.01951359278485"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle1"
+	  id="rectangle1animate1"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+<!-- next dynamic object automation -->
+<!-- rectangle2 animate1 -->
+  <animate
+	  xlink:href="#rectangle7"
+	  attributeName="fill"
+	  values="burlywood"
+	  dur="0s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle2"
+	  id="rectangle2animate1"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <!-- rectangle2 animate2 -->
+  <animate
+	  xlink:href="#rectangle2"
+	  attributeName="width"
+	  from="99.01951359278485"
+	  to="9.804864072151705"
+	  dur="2s"
+	  begin="rectangle2animate1.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle2"
+	  attributeName="height"
+	  from="9.901951359278485"
+	  to="0.9804864072151704"
+	  dur="2s"
+	  begin="rectangle2animate1.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle2"
+	  attributeName="x"
+	  from="1"
+	  to="-1010.9019513592784"
+	  dur="2s"
+	  begin="rectangle2animate1.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle2"
+	  attributeName="y"
+	  from="1001"
+	  to="100.01951359278485"
+	  dur="2s"
+	  begin="rectangle2animate1.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="width"
+	  from="0.9804864072151703"
+	  to="0.09708728712678336"
+	  dur="2s"
+	  begin="rectangle2animate1.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="height"
+	  from="9.901951359278486"
+	  to="0.9804864072151707"
+	  dur="2s"
+	  begin="rectangle2animate1.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="x"
+	  from="100.01951359278485"
+	  to="-1001.0970872871268"
+	  dur="2s"
+	  begin="rectangle2animate1.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="y"
+	  from="1001"
+	  to="100.01951359278485"
+	  dur="2s"
+	  begin="rectangle2animate1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle2animate1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle2"
+	  id="rectangle2animate2"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle2animate1.end"
+	  fill="freeze" />
+<!-- next dynamic object automation -->
+<!-- rectangle3 animate1 -->
+  <animate
+	  xlink:href="#rectangle7"
+	  attributeName="fill"
+	  values="gold"
+	  dur="0s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle3"
+	  id="rectangle3animate1"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <!-- rectangle3 animate2 -->
+  <animateTransform
+	  xlink:href="#rectangle3"
+	  id="rectangle3animate2"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle3animate1.end"
+	  fill="freeze" />
+<!-- rectangle3 animate3 -->
+  <animate
+	  xlink:href="#rectangle3"
+	  attributeName="width"
+	  from="0.9804864072151704"
+	  to="0.09708728712678336"
+	  dur="2s"
+	  begin="rectangle3animate2.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle3"
+	  attributeName="height"
+	  from="9.804864072151705"
+	  to="0.9708728712678336"
+	  dur="2s"
+	  begin="rectangle3animate2.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle3"
+	  attributeName="x"
+	  from="100.01951359278485"
+	  to="-1001.0970872871268"
+	  dur="2s"
+	  begin="rectangle3animate2.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle3"
+	  attributeName="y"
+	  from="1001.0970872871268"
+	  to="100.02912712873218"
+	  dur="2s"
+	  begin="rectangle3animate2.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="width"
+	  from="0.9804864072151707"
+	  to="0.09708728712678337"
+	  dur="2s"
+	  begin="rectangle3animate2.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="height"
+	  from="0.09708728712678336"
+	  to="0.00961353594733713"
+	  dur="2s"
+	  begin="rectangle3animate2.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="x"
+	  from="100.01951359278485"
+	  to="-1001.0970872871268"
+	  dur="2s"
+	  begin="rectangle3animate2.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="y"
+	  from="1001"
+	  to="100.01951359278485"
+	  dur="2s"
+	  begin="rectangle3animate2.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle3animate2.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle3"
+	  id="rectangle3animate3"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle3animate2.end"
+	  fill="freeze" />
+<!-- next dynamic object automation -->
+<!-- rectangle4 animate1 -->
+  <animate
+	  xlink:href="#rectangle7"
+	  attributeName="fill"
+	  values="magenta"
+	  dur="0s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle4"
+	  id="rectangle4animate1"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <!-- rectangle4 animate2 -->
+  <animateTransform
+	  xlink:href="#rectangle4"
+	  id="rectangle4animate2"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle4animate1.end"
+	  fill="freeze" />
+<!-- rectangle4 animate3 -->
+  <animateTransform
+	  xlink:href="#rectangle4"
+	  id="rectangle4animate3"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle4animate2.end"
+	  fill="freeze" />
+  <!-- rectangle4 animate4 -->
+  <animate
+	  xlink:href="#rectangle4"
+	  attributeName="width"
+	  from="0.9708728712678336"
+	  to="0.0961353594733713"
+	  dur="2s"
+	  begin="rectangle4animate3.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle4"
+	  attributeName="height"
+	  from="0.09708728712678336"
+	  to="0.00961353594733713"
+	  dur="2s"
+	  begin="rectangle4animate3.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle4"
+	  attributeName="x"
+	  from="100.02912712873218"
+	  to="-1001.0961353594734"
+	  dur="2s"
+	  begin="rectangle4animate3.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle4"
+	  attributeName="y"
+	  from="1001"
+	  to="100.01951359278485"
+	  dur="2s"
+	  begin="rectangle4animate3.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="width"
+	  from="0.00961353594733713"
+	  to="0.0009519276534120748"
+	  dur="2s"
+	  begin="rectangle4animate3.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="height"
+	  from="0.09708728712678337"
+	  to="0.009613535947337132"
+	  dur="2s"
+	  begin="rectangle4animate3.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="x"
+	  from="100.01951359278485"
+	  to="-1001.0970872871268"
+	  dur="2s"
+	  begin="rectangle4animate3.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="y"
+	  from="1001"
+	  to="100.01951359278485"
+	  dur="2s"
+	  begin="rectangle4animate3.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle4animate3.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle4"
+	  id="rectangle4animate4"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle4animate3.end"
+	  fill="freeze" />
+<!-- next dynamic object automation -->
+<!-- rectangle5 animate1 -->
+  <animate
+	  xlink:href="#rectangle7"
+	  attributeName="fill"
+	  values="greenyellow"
+	  dur="0s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle5"
+	  id="rectangle5animate1"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <!-- rectangle5 animate2 -->
+  <animateTransform
+	  xlink:href="#rectangle5"
+	  id="rectangle5animate2"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle5animate1.end"
+	  fill="freeze" />
+<!-- rectangle5 animate3 -->
+  <animateTransform
+	  xlink:href="#rectangle5"
+	  id="rectangle5animate3"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle5animate2.end"
+	  fill="freeze" />
+  <!-- rectangle5 animate4 -->
+  <animateTransform
+	  xlink:href="#rectangle5"
+	  id="rectangle5animate4"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle5animate3.end"
+	  fill="freeze" />
+<!-- rectangle5 animate5 -->
+  <animate
+	  xlink:href="#rectangle5"
+	  attributeName="width"
+	  from="0.00961353594733713"
+	  to="0.0009519276534120749"
+	  dur="2s"
+	  begin="rectangle5animate4.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle5"
+	  attributeName="height"
+	  from="0.0961353594733713"
+	  to="0.009519276534120748"
+	  dur="2s"
+	  begin="rectangle5animate4.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle5"
+	  attributeName="x"
+	  from="100.01951359278485"
+	  to="-1001.0970872871267"
+	  dur="2s"
+	  begin="rectangle5animate4.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle5"
+	  attributeName="y"
+	  from="1001"
+	  to="100.01951359278485"
+	  dur="2s"
+	  begin="rectangle5animate4.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="width"
+	  from="0.009613535947337132"
+	  to="0.000951927653412075"
+	  dur="2s"
+	  begin="rectangle5animate4.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="height"
+	  from="0.0009519276534120748"
+	  to="0.00009425941321638473"
+	  dur="2s"
+	  begin="rectangle5animate4.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="x"
+	  from="100.01951359278485"
+	  to="-1001.0970872871267"
+	  dur="2s"
+	  begin="rectangle5animate4.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="y"
+	  from="1001.0961353594734"
+	  to="100.02903286931897"
+	  dur="2s"
+	  begin="rectangle5animate4.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle5animate4.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle5"
+	  id="rectangle5animate5"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle5animate4.end"
+	  fill="freeze" />
+<!-- next dynamic object automation -->
+<!-- rectangle6 animate1 -->
+  <animate
+	  xlink:href="#rectangle7"
+	  attributeName="fill"
+	  values="magenta"
+	  dur="0s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle6"
+	  id="rectangle6animate1"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle7.click; endAnimate.end"
+	  fill="freeze" />
+  <!-- rectangle6 animate2 -->
+  <animateTransform
+	  xlink:href="#rectangle6"
+	  id="rectangle6animate2"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle6animate1.end"
+	  fill="freeze" />
+<!-- rectangle6 animate3 -->
+  <animateTransform
+	  xlink:href="#rectangle6"
+	  id="rectangle6animate3"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle6animate2.end"
+	  fill="freeze" />
+  <!-- rectangle6 animate4 -->
+  <animateTransform
+	  xlink:href="#rectangle6"
+	  id="rectangle6animate4"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle6animate3.end"
+	  fill="freeze" />
+<!-- rectangle6 animate5 -->
+  <animateTransform
+	  xlink:href="#rectangle6"
+	  id="rectangle6animate5"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle6animate4.end"
+	  fill="freeze" />
+  <!-- rectangle6 animate6 -->
+  <animate
+	  xlink:href="#rectangle6"
+	  attributeName="width"
+	  from="0.009519276534120748"
+	  to="0.0009425941321638473"
+	  dur="2s"
+	  begin="rectangle6animate5.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle6"
+	  attributeName="height"
+	  from="0.0009519276534120749"
+	  to="0.00009425941321638473"
+	  dur="2s"
+	  begin="rectangle6animate5.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle6"
+	  attributeName="x"
+	  from="100.01951359278485"
+	  to="-1001.0970872871267"
+	  dur="2s"
+	  begin="rectangle6animate5.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle6"
+	  attributeName="y"
+	  from="1001.0961353594734"
+	  to="100.02903286931897"
+	  dur="2s"
+	  begin="rectangle6animate5.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="width"
+	  from="0.00009425941321638473"
+	  to="0.00000933352124822773"
+	  dur="2s"
+	  begin="rectangle6animate5.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="height"
+	  from="0.000951927653412075"
+	  to="0.00009425941321638474"
+	  dur="2s"
+	  begin="rectangle6animate5.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="x"
+	  from="100.02903286931897"
+	  to="-1001.0961446929946"
+	  dur="2s"
+	  begin="rectangle6animate5.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="y"
+	  from="1001.0961353594734"
+	  to="100.02903286931897"
+	  dur="2s"
+	  begin="rectangle6animate5.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle6animate5.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle6"
+	  id="rectangle6animate6"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0, 0, 0"
+	  to="-90, 0, 0"
+	  dur="2s"
+	  begin="rectangle6animate5.end"
+	  fill="freeze" />
+  <!-- animation end -->
+  <animate
+	  xlink:href="#rectangle7"
+	  id="resetAnimate"
+	  attributeName="fill"
+	  values="magenta"
+	  dur="2s"
+	  begin="rectangle6animate6.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle7"
+	  id="endAnimate"
+	  attributeName="fill"
+	  values="greenyellow"
+	  dur="2s"
+	  begin="resetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle1"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="resetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle2"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="resetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle3"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="resetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle4"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="resetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle5"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="resetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangle6"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="resetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  xlink:href="#rectangleInfinity"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="resetAnimate.end"
+	  fill="freeze" />
+</svg>
