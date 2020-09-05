@@ -44,7 +44,7 @@ These images can be used, among other things, as geometric clock timers or a box
 
 10. [app.js](#appjs)
 
-11. [to do.js](#to do)
+11. [to do.js](#to-do)
 
 11. [license](#license)
 
@@ -369,7 +369,7 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
 * Each square within a natural count rectangle colourable, example:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/colourRail.png?raw=true" width="50%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/colourRail.jpg?raw=true" width="50%" >
 
 * Curved lines rather than rectangles, example:
 
