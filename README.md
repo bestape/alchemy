@@ -44,7 +44,7 @@ These images can be used, among other things, as geometric clock timers or a box
 
 10. [app.js](#appjs)
 
-11. [to do.js](#to-do)
+11. [to do](#to-do)
 
 11. [license](#license)
 
