@@ -123,7 +123,7 @@ Here's the second natural count in the `b2 <= a` direction:
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/beyondMetal.svg?raw=true" width="25%" >
 
-Here's `b2 <= a` when `x = 99/100`:
+Here's `b2 <= a` when `x = 99 / 100`, [using this formula](https://www.wolframalpha.com/input/?i=h+%3D+100%2F2%3B+w%3B+w+%3D+w%28x%5E2%29+%2B+2hx%3B+x+%3D+99%2F100%3B+x):
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/yellowBrickRoad.svg?raw=true" width="25%" >
 
@@ -328,6 +328,8 @@ Action-sequence function-object structure at the functions-with-internal-constru
 `part1()` to `part4()` loop until the repeat option in `app.json` is met and then `footer()` is called.
 
 ### to do
+
+Feel free fork this repo and hack away at some of these to dos, or do your own thing with it. :0)
 
 Write and open source publish code that animates SVG with JavaScript, HTML and CSS.
 
