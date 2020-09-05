@@ -341,31 +341,31 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
 [![how to make generic Metallic Means part 1: spiral basics (4 min)](https://img.youtube.com/vi/smCDtjDLdf8/0.jpg)](https://www.youtube.com/watch?v=smCDtjDLdf8&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
 
-* `x^( odd )` natural count along the horizontal; `x^( even )` natural count along the vertical, example:
+* `x^( odd )` natural count along the horizontal; `x^( even )` natural count along the vertical:
+
+* `x^( even )` natural count along the horizontal; `x^( odd )` natural count along the vertical, example
 
 [![how to make generic Metallic Means part 2: 4 colors, negative x values and diagonal Infinite order](https://img.youtube.com/vi/WAY4YjWVdH0/0.jpg)](https://www.youtube.com/watch?v=WAY4YjWVdH0&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
-
-* `x^( even )` natural count along the horizontal; `x^( odd )` natural count along the vertical.
 
 * The other spin directions:
 
   1. starting at `a` as the horizontal: 
 
-    1. left-up, 
+     1. left-up, 
 
-    2. right-down; and 
+     2. right-down; and 
 
-    3. right-up.
+     3. right-up.
 
   2. starting at `b2` as the horizontal: 
 
-    1. left-down,
+     1. left-down,
 
-    2. left-up,
+     2. left-up,
 
-    3. right-down; and
+     3. right-down; and
 
-    4. right-up.
+     4. right-up.
 
 * Each square within a natural count rectangle colourable, example:
 
@@ -398,8 +398,6 @@ Write and open source publish code that prints the following SVG-SMIL animations
 * Pi/(natural count) parallelograms beyond Pi/2 rectangles, example:
 
 [![The Hyper Metal Multi-Dimension](https://img.youtube.com/vi/I84qsslRH8w/0.jpg)](https://www.youtube.com/watch?v=I84qsslRH8w&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
-
-Basically, try to code-mimic the manual tiling done on [this Wolfrom Community blog post](https://community.wolfram.com/groups/-/m/t/1719229).
 
 ##
 
