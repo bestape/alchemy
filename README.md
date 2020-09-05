@@ -44,6 +44,8 @@ These images can be used, among other things, as geometric clock timers or a box
 
 10. [app.js](#appjs)
 
+11. [to do.js](#to do)
+
 11. [license](#license)
 
 ### options
@@ -103,27 +105,27 @@ As a continuum rather than a natural count, the Metallic Means are SVG printed b
 
 Here's the first Metallic Mean natural count, the Golden Ratio:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/goldenRatio.svg?raw=true" width="10%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/goldenRatio.svg?raw=true" width="25%" >
 
 Here's the fifth Metallic Mean natural count:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/fifth.svg?raw=true" width="10%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/fifth.svg?raw=true" width="25%" >
 
 As `b2` tends toward Infinity, the repeating rectangles quickly become invisible to the naked eye.
 
 Here's the tenth Metallic Mean natural count, with `a = 100; b2 = 1000` in `app.json`:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/metalTen.svg?raw=true" width="10%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/metalTen.svg?raw=true" width="25%" >
 
 However, if `b2 <= a` in `app.json`, the repeating rectangle takes much longer to become invisible to the naked eye, and not because of `x` scale exponentiation.
 
 Here's the second natural count in the `b2 <= a` direction:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/beyondMetal.svg?raw=true" width="10%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/beyondMetal.svg?raw=true" width="25%" >
 
 Here's `b2 <= a` when `x = 99/100`:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/yellowBrickRoad.svg?raw=true" width="10%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/yellowBrickRoad.svg?raw=true" width="25%" >
 
 As `b2` approaches a magnitude Infinitely larger than `a`, the automation approaches a more accurate definition of `2^( 1 / 2 )`.
 
@@ -211,57 +213,96 @@ For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` 
 
 [![Thalesian Pinwheel Rotation](https://img.youtube.com/vi/s2_8grzsYvw/0.jpg)](https://www.youtube.com/watch?v=s2_8grzsYvw&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
 
-[![The Hyper Metal Multi-Dimension](https://img.youtube.com/vi/I84qsslRH8w/0.jpg)](https://www.youtube.com/watch?v=I84qsslRH8w&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
-
 [This Instagram profile](https://www.instagram.com/bestape/) explores some of the artistic values of the non-halting property, including:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/lucky.png?raw=true" width="50%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/koko.png?raw=true" width="50%" >
 
 ### app.js
 
 Text-sequence function-object structure:
 
 * `app.js`
+
   * `animateToFrom( ... ) { ... }`
+
   * `animateSize( ... ) { ... }`
+
   * `animateTransform( ... ) { ... }`
+
   * `animateXY( ... ) { ... }`
+
   * `dynamicObjects( ... ) { ... }`
+
     * `next( ... ) { ... }`
+
     * *instructions*
+
     * `DynamicObjects() { ... }`
+
   * `footer() { ... }`
+
     * `next( ... ) { ... }`
+
     * *instructions*
+
     * `Footer() { ... }`
+
   * `header() { ... }`
+
     * `next( ... ) { ... }`
+
     * *instructions*
+
     * `Header() { ... }`
+
   * `metalPythag() { ... }`
+
     * *instructions*
+
     * `MetalPythag() { ... }`
+
   * `part1() { ... }`
+
     * `addToRecord() { ... }`
+
     * `next( ... ) { ... }`
+
     * *instructions*
+
     * `Part1() { ... }`
+
   * `part2() { ... }`
+
     * `addToRecord() { ... }`
+
     * `next( ... ) { ... }`
+
     * *instructions*
+
     * `Part2() { ... }`
+
   * `part3() { ... }`
+
     * `addToRecord() { ... }`
+
     * `next( ... ) { ... }`
+
     * *instructions*
+
     * `Part3() { ... }`
+
   * `part4() { ... }`
+
     * `addToRecord() { ... }`
+
     * `next( ... ) { ... }`
+
     * *instructions*
+
     * `Part4() { ... }`
+
   * *instructions*
+
   * `App() { ... }`
 
 Action-sequence function-object structure at the functions-with-internal-constructor-functions level:
@@ -284,7 +325,79 @@ Action-sequence function-object structure at the functions-with-internal-constru
 
 9. `footer()`
 
-`part1()` to `part4()` loop until the repeat option in `app.json` is met and then `footer()` is called. 
+`part1()` to `part4()` loop until the repeat option in `app.json` is met and then `footer()` is called.
+
+### to do
+
+Write and open source publish code that animates SVG with JavaScript, HTML and CSS.
+
+Write and open source publish code that includes a Hierarchical Script Database runtime object-tree.
+
+Write and open source publish code that prints the following SVG-SMIL animations:
+
+* Label the repeating rectangles.
+
+* Images as repeating rectangles, example:
+
+[![how to make generic Metallic Means part 1: spiral basics (4 min)](https://img.youtube.com/vi/smCDtjDLdf8/0.jpg)](https://www.youtube.com/watch?v=smCDtjDLdf8&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
+
+* `x^( odd )` natural count along the horizontal; `x^( even )` natural count along the vertical. 
+
+* `x^( even )` natural count along the horizontal; `x^( odd )` natural count along the vertical.
+
+* The other spin directions:
+
+  1. starting at `a` as the horizontal: 
+
+    1. left-up, 
+
+    2. right-down; and 
+
+    3. right-up.
+
+  2. starting at `b2` as the horizontal: 
+
+    1. left-down,
+
+    2. left-up,
+
+    3. right-down; and
+
+    4. right-up.
+
+* Each square within a natural count rectangle colourable, example:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/colourRail.png?raw=true" width="50%" >
+
+* Curved lines rather than rectangles, example:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/curvedLinesAmour.png?raw=true" width="50%" >
+
+* With Eisenstein coordinates, example:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/lucky.png?raw=true" width="50%" >
+
+* The Fibonacci approximation, example:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/fibApprox.png?raw=true" width="50%" >
+
+* A repeating rectangle that's also a parent rectangle, example:
+
+[![how to make generic Metallic Means part 3: a Pythagorean triple parent as a Metallic Mean child-base](https://img.youtube.com/vi/izXJJFk6OYI/0.jpg)](https://www.youtube.com/watch?v=izXJJFk6OYI&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
+
+* Add parents together, example:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/addition.png?raw=true" width="50%" >
+
+* The right triangle rather than rectangle tiling system, example:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/metalTriangleChicken.png?raw=true" width="50%" >
+
+* Pi/(natural count) parallelograms beyond Pi/2 rectangles, example:
+
+[![The Hyper Metal Multi-Dimension](https://img.youtube.com/vi/I84qsslRH8w/0.jpg)](https://www.youtube.com/watch?v=I84qsslRH8w&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
+
+Basically, try to code-mimic the manual tiling done on [this Wolfrom Community blog post](https://community.wolfram.com/groups/-/m/t/1719229).
 
 ##
 
