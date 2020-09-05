@@ -341,9 +341,13 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
 [![how to make generic Metallic Means part 1: spiral basics (4 min)](https://img.youtube.com/vi/smCDtjDLdf8/0.jpg)](https://www.youtube.com/watch?v=smCDtjDLdf8&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
 
-* `x^( odd )` natural count along the horizontal; `x^( even )` natural count along the vertical:
+* `x^( odd )` natural count along the horizontal; and
 
-* `x^( even )` natural count along the horizontal; `x^( odd )` natural count along the vertical, example
+  * `x^( even )` natural count along the vertical.
+
+* `x^( even )` natural count along the horizontal; and
+
+  * `x^( odd )` natural count along the vertical, example:
 
 [![how to make generic Metallic Means part 2: 4 colors, negative x values and diagonal Infinite order](https://img.youtube.com/vi/WAY4YjWVdH0/0.jpg)](https://www.youtube.com/watch?v=WAY4YjWVdH0&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
 
@@ -367,7 +371,7 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
      4. right-up.
 
-* Each square within a natural count rectangle colourable, example:
+* Each square within a natural count rectangle colourable, stereogram example:
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/colourRail.jpg?raw=true" width="50%" >
 
