@@ -14,29 +14,29 @@
 
 <summary>contents</summary>
 
-1. [what](#what)
+1. [what](#1-what)
 
-2. [use](#use)
+2. [use](#2-use)
 
-3. [options](#options)
+3. [options](#3-options)
 
-4. [example tiles](#example-tiles)
+4. [example tiles](#4-example-tiles)
 
-5. [technology](#technology)
+5. [technology](#5-technology)
 
-6. [why](#why)
+6. [why](#6-why)
 
-7. [problem & opportunity](#problem--opportunity)
+7. [problem & opportunity](#7-problem--opportunity)
 
-8. [how](#how)
+8. [how](#8-how)
 
-9. [next](#next)
+9. [next](#9-next)
 
-10. [app.js](#appjs)
+10. [app.js](#10-appjs)
 
-11. [to do](#to-do)
+11. [to do](#11-to-do)
 
-12. [license](#license)
+12. [license](#12-license)
 
 </details>
 
