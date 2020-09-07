@@ -1,6 +1,6 @@
 <p align="center">
 
-   <img src="https://github.com/bestape/bestape/blob/master/images/timer.svg?raw=true" width="100%">
+   <img src="https://github.com/bestape/bestape/blob/master/images/caterpill.svg?raw=true" width="100%">
 
 </p>
 
@@ -8,39 +8,7 @@
 
 ## *an animated SVG printer using a* metal-Pythag *engine*
 
-### what
-
-<details>
-
-<summary>what</summary>
-
-Create vanishing point cellular automata moving images like the famous Golden Ratio:
-
-<img src="https://github.com/bestape/alchemy/blob/master/images/100by50.svg?raw=true" width="50%" >
-
-These images can be used, among other things, as geometric clock timers or a box of Infinite objects with every object observable from above.
-
-</details>
-
-### use
-
-<details>
-
-<summary>details</summary>
-
-1. Have `node.js` installed on your machine;
-
-2. download the `app.js` and `app.json` files; ensure `app.js` is executable;
-
-3. change the values in `app.json` to your preference;
-
-4. run `./app.js` in your terminal; and
-
-5. enjoy the SVG printout!
-
-</details>
-
-### contents
+### 0. contents
 
 <details>
 
@@ -68,11 +36,43 @@ These images can be used, among other things, as geometric clock timers or a box
 
 11. [to do](#to-do)
 
-11. [license](#license)
+12. [license](#license)
 
 </details>
 
-### options
+### 1. what
+
+<details>
+
+<summary>what</summary>
+
+Create vanishing point cellular automata moving images like the famous Golden Ratio:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/100by50.svg?raw=true" width="50%" >
+
+These images can be used, among other things, as geometric clock timers or a box of Infinite objects with every object observable from above.
+
+</details>
+
+### 2. use
+
+<details>
+
+<summary>details</summary>
+
+1. Have `node.js` installed on your machine;
+
+2. download the `app.js` and `app.json` files; ensure `app.js` is executable;
+
+3. change the values in `app.json` to your preference;
+
+4. run `./app.js` in your terminal; and
+
+5. enjoy the SVG printout!
+
+</details>
+
+### 3. options
 
 <details>
 
@@ -117,7 +117,7 @@ Please see the `this.a` option in `App(){ ... }` for an example.
 
 </details>
 
-### example tiles
+### 4. example tiles
 
 <details>
 
@@ -165,7 +165,7 @@ As `b2` approaches a magnitude Infinitely larger than `a`, the automation approa
 
 </details>
 
-### technology
+### 5. technology
 
 <details>
 
@@ -191,7 +191,7 @@ Please visit [seedtree.io](https://seedtreedb.com) for more about the kernel and
 
 </details>
 
-### why
+### 6. why
 
 <details>
 
@@ -221,7 +221,7 @@ This positive (forward) & negative (backward) number-line exists as an exponent 
 
 </details>
 
-### problem & opportunity 
+### 7. problem & opportunity 
 
 <details>
 
@@ -237,7 +237,7 @@ However, when measure is intended to perpetuate an ongoing sequence, an irration
 
 </details>
 
-### how
+### 8. how
 
 <details>
 
@@ -263,7 +263,7 @@ For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` 
 
 </details>
 
-### next
+### 9. next
 
 <details>
 
@@ -283,7 +283,7 @@ For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` 
 
 </details>
 
-### app.js
+### 10. app.js
 
 <details>
 
@@ -399,7 +399,7 @@ Action-sequence function-object structure at the functions-with-internal-constru
 
 </details>
 
-### to do
+### 11. to do
 
 <details>
 
@@ -487,7 +487,7 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
 ##
 
-### license
+### 12. license
 
 Copyrighted by [bestape](mailto:alchemy.github.bestape@besta.pe), 2020.
 
