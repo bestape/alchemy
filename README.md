@@ -1,8 +1,18 @@
+<p align="center">
+
+   <img src="https://github.com/bestape/bestape/blob/master/images/timer.svg?raw=true" width="100%">
+
+</p>
+
 # alchemy
 
 ## *an animated SVG printer using a* metal-Pythag *engine*
 
 ### what
+
+<details>
+
+<summary>what</summary>
 
 Create vanishing point cellular automata moving images like the famous Golden Ratio:
 
@@ -10,7 +20,13 @@ Create vanishing point cellular automata moving images like the famous Golden Ra
 
 These images can be used, among other things, as geometric clock timers or a box of Infinite objects with every object observable from above.
 
+</details>
+
 ### use
+
+<details>
+
+<summary>details</summary>
 
 1. Have `node.js` installed on your machine;
 
@@ -22,7 +38,13 @@ These images can be used, among other things, as geometric clock timers or a box
 
 5. enjoy the SVG printout!
 
+</details>
+
 ### contents
+
+<details>
+
+<summary>contents</summary>
 
 1. [what](#what)
 
@@ -48,7 +70,13 @@ These images can be used, among other things, as geometric clock timers or a box
 
 11. [license](#license)
 
+</details>
+
 ### options
+
+<details>
+
+<summary>options</summary>
 
 Please read `app.js`.
 
@@ -87,7 +115,13 @@ If you need to calculate a number option:
 
 Please see the `this.a` option in `App(){ ... }` for an example.
 
+</details>
+
 ### example tiles
+
+<details>
+
+<summary>example tiles</summary>
 
 To run the following animations:
 
@@ -129,7 +163,13 @@ Here's `b2 <= a` when `x = 99 / 100`, [using this formula](https://www.wolframal
 
 As `b2` approaches a magnitude Infinitely larger than `a`, the automation approaches a more accurate definition of `2^( 1 / 2 )`.
 
+</details>
+
 ### technology
+
+<details>
+
+<summary>technology</summary>
 
 Please read `app.js`.
 
@@ -149,7 +189,13 @@ In other words, I built a Hierarchical Script Database, then I threw out the dat
 
 Please visit [seedtree.io](https://seedtreedb.com) for more about the kernel and Hierarchical Script Databases.
 
+</details>
+
 ### why
+
+<details>
+
+<summary>why</summary>
 
 I define code (function, verb):
 
@@ -173,7 +219,13 @@ However, unlike a torus, a *metal-Pythag*'s point-at-Infinity loop-around also h
 
 This positive (forward) & negative (backward) number-line exists as an exponent of a scale-symmetry base and provides the Infinite stack index for my definition of unique input-output data, like a [sequence generating function](https://en.wikipedia.org/wiki/Generating_function) does.
 
+</details>
+
 ### problem & opportunity 
+
+<details>
+
+<summary>problem & opportunity</summary>
 
 Phenomenologically, the irrational number of a right triangle diagonal like `2^( 1 / 2 )` is not so much irrational Nature as it is a non-halting *anthyphairesis* process.
 
@@ -183,7 +235,13 @@ In this context, without a [Euclidean algorithm](https://en.wikipedia.org/wiki/E
 
 However, when measure is intended to perpetuate an ongoing sequence, an irrational number's non-halting process is an invaluable abstract perpetual motion engine.
 
+</details>
+
 ### how
+
+<details>
+
+<summary>how</summary>
 
 The non-halting property of a right triangle diagonal is not limited to the diagonal.
 
@@ -203,7 +261,13 @@ For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` 
 
 * the unique identifier of an input-output data object is `( ( c - b ) / a )^n`.
 
+</details>
+
 ### next
+
+<details>
+
+<summary>next</summary>
 
 [This Wolfram blog post](https://community.wolfram.com/groups/-/m/t/1719229) explores other potential uses of the non-halting property, including many beyond the scope of this repository.
 
@@ -217,7 +281,13 @@ For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` 
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/koko.jpg?raw=true" width="50%" >
 
+</details>
+
 ### app.js
+
+<details>
+
+<summary>app.js</summary>
 
 Text-sequence function-object structure:
 
@@ -327,13 +397,21 @@ Action-sequence function-object structure at the functions-with-internal-constru
 
 `part1()` to `part4()` loop until the repeat option in `app.json` is met and then `footer()` is called.
 
+</details>
+
 ### to do
+
+<details>
+
+<summary>to do</summary>
 
 Feel free fork this repo and hack away at some of these to dos, or do your own thing with it. :0)
 
 Write and open source publish code that animates SVG with JavaScript, HTML and CSS.
 
 Write and open source publish code that includes a Hierarchical Script Database runtime object-tree.
+
+* A layperson-cloud UX of this repo.
 
 Write and open source publish code that prints the following SVG-SMIL animations:
 
@@ -404,6 +482,8 @@ Write and open source publish code that prints the following SVG-SMIL animations
 * Pi/(natural count) parallelograms beyond Pi/2 rectangles, example:
 
 [![The Hyper Metal Multi-Dimension](https://img.youtube.com/vi/I84qsslRH8w/0.jpg)](https://www.youtube.com/watch?v=I84qsslRH8w&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
+
+</details>
 
 ##
 
