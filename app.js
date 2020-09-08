@@ -269,7 +269,7 @@ function dynamicObjects( $0 ) {
 		;
 	}
 }
-function endPart() {
+function endParts() {
 	_0.globalCount ++
 	;
 	if ( ( _0.repeat + 1 ) - _0.globalCount ) {
@@ -662,7 +662,7 @@ function part1() {
 			; return
 			;
 		}
-		_0.endPart()
+		_0.endParts()
 		;
 	}
 	const _1 = new Part1
@@ -901,7 +901,7 @@ function part2() {
 			; return
 			;
 		}
-		_0.endPart()
+		_0.endParts()
 		;
 	}
 	const _1 = new Part2
@@ -1117,7 +1117,7 @@ function part3() {
 			; return
 			;
 		}
-		_0.endPart()
+		_0.endParts()
 		;
 	}
 	const _1 = new Part3
@@ -1331,7 +1331,7 @@ function part4() {
 			; return
 			;
 		}
-		_0.endPart()
+		_0.endParts()
 		;
 	}
 	const _1 = new Part4
@@ -1427,7 +1427,7 @@ function App() {
 	; this.colours = this.data.colours
 	; this.dynamicObjects = dynamicObjects
 	; this.embed = this.data.embed
-	; this.endPart = endPart
+	; this.endParts = endParts
 	; this.file = this.data.file
 	; this.footer = footer
 	; this.globalCount = 1
