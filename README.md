@@ -458,6 +458,8 @@ Text-sequence function-object structure:
 
 <summary>to do</summary>
 
+##
+
 `:0)` `:O)` `:o)`
 
 Feel free fork this repo and hack away at some of these to dos. 
@@ -465,6 +467,8 @@ Feel free fork this repo and hack away at some of these to dos.
 Or do your own thing with it!
 
 `(o:` `(O:` `(0:`
+
+##
 
 Write and open source publish code that animates SVG with JavaScript, HTML and CSS.
 
