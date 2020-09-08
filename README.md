@@ -8,7 +8,7 @@
 
 ## *an animated SVG printer using a* metal-Pythag *engine*
 
-[Tip jar](https://github.com/sponsors/bestape).
+**[TIP JAR](https://github.com/sponsors/bestape)**
 
 ### 0. contents
 
