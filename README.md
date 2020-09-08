@@ -294,6 +294,28 @@ For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` 
 
 <summary>app.js</summary>
 
+Action-sequence along the main level:
+
+1. `app()`
+
+2. `metalPythag()`
+
+3. `header()`
+
+4. `dynamicObjects()`
+
+5. `part1()`
+
+6. `part2()`
+
+7. `part3()`
+
+8. `part4()`
+
+9. `footer()`
+
+`part1()` to `part4()` loop until the repeat option in `app.json` is met and then `footer()` is called.
+
 Text-sequence function-object structure:
 
 * `app.js`
@@ -427,28 +449,6 @@ Text-sequence function-object structure:
   * *instructions*
 
   * `App() { ... }`
-
-Action-sequence along the main level:
-
-1. `app()`
-
-2. `metalPythag()`
-
-3. `header()`
-
-4. `dynamicObjects()`
-
-5. `part1()`
-
-6. `part2()`
-
-7. `part3()`
-
-8. `part4()`
-
-9. `footer()`
-
-`part1()` to `part4()` loop until the repeat option in `app.json` is met and then `footer()` is called.
 
 </details>
 
