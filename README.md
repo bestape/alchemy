@@ -296,7 +296,7 @@ For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` 
 
 Action-sequence along the main level:
 
-1. `app()`
+1. `./app.js`
 
 2. `metalPythag()`
 
