@@ -16,10 +16,18 @@
 		, "magenta"
 	]
 	, "cork": "deepskyblue"
+	, "embed": false
 	, "file": "./resonance.svg"
+	, "vertical": true
+	, "id": "leftRectangle"
+	, "images": []
 	, "lead": true
 	, "loop": true
-	, "repeat": 50
+	, "offset": {
+		"x": 0
+		, "y": 0
+	}
+	, "repeat": 20
 	, "rotateCenter": "0, 0"
 	, "speed": "2s"
 	, "viewBoxAdd": {

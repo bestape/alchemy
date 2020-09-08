@@ -97,9 +97,14 @@ Change its values to the choices you want then run `app.js` in a terminal with N
 | clickStart       | boolean | false = auto start; true = manual start  |
 | colours          | array   | repeating rectangle's colour sequence    |
 | cork             | string  | remainder rectangle included if true     |
+| embed            | boolean | use to copy/paste code into an SVG file  |
 | file             | string  | file name and relative path              |
+| vertical         | boolean | reapeating rectangle starts vertical     |
+| id               | string  | combine with other code; use with embed  |
+| images           | array   | repeating images; images[0] = start only |
 | lead             | boolean | false = each repeat starts from the top  |
 | loop             | boolean | animation auto restarts when finished    |
+| offset           | object  | use with embed and id to add to SVG file |
 | repeat           | number  | number of repeating rectangles >= 1      |
 | rotateCenter     | string  | x and y axis parent point of rotation    |
 | speed            | string  | the time it takes to move by 1 exponent  |
@@ -405,7 +410,9 @@ Action-sequence function-object structure at the functions-with-internal-constru
 
 <summary>to do</summary>
 
-Feel free fork this repo and hack away at some of these to dos, or do your own thing with it. :0)
+Feel free fork this repo and hack away at some of these to dos, or do your own thing with it. 
+
+:0)   :O)   :o)
 
 Write and open source publish code that animates SVG with JavaScript, HTML and CSS.
 
@@ -417,7 +424,7 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
 * Label the repeating rectangles.
 
-* Images as repeating rectangles, example:
+* ~~Images as repeating rectangles, example~~:
 
 [![how to make generic Metallic Means part 1: spiral basics (4 min)](https://img.youtube.com/vi/smCDtjDLdf8/0.jpg)](https://www.youtube.com/watch?v=smCDtjDLdf8&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
 
@@ -437,7 +444,7 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
      1. left-up, 
 
-     2. right-down; and 
+     2. ~~right-down~~; and 
 
      3. right-up.
 
@@ -450,6 +457,10 @@ Write and open source publish code that prints the following SVG-SMIL animations
      3. right-down; and
 
      4. right-up.
+
+* Use "AC" logic rather than "DC" logic for the `"lead" = false` option.
+
+  * Improve the image animation for the `"lead" = false` option.
 
 * Each square within a natural count rectangle colourable, stereogram example:
 
