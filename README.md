@@ -8,6 +8,8 @@
 
 ## *an animated SVG printer using a* metal-Pythag *engine*
 
+[Tip jar](https://github.com/sponsors/bestape).
+
 ### 0. contents
 
 <details>
@@ -464,7 +466,7 @@ Text-sequence function-object structure:
 
 Feel free fork this repo and hack away at some of these to dos. 
 
-Or do your own thing with it!
+Or, do your own thing with it!
 
 `(o:` `(O:` `(0:`
 
