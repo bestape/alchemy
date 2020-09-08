@@ -298,21 +298,39 @@ Text-sequence function-object structure:
 
 * `app.js`
 
-  * `animateToFrom( ... ) { ... }`
+  * `addRecord( ... ) { ... }`
+
+  * `animateFromTo( ... ) { ... }`
 
   * `animateSize( ... ) { ... }`
 
+    * *instructions*
+
+    * `AnimateSize() { ... }`
+
   * `animateTransform( ... ) { ... }`
+
+    * *instructions*
+
+    * `AnimateTransform() { ... }`
 
   * `animateXY( ... ) { ... }`
 
+    * *instructions*
+
+    * `AnimateXY() { ... }`
+
   * `dynamicObjects( ... ) { ... }`
 
-    * `next( ... ) { ... }`
+    * `readNext( ... ) { ... }`
+
+    * `writeNext( ... ) { ... }`
 
     * *instructions*
 
     * `DynamicObjects() { ... }`
+
+  * `endPart() { ... }`
 
   * `footer() { ... }`
 
@@ -324,7 +342,9 @@ Text-sequence function-object structure:
 
   * `header() { ... }`
 
-    * `next( ... ) { ... }`
+    * `readNext( ... ) { ... }`
+
+    * `writeNext( ... ) { ... }`
 
     * *instructions*
 
@@ -338,7 +358,15 @@ Text-sequence function-object structure:
 
   * `part1() { ... }`
 
+    * `addCorkRecord() { ... }`
+
+    * `addRecord() { ... }`
+
+    * `addToCorkRecord() { ... }`
+
     * `addToRecord() { ... }`
+
+    * `changeBegin( ... ) { ... }`
 
     * `next( ... ) { ... }`
 
@@ -347,6 +375,12 @@ Text-sequence function-object structure:
     * `Part1() { ... }`
 
   * `part2() { ... }`
+
+    * `addCorkRecord() { ... }`
+
+    * `addRecord() { ... }`
+
+    * `addToCorkRecord() { ... }`
 
     * `addToRecord() { ... }`
 
@@ -358,6 +392,12 @@ Text-sequence function-object structure:
 
   * `part3() { ... }`
 
+    * `addCorkRecord() { ... }`
+
+    * `addRecord() { ... }`
+
+    * `addToCorkRecord() { ... }`
+
     * `addToRecord() { ... }`
 
     * `next( ... ) { ... }`
@@ -368,6 +408,12 @@ Text-sequence function-object structure:
 
   * `part4() { ... }`
 
+    * `addCorkRecord() { ... }`
+
+    * `addRecord() { ... }`
+
+    * `addToCorkRecord() { ... }`
+
     * `addToRecord() { ... }`
 
     * `next( ... ) { ... }`
@@ -376,11 +422,13 @@ Text-sequence function-object structure:
 
     * `Part4() { ... }`
 
+  * `runPart() { ... }`
+
   * *instructions*
 
   * `App() { ... }`
 
-Action-sequence function-object structure at the functions-with-internal-constructor-functions level:
+Action-sequence along the main level:
 
 1. `app()`
 
@@ -412,7 +460,7 @@ Action-sequence function-object structure at the functions-with-internal-constru
 
 Feel free fork this repo and hack away at some of these to dos, or do your own thing with it. 
 
-:0)   :O)   :o)
+`:0)` `:O)` `:o)`
 
 Write and open source publish code that animates SVG with JavaScript, HTML and CSS.
 
@@ -438,25 +486,27 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
 [![how to make generic Metallic Means part 2: 4 colors, negative x values and diagonal Infinite order](https://img.youtube.com/vi/WAY4YjWVdH0/0.jpg)](https://www.youtube.com/watch?v=WAY4YjWVdH0&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
 
-* The other spin directions:
+* All the spin starts:
 
   1. starting at `a` as the horizontal: 
 
-     1. left-up, 
+	 1. ~~left-down (counter-clockwise)~~;
 
-     2. ~~right-down~~; and 
+     2. left-up (clockwise);
 
-     3. right-up.
+     2. right-down (clockwise); and 
 
-  2. starting at `b2` as the horizontal: 
+     3. right-up (counter-clockwise).
 
-     1. left-down,
+  2. starting at `a` as the vertical:
 
-     2. left-up,
+     1. left-down (clockwise);
 
-     3. right-down; and
+     2. left-up (counter-clockwise);
 
-     4. right-up.
+     3. ~~right-down (counter-clockwise)~~; and
+
+     4. right-up (clockwise).
 
 * Use "AC" logic rather than "DC" logic for the `"lead" = false` option.
 
