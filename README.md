@@ -530,7 +530,7 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/curvedLinesAmour.png?raw=true" width="50%" >
 
-* With Eisenstein coordinates, example:
+* With [Eisenstein coordinates](https://en.wikipedia.org/wiki/Eisenstein_integer), example:
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/lucky.png?raw=true" width="50%" >
 
