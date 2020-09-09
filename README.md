@@ -96,15 +96,15 @@ Change its values to the choices you want then run `app.js` in a terminal with N
 | borderSize       | number  | parent rectangle's border size >= 0      |
 | cellBorderColour | string  | repeating rectangle's border colour      |
 | cellBorderSize   | number  | repeating rectangle's border size >= 0   |
-| clickStart       | boolean | false = auto start; true = manual start  |
+| clickStart       | boolean | **false** = auto start; **true** = manual start  |
 | colours          | array   | repeating rectangle's colour sequence    |
-| cork             | string  | remainder rectangle included if true     |
+| cork             | string  | remainder rectangle included if colour   |
 | embed            | boolean | use to copy/paste code into an SVG file  |
 | file             | string  | file name and relative path              |
 | vertical         | boolean | reapeating rectangle starts vertical     |
 | id               | string  | combine with other code; use with embed  |
 | images           | array   | repeating images; images[0] = start only |
-| lead             | boolean | false = each repeat starts from the top  |
+| lead             | boolean | **false** = each repeat starts from the top  |
 | loop             | boolean | animation auto restarts when finished    |
 | offset           | object  | use with embed and id to add to SVG file |
 | repeat           | number  | number of repeating rectangles >= 1      |
@@ -142,7 +142,7 @@ Vera's [Metallic Means](https://verasmathematicworld.org/) can be SVG printed by
 
 * set the `b2` value in `app.json` to 100, then 200, then 300 and so on.
 
-As a continuum rather than a natural count, the Metallic Means are SVG printed by `app.js` whenever `a <= b2` in `app.json`.
+As a continuum rather than a natural count, the Metallic Means are SVG printed by `app.js` whenever `a <= b2` ( `a` is less than or equal to `b2` ) in `app.json`.
 
 Here's the first Metallic Mean natural count, the Golden Ratio:
 
@@ -158,13 +158,13 @@ Here's the tenth Metallic Mean natural count, with `a = 100; b2 = 1000` in `app.
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/metalTen.svg?raw=true" width="25%" >
 
-However, if `b2 <= a` in `app.json`, the repeating rectangle takes much longer to become invisible to the naked eye, and not because of `x` scale exponentiation.
+However, if `b2 <= a` ( `b2` is less than or equal to `a` ) in `app.json`, the repeating rectangle takes much longer to become invisible to the naked eye, and not because of `x` scale exponentiation.
 
 Here's the second natural count in the `b2 <= a` direction:
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/beyondMetal.svg?raw=true" width="25%" >
 
-Here's `b2 <= a` when `x = 99 / 100`, [using this formula](https://www.wolframalpha.com/input/?i=h+%3D+100%2F2%3B+w%3B+w+%3D+w%28x%5E2%29+%2B+2hx%3B+x+%3D+99%2F100%3B+x):
+Here's `b2 <= a` when `x = 99 / 100`, in other words no irrational parts but still non-halting, [using this formula](https://www.wolframalpha.com/input/?i=h+%3D+100%2F2%3B+w%3B+w+%3D+w%28x%5E2%29+%2B+2hx%3B+x+%3D+99%2F100%3B+x):
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/yellowBrickRoad.svg?raw=true" width="25%" >
 
@@ -476,13 +476,13 @@ Write and open source publish code that animates SVG with JavaScript, HTML and C
 
 Write and open source publish code that includes a Hierarchical Script Database runtime object-tree.
 
-* A layperson-cloud UX of this repo.
+A layperson-cloud UX of this repo.
 
 Write and open source publish code that prints the following SVG-SMIL animations:
 
 * Label the repeating rectangles.
 
-* ~~Images as repeating rectangles, example~~:
+* ~~Images as repeating rectangles, YouTube example~~:
 
 [![how to make generic Metallic Means part 1: spiral basics (4 min)](https://img.youtube.com/vi/smCDtjDLdf8/0.jpg)](https://www.youtube.com/watch?v=smCDtjDLdf8&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
 
@@ -492,7 +492,7 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
 * `x^( even )` natural count along the horizontal; and
 
-  * `x^( odd )` natural count along the vertical, example:
+  * `x^( odd )` natural count along the vertical, YouTube example:
 
 [![how to make generic Metallic Means part 2: 4 colors, negative x values and diagonal Infinite order](https://img.youtube.com/vi/WAY4YjWVdH0/0.jpg)](https://www.youtube.com/watch?v=WAY4YjWVdH0&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
 
@@ -538,7 +538,7 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/fibApprox.png?raw=true" width="50%" >
 
-* A repeating rectangle that's also a parent rectangle, example:
+* A repeating rectangle that's also a parent rectangle, YouTube example:
 
 [![how to make generic Metallic Means part 3: a Pythagorean triple parent as a Metallic Mean child-base](https://img.youtube.com/vi/izXJJFk6OYI/0.jpg)](https://www.youtube.com/watch?v=izXJJFk6OYI&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
 
@@ -550,7 +550,7 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/metalTriangleChicken.png?raw=true" width="50%" >
 
-* Pi/(natural count) parallelograms beyond Pi/2 rectangles, example:
+* Pi/(natural count) parallelograms beyond Pi/2 rectangles, YouTube example:
 
 [![The Hyper Metal Multi-Dimension](https://img.youtube.com/vi/I84qsslRH8w/0.jpg)](https://www.youtube.com/watch?v=I84qsslRH8w&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
 
