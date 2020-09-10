@@ -252,6 +252,10 @@ Defining an irrational number as a number that must include an Infinite continue
 
 This repository suggests it's a physical-ideal problem, not an abstraction problem.
 
+I posit: the non-halting property of a right triangle diagonal is not limited to the diagonal.
+
+* The finite continued fractions can be defined as the Pythagorean triples.
+
 </details>
 
 ### 8. how
@@ -259,10 +263,6 @@ This repository suggests it's a physical-ideal problem, not an abstraction probl
 <details>
 
 <summary>how</summary>
-
-I posit: the non-halting property of a right triangle diagonal is not limited to the diagonal.
-
-* The finite continued fractions can be defined as the Pythagorean triples.
 
 By removing the orthogonal lengths of a right triangle from its diagonal, the remaining value is the non-halting part.
 
