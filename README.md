@@ -168,7 +168,7 @@ Here's `b2 <= a` when `x = 99 / 100`, in other words no irrational parts but sti
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/yellowBrickRoad.svg?raw=true" width="25%" >
 
-As `b2` approaches a magnitude Infinitely larger than `a`, the automation approaches a more accurate definition of `2^( 1 / 2 )`.
+As `b2` approaches a magnitude Infinitely larger than `a`, the automation approaches a more accurate non-halting definition of `2^( 1 / 2 )`. Compare the *anthyphairesis* of `2^( 1 / 2 ).
 
 </details>
 
@@ -242,6 +242,16 @@ In this context, without a [Euclidean algorithm](https://en.wikipedia.org/wiki/E
 
 However, when measure is intended to perpetuate an ongoing sequence, an irrational number's non-halting process is an invaluable abstract perpetual motion engine.
 
+Defining an irrational number as a number that must include an Infinite continued fraction:
+
+1. Is this an abstraction problem, like 1/3 in base ten has Infinite numerals but a 1/three finite measure is physically the same as a 1/ten finite measure?; or
+
+2. Is this a physical-ideal problem, like *anthyphairesis* suggests, in which case the non-halting property is a feature of finite continued fractions as well because: 
+
+    * a finite continued fraction is an abstract simplification of a physically-ideal Infinite continued fraction? 
+
+This repository suggests it's a physical-ideal problem, not an abstraction problem.
+
 </details>
 
 ### 8. how
@@ -250,7 +260,9 @@ However, when measure is intended to perpetuate an ongoing sequence, an irration
 
 <summary>how</summary>
 
-The non-halting property of a right triangle diagonal is not limited to the diagonal.
+I posit: the non-halting property of a right triangle diagonal is not limited to the diagonal.
+
+* The finite continued fractions can be defined as the Pythagorean triples.
 
 By removing the orthogonal lengths of a right triangle from its diagonal, the remaining value is the non-halting part.
 
