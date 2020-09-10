@@ -168,7 +168,7 @@ Here's `b2 <= a` when `x = 99 / 100`, in other words no irrational parts but sti
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/yellowBrickRoad.svg?raw=true" width="25%" >
 
-As `b2` approaches a magnitude Infinitely larger than `a`, the automation approaches a more accurate non-halting definition of `2^( 1 / 2 )`. Compare the *anthyphairesis* of `2^( 1 / 2 ).
+As `b2` approaches a magnitude Infinitely larger than `a`, the automation approaches a more accurate non-halting definition of `2^( 1 / 2 )`. Compare the *anthyphairesis* of `2^( 1 / 2 )`.
 
 </details>
 
