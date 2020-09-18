@@ -6,7 +6,7 @@
 
 # alchemy
 
-## *an animated SVG printer using a* metal-Pythag *engine*
+## *an animated SVG printer using a* PythagoreanMetal *engine*
 
 !!! **[TIP JAR](https://github.com/sponsors/bestape)** !!!
 
@@ -218,11 +218,11 @@ I do this so that I can define a module as a subject and write complete sentence
 
 This means that a torus's point-at-Infinity loop-around cannot fixate my definition of code because it repeats itself.
 
-Instead, this repository uses a *metal-Pythag* point-at-Infinity loop-around I invented that can fixate my definition of code.
+Instead, this repository uses a *PythagoreanMetal* point-at-Infinity loop-around I invented that can fixate my definition of code.
 
-A *metal-Pythag*'s point-at-Infinity loop-around has a finite modulo sequence (rotation, iteration), like a torus does.
+A *PythagoreanMetal*'s point-at-Infinity loop-around has a finite modulo sequence (rotation, iteration), like a torus does.
 
-However, unlike a torus, a *metal-Pythag*'s point-at-Infinity loop-around also has a positive & negative Infinite number-line sequence (fractal, recursion).
+However, unlike a torus, a *PythagoreanMetal*'s point-at-Infinity loop-around also has a positive & negative Infinite number-line sequence (fractal, recursion).
 
 This positive (forward) & negative (backward) number-line exists as an exponent of a scale-symmetry base and provides the Infinite stack index for my definition of unique input-output data, like a [sequence generating function](https://en.wikipedia.org/wiki/Generating_function) does.
 
