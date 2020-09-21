@@ -101,7 +101,7 @@ Change its values to the choices you want then run `app.js` in a terminal with N
 | cellBorderColour | string  | repeating rectangle's border colour      |
 | cellBorderSize   | number  | repeating rectangle's border size >= 0   |
 | clickStart       | boolean | **false** = auto; **true** = manual      |
-| colours          | array   | repeats if too short; [0] starts only    |
+| colours          | array   | repeats if too short; [0] only for start |
 | cork             | string  | remainder rectangle included if colour   |
 | drawPath1        | boolean | path shown if **true**                   |
 | drawPath2        | boolean | path shown if **true**                   |
@@ -110,7 +110,7 @@ Change its values to the choices you want then run `app.js` in a terminal with N
 | embed            | boolean | use to copy/paste code into an SVG file  |
 | file             | string  | file name and relative path              |
 | id               | string  | combine with other code; use with embed  |
-| images           | array   | repeats if too short; [0] starts only    |
+| images           | array   | repeats if too short; [0] only for start |
 | lead             | boolean | **false** = a repeat begins from the top |
 | loop             | boolean | animation auto restarts when finished    |
 | offset           | object  | use with embed and id to add to SVG file |
