@@ -557,15 +557,15 @@ Click on the image to run it. See [example tiles](#4-example-tiles) for detailed
 
 Here's the path for the Golden ratio, `a = 2b`:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/pathGold.jpg?raw=true" width="50%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/pathGold.svg?raw=true" width="50%" >
 
 Here's Silver, `a = b`:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/pathSilver.jpg?raw=true" width="50%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/pathSilver.svg?raw=true" width="50%" >
 
 And in the other direction, `a = 4b`:
 
-<img src="https://github.com/bestape/alchemy/blob/master/images/pathAbyB4.jpg?raw=true" width="50%" >
+<img src="https://github.com/bestape/alchemy/blob/master/images/pathAbyB4.svg?raw=true" width="50%" >
 
 </details>
 
