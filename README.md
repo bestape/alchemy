@@ -1,6 +1,6 @@
 <p align="center">
 
-   <img src="https://github.com/bestape/bestape/blob/master/images/caterpill.svg?raw=true" width="100%">
+   <img src="https://github.com/bestape/bestape/blob/master/images/muybridge.svg?raw=true" width="100%">
 
 </p>
 
@@ -36,9 +36,11 @@
 
 10. [app.js](#10-appjs)
 
-11. [to do](#11-to-do)
+11. [paths](#11-paths)
 
-12. [license](#12-license)
+12. [to do](#12-to-do)
+
+13. [license](#13-license)
 
 </details>
 
@@ -96,20 +98,25 @@ Change its values to the choices you want then run `app.js` in a terminal with N
 | borderSize       | number  | parent rectangle's border size >= 0      |
 | cellBorderColour | string  | repeating rectangle's border colour      |
 | cellBorderSize   | number  | repeating rectangle's border size >= 0   |
-| clickStart       | boolean | **false** = auto start; **true** = manual start  |
-| colours          | array   | repeating rectangle's colour sequence    |
+| clickStart       | boolean | **false** = auto; **true** = manual      |
+| colours          | array   | repeats if too short; [0] starts only    |
 | cork             | string  | remainder rectangle included if colour   |
+| drawPath1        | boolean | path shown if **true**                   |
+| drawPath2        | boolean | path shown if **true**                   |
+| drawPath3        | boolean | path shown if **true**                   |
+| drawPath4        | boolean | path shown if **true**                   |
 | embed            | boolean | use to copy/paste code into an SVG file  |
 | file             | string  | file name and relative path              |
-| vertical         | boolean | reapeating rectangle starts vertical     |
 | id               | string  | combine with other code; use with embed  |
-| images           | array   | repeating images; images[0] = start only |
-| lead             | boolean | **false** = each repeat starts from the top  |
+| images           | array   | repeats if too short; [0] starts only    |
+| lead             | boolean | **false** = a repeat begins from the top |
 | loop             | boolean | animation auto restarts when finished    |
 | offset           | object  | use with embed and id to add to SVG file |
+| opacity          | number  | between 1 (opaque) and 0 (transparent)   |
+| png              | boolean | **false** = jpg                          |
 | repeat           | number  | number of repeating rectangles >= 1      |
-| rotateCenter     | string  | x and y axis parent point of rotation    |
 | speed            | string  | the time it takes to move by 1 exponent  |
+| vertical         | boolean | reapeating rectangle starts vertical     |
 | viewBoxAdd       | object  | the width and height axis canvas size    |
 
 If you need to calculate a number option:
@@ -300,6 +307,8 @@ For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` 
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/koko.jpg?raw=true" width="50%" >
 
+If you'd like to chat with a community about this, please [join the discussion on reddit at r/powerlawgeometry](https://www.reddit.com/r/powerlawgeometry/)
+
 </details>
 
 ### 10. app.js
@@ -312,51 +321,93 @@ Action-sequence along the main level:
 
 1. `./app.js`
 
-2. `metalPythag()`
+2. `pythagMetal()`
 
 3. `header()`
 
-4. `dynamicObjects()`
+4. `dynamicObjectLoop()`
 
-5. `part1()`
+5. `part1Loop()`
 
-6. `part2()`
+6. `part2Loop()`
 
-7. `part3()`
+7. `part3Loop()`
 
-8. `part4()`
+8. `part4Loop()`
 
-9. `footer()`
+9. *repeat 5., 6., 7., 8. until cycle satisfied*
 
-`part1()` to `part4()` loop until the repeat option in `app.json` is met and then `footer()` is called.
+10. `footer()`
+
+`part1Loop()` to `part4Loop()` (a "`part#Loop()`") cycles in rounds until the repeat option in `app.json` is met and then `footer()` is called.
+
+Within a `part#Loop()` round, the action-sequence runs (*sans* cork or path options):
+
+1. `runPart()`
+
+2. `RecordPoints()`
+
+3. `animateSize()`
+
+4. `animateMotion()`
+
+5. `animateShrink()`
+
+6. *repeat 1., 2., 3., 4., 5. until round satisfied*
+
+7. `endParts()`
 
 Text-sequence function-object structure:
 
 * `app.js`
 
-  * `addRecord( ... ) { ... }`
+  * `animateMotion( ... ) { ... }`
 
-  * `animateFromTo( ... ) { ... }`
+    * `printCurve() { ... }`
+
+    * `printLine() { ... }`
+
+    * `printRotate( ... ) { ... }`
+
+    * `printScale( ... ) { ... }`
+
+    * *instructions*
+
+    * `AnimateMotion( ... ) { ... }`
+
+  * `animateShrink( ... ) { ... }`
+
+    * `printFromTo( ... ) { ... }`
+
+    * *instructions*
+
+    * `AnimateShrink( ... ) { ... }`
 
   * `animateSize( ... ) { ... }`
 
-    * *instructions*
-
-    * `AnimateSize() { ... }`
-
-  * `animateTransform( ... ) { ... }`
+    * `printValue( ... ) { ... }`
 
     * *instructions*
 
-    * `AnimateTransform() { ... }`
+    * `AnimateSize( ... ) { ... }`
 
-  * `animateXY( ... ) { ... }`
+  * `drawPath( ... ) { ... }`
+
+    * `printCurve( ... ) { ... }`
+
+    * `printLine( ... ) { ... }`
 
     * *instructions*
 
-    * `AnimateXY() { ... }`
+    * `DrawPath( ... ) { ... }`
 
-  * `dynamicObjects( ... ) { ... }`
+  * `dynamicObjectLoop( ... ) { ... }`
+
+    * `next() { ... }`
+
+    * `printCork() { ... }`
+
+    * `printObjectEnd() { ... }`
 
     * `readNext( ... ) { ... }`
 
@@ -364,19 +415,37 @@ Text-sequence function-object structure:
 
     * *instructions*
 
-    * `DynamicObjects() { ... }`
+    * `DynamicObjectLoop( ... ) { ... }`
 
   * `endParts() { ... }`
 
   * `footer() { ... }`
 
-    * `next( ... ) { ... }`
+    * `printPause() { ... }`
+
+    * `printReset( ... ) { ... }`
+
+    * `writeNext( ... ) { ... }`
 
     * *instructions*
 
     * `Footer() { ... }`
 
   * `header() { ... }`
+
+    * `CorkMeasure() { ... }`
+
+    * `next() { ... }`
+
+    * `printCanvas() { ... }`
+
+    * `printCork() { ... }`
+
+    * `printParentStart() { ... }`
+
+    * `printTailEnd() { ... }`
+
+    * `printTailStart() { ... }`
 
     * `readNext( ... ) { ... }`
 
@@ -392,73 +461,81 @@ Text-sequence function-object structure:
 
     * `MetalPythag() { ... }`
 
-  * `part1() { ... }`
+  * `part1Loop() { ... }`
 
-    * `addCorkRecord() { ... }`
+    * `CorkPointC() { ... }`
 
-    * `addRecord() { ... }`
+    * `firstLastCorkRecord() { ... }`
 
-    * `addToCorkRecord() { ... }`
+    * `firstLastRecord() { ... }`
 
-    * `addToRecord() { ... }`
+    * `PointC() { ... }`
 
-    * `changeBegin( ... ) { ... }`
+    * `PrintValue() { ... }`
 
-    * `next( ... ) { ... }`
+    * `VerticalCorkPointC() { ... }`
 
-    * *instructions*
+    * `VerticalPointC() { ... }`
 
-    * `Part1() { ... }`
-
-  * `part2() { ... }`
-
-    * `addCorkRecord() { ... }`
-
-    * `addRecord() { ... }`
-
-    * `addToCorkRecord() { ... }`
-
-    * `addToRecord() { ... }`
-
-    * `next( ... ) { ... }`
+    * `writeNext( ... ) { ... }`
 
     * *instructions*
 
-    * `Part2() { ... }`
+    * `Part1Loop() { ... }`
 
-  * `part3() { ... }`
+  * `part2Loop() { ... }`
 
-    * `addCorkRecord() { ... }`
+    * `CorkPointC() { ... }`
 
-    * `addRecord() { ... }`
+    * `PointC() { ... }`
 
-    * `addToCorkRecord() { ... }`
+    * `VerticalCorkPointC() { ... }`
 
-    * `addToRecord() { ... }`
+    * `VerticalPointC() { ... }`
 
-    * `next( ... ) { ... }`
-
-    * *instructions*
-
-    * `Part3() { ... }`
-
-  * `part4() { ... }`
-
-    * `addCorkRecord() { ... }`
-
-    * `addRecord() { ... }`
-
-    * `addToCorkRecord() { ... }`
-
-    * `addToRecord() { ... }`
-
-    * `next( ... ) { ... }`
+    * `writeNext( ... ) { ... }`
 
     * *instructions*
 
-    * `Part4() { ... }`
+    * `Part2Loop() { ... }`
 
-  * `runPart() { ... }`
+  * `part3Loop() { ... }`
+
+    * `CorkPointC() { ... }`
+
+    * `PointC() { ... }`
+
+    * `VerticalCorkPointC() { ... }`
+
+    * `VerticalPointC() { ... }`
+
+    * `writeNext( ... ) { ... }`
+
+    * *instructions*
+
+    * `Part3Loop() { ... }`
+
+  * `part4Loop() { ... }`
+
+    * `CorkPointC() { ... }`
+
+    * `PointC() { ... }`
+
+    * `VerticalCorkPointC() { ... }`
+
+    * `VerticalPointC() { ... }`
+
+    * `writeNext( ... ) { ... }`
+
+    * *instructions*
+
+    * `Part4Loop() { ... }`
+
+  * `recordCorkPoints( ... ) { ... }`
+
+  * `recordPoints( ... ) { ... }`
+
+  * `runPart( ... ) { ... }`
 
   * *instructions*
 
@@ -466,7 +543,31 @@ Text-sequence function-object structure:
 
 </details>
 
-### 11. to do
+### 11. paths
+
+<details>
+
+<summary>paths</summary>
+
+Other paths are possible. This path is very simple. SVG paths are difficult to write with so what's possible isn't easy.
+
+Click on the image to run it. See [example tiles](#4-example-tiles) for detailed instructions.
+
+Here's the path for the Golden ratio, `a = 2b`:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/pathGold.jpg?raw=true" width="50%" >
+
+Here's Silver, `a = b`:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/pathSilver.jpg?raw=true" width="50%" >
+
+And in the other direction, `a = 4b`:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/pathAbyB4.jpg?raw=true" width="50%" >
+
+</details>
+
+### 12. to do
 
 <details>
 
@@ -491,6 +592,8 @@ Write and open source publish code that includes a Hierarchical Script Database 
 A layperson-cloud UX of this repo.
 
 Write and open source publish code that prints the following SVG-SMIL animations:
+
+* Reduce `part#Loop` logic in `app.js`, if possible without sacrificing clarity.
 
 * Label the repeating rectangles.
 
@@ -570,7 +673,7 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
 ##
 
-### 12. license
+### 13. license
 
 Copyrighted by [bestape](mailto:alchemy.github.bestape@besta.pe), 2020.
 

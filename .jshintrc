@@ -1,0 +1,9 @@
+{
+	"asi": true
+	, "esversion": 6
+	, "laxbreak": true
+	, "laxcomma": true
+	, "unused": true
+	, "varstmt": true
+	, "-W058": true
+}
