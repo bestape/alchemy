@@ -1,6 +1,6 @@
 <p align="center">
 
-   <img src="https://github.com/bestape/bestape/blob/master/images/muybridge.svg?raw=true" width="100%">
+   <img src="https://github.com/bestape/alchemy/blob/master/images/muybridge.svg?raw=true" width="100%">
 
 </p>
 
@@ -307,7 +307,7 @@ For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` 
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/koko.jpg?raw=true" width="50%" >
 
-If you'd like to chat with a community about this, please [join the discussion on reddit at r/powerlawgeometry](https://www.reddit.com/r/powerlawgeometry/)
+If you'd like to chat with a community about this, please [join the discussion on reddit at r/powerlawgeometry](https://www.reddit.com/r/powerlawgeometry/).
 
 </details>
 
