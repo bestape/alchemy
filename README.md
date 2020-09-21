@@ -4,6 +4,8 @@
 
 </p>
 
+Above: a `from iteration, to recursion` photograph-stack stereogram use case.
+
 # alchemy
 
 ## *an animated SVG printer using a* PythagoreanMetal *engine*
@@ -335,7 +337,7 @@ Action-sequence along the main level:
 
 8. `part4Loop()`
 
-9. *repeat 5., 6., 7., 8. until cycle satisfied*
+9. *repeat `5, 6, 7, 8` until cycle satisfied*
 
 10. `footer()`
 
@@ -353,7 +355,7 @@ Within a `part#Loop()` round, the action-sequence runs (*sans* cork or path opti
 
 5. `animateShrink()`
 
-6. *repeat 1., 2., 3., 4., 5. until round satisfied*
+6. *repeat `1, 2, 3, 4, 5` until round satisfied*
 
 7. `endParts()`
 
