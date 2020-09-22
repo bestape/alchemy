@@ -607,10 +607,10 @@ function header() {
 			)
 		; this.x = _0.offset.x
 			+ _0.borderSize / 2
-			+ (	_0.vertical ? _0.b2 : 0	)
+			+ ( _0.vertical ? _0.b2 : 0	)
 		; this.y = _0.offset.y
 			+ _0.borderSize / 2
-			+ (	_0.vertical ? 0 : _0.b2	)
+			+ ( _0.vertical ? 0 : _0.b2	)
 		;
 	}
 	function next() {
