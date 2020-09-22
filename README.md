@@ -12,10 +12,6 @@ Above: a `from iteration, to recursion` photograph-stack stereogram use case.
 
 !!! **[TIP JAR](https://github.com/sponsors/bestape)** !!!
 
-Make Infinite copies of yourself. Super selfies!
-
-<img src="https://github.com/bestape/alchemy/blob/master/images/fergus.svg?raw=true" width="50%">
-
 ##
 
 ### 0. contents
@@ -63,6 +59,10 @@ Create vanishing point cellular automata moving images like the famous Golden Ra
 <img src="https://github.com/bestape/alchemy/blob/master/images/100by50.svg?raw=true" width="50%" >
 
 These images can be used, among other things, as geometric clock timers or a box of Infinite objects with every object observable from above.
+
+Make Infinite copies of yourself. Super selfies!
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/fergus.svg?raw=true" width="50%">
 
 </details>
 
