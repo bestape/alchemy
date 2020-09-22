@@ -12,9 +12,11 @@ Above: a `from iteration, to recursion` photograph-stack stereogram use case.
 
 !!! **[TIP JAR](https://github.com/sponsors/bestape)** !!!
 
+Make Infinite copies of yourself. Super selfies!
+
 <img src="https://github.com/bestape/alchemy/blob/master/images/fergus.svg?raw=true" width="50%">
 
-Make Infinite copies of yourself. Super selfies!
+##
 
 ### 0. contents
 
