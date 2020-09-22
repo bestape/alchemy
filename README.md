@@ -12,8 +12,6 @@ Above: a `from iteration, to recursion` photograph-stack stereogram use case.
 
 !!! **[TIP JAR](https://github.com/sponsors/bestape)** !!!
 
-##
-
 ### 0. contents
 
 <details>
