@@ -66,7 +66,7 @@ These images can be used, among other things, as geometric clock timers or a box
 
 Make Infinite copies of yourself. Super selfies!
 
-<a href="fergus"><img src="https://github.com/bestape/alchemy/blob/master/images/fergus.svg?raw=true" width="50%"></a>
+<a class="anchor" href="#fergus"><img src="https://github.com/bestape/alchemy/blob/master/images/fergus.svg?raw=true" width="50%"></a>
 
 </details>
 
