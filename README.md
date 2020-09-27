@@ -129,7 +129,7 @@ Change its values to the choices you want then run `app.js` in a terminal with N
 | png              | boolean | **false** = jpg                          |
 | repeat           | number  | number of repeating rectangles >= 1      |
 | speed            | string  | the time it takes to move by 1 exponent  |
-| vertical         | boolean | repeating rectangle starts vertical     |
+| vertical         | boolean | repeating rectangle starts vertical      |
 | viewBoxAdd       | object  | the width and height axis canvas size    |
 
 If you need to calculate a number option:
