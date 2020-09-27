@@ -54,9 +54,9 @@ Above: a stopwatch that uses 75% of the remaining parent area to count in loops 
 
 ### 1. what
 
+<details>
 
-
-
+<summary>what</summary>
 
 Create vanishing point cellular automata moving images like the famous Golden Ratio:
 
@@ -66,9 +66,11 @@ These images can be used, among other things, as geometric clock timers or a box
 
 Make Infinite copies of yourself. Super selfies!
 
-<a href="#fergus"><img src="https://github.com/bestape/alchemy/blob/master/images/fergus.svg?raw=true" width="50%"></a>
+#### selfie
 
+<img src="https://github.com/bestape/alchemy/blob/master/images/fergus.svg?raw=true" width="50%">
 
+</details>
 
 ### 2. use
 
