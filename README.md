@@ -14,7 +14,7 @@ Above: a `from iteration, to recursion` photograph-stack stereogram use case.
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/24hourStopwatch.svg?raw=true" width="100%">
 
-Above: a stopwatch that uses 50% of the remaining parent area to count in loops of 60 seconds, 60 minutes and 24 hours.
+Above: a stopwatch that uses 75% of the remaining parent area to count in loops of 60 seconds, 60 minutes and 24 hours.
 
 ##
 
