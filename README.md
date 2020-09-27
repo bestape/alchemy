@@ -119,6 +119,7 @@ Change its values to the choices you want then run `app.js` in a terminal with N
 | loop             | boolean | animation auto restarts when finished    |
 | offset           | object  | use with embed and id to add to SVG file |
 | opacity          | number  | between 1 (opaque) and 0 (transparent)   |
+| pause            | string  | delay until next animation starts        |
 | png              | boolean | **false** = jpg                          |
 | repeat           | number  | number of repeating rectangles >= 1      |
 | speed            | string  | the time it takes to move by 1 exponent  |
@@ -183,6 +184,8 @@ Here's `b2 <= a` when `x = 99 / 100`, in other words no irrational parts but sti
 
 As `b2` approaches a magnitude Infinitely larger than `a`, the automation approaches a more accurate non-halting definition of `2^( 1 / 2 )`. Compare the *anthyphairesis* of `2^( 1 / 2 )`.
 
+##
+
 <img src="https://github.com/bestape/alchemy/blob/master/images/redcarpet.svg?raw=true" width="50%" >
 
 ##
@@ -205,7 +208,7 @@ A natural *PythagoreanMetal* order measures `ax` with `b2` unity or `b2x` with `
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/b2equalsAxOver3.svg?raw=true" width="50%" >
 
-Using this WolframAlpha calculation](https://www.wolframalpha.com/input/?i=a%3Bb%3D100%2F2%3Ba%5E2%2Bb%5E2%3Dc%5E2%3B%28c-b%29%2Fa%3Dx%3B2%282bx%29%3Da): 
+Using this [WolframAlpha calculation](https://www.wolframalpha.com/input/?i=a%3Bb%3D100%2F2%3Ba%5E2%2Bb%5E2%3Dc%5E2%3B%28c-b%29%2Fa%3Dx%3B2%282bx%29%3Da): 
 
 * `b2x != a`; 
 
