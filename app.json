@@ -32,6 +32,7 @@
 		, "y": 0 
 	}
 	, "opacity": ".8"
+	, "pause": "2s"
 	, "png": true
 	, "repeat": 10
 	, "speed": "5s"

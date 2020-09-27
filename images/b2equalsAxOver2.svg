@@ -1,0 +1,3234 @@
+<svg 
+	xmlns="http://www.w3.org/2000/svg"
+ 	xmlns:xlink="http://www.w3.org/1999/xlink"
+	version="1.1"
+	viewBox="0 0 101 123.4744871391589"
+	fill="none" >
+  <!-- static rectangle objects start -->
+  <rect
+	  id="rectangle0"
+	  width="101"
+	  height="123.4744871391589"
+	  x="0"
+	  y="0"
+	  fill="navajowhite"
+	  stroke="black"
+	  stroke-width="1" />
+  <rect
+	  id="rectangle22"
+	  width="100"
+	  height="40.8248290463863"
+	  x="0.5"
+	  y="0.5"
+	  opacity=".8"
+	  fill="yellowgreen"
+	  stroke="black"
+	  stroke-width="0.5" />
+  <rect
+	  id="rectangleCork"
+	  width="100"
+	  height="81.6496580927726"
+	  x="0.5"
+	  y="41.3248290463863"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="lightgrey" />
+  <!-- static rectangle objects end -->
+  <!-- dynamic rectangle objects start -->
+  <rect
+	  id="rectangle1"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="turquoise" />
+  <rect
+	  id="rectangle2"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="tomato" />
+  <rect
+	  id="rectangle3"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="yellowgreen" />
+  <rect
+	  id="rectangle4"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="turquoise" />
+  <rect
+	  id="rectangle5"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="tomato" />
+  <rect
+	  id="rectangle6"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="yellowgreen" />
+  <rect
+	  id="rectangle7"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="turquoise" />
+  <rect
+	  id="rectangle8"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="tomato" />
+  <rect
+	  id="rectangle9"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="yellowgreen" />
+  <rect
+	  id="rectangle10"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="turquoise" />
+  <rect
+	  id="rectangle11"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="tomato" />
+  <rect
+	  id="rectangle12"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="yellowgreen" />
+  <rect
+	  id="rectangle13"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="turquoise" />
+  <rect
+	  id="rectangle14"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="tomato" />
+  <rect
+	  id="rectangle15"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="yellowgreen" />
+  <rect
+	  id="rectangle16"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="turquoise" />
+  <rect
+	  id="rectangle17"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="tomato" />
+  <rect
+	  id="rectangle18"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="yellowgreen" />
+  <rect
+	  id="rectangle19"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="turquoise" />
+  <rect
+	  id="rectangle20"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="tomato" />
+  <rect
+	  id="rectangle21"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="yellowgreen" />
+  <rect
+	  id="rectangle22"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="turquoise" />
+  <rect
+	  id="rectangleInfinity"
+	  stroke="black"
+	  stroke-width="0.5"
+	  opacity=".8"
+	  fill="lightgrey" />
+  <!-- dynamic object automation -->
+  <!-- rectangle1 animate1 -->
+  <animate
+	  href="#rectangle1"
+	  attributeName="width"
+	  values="40.8248290463863"
+	  begin="2s; rectangleEndAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle1"
+	  attributeName="height"
+	  values="100"
+	  begin="2s; rectangleEndAnimate.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle1"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="2s; rectangleEndAnimate.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle1"
+	  id="rectangle1animate1path1"
+	  path="M 100.5 0.5
+			A 40.8248290463863 40.8248290463863
+			0, 0, 0 59.6751709536137 41.3248290463863"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="2s; rectangleEndAnimate.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle1"
+	  path="M 59.6751709536137 41.3248290463863
+			L 0.5 41.3248290463863"
+	  dur="1s"
+	  begin="rectangle1animate1path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle1"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0"
+	  to="-90"
+	  dur="0s"
+	  begin="rectangle1animate1path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle1"
+	  attributeName="width"
+	  from="40.8248290463863"
+	  to="33.33333333333333"
+	  dur="1s"
+	  begin="rectangle1animate1path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle1"
+	  id="rectangle1animate1shrink"
+	  attributeName="height"
+	  from="100"
+	  to="81.6496580927726"
+	  dur="1s"
+	  begin="rectangle1animate1path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle1"
+	  id="rectangle1animate1"
+	  dur="2s"
+	  begin="rectangle1animate1shrink.end"
+	  fill="freeze" />
+  <!-- rectangle1 animate1 cork start -->
+  <animate
+	  href="#rectangleCork"
+	  attributeName="width"
+	  values="0"
+	  begin="2s; rectangleEndAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="81.6496580927726"
+	  begin="2s; rectangleEndAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="99.99999999999999"
+	  begin="2s; rectangleEndAnimate.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="2s; rectangleEndAnimate.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle1animate1Infinitypath1"
+	  path="M 0.5 41.3248290463863
+			A 99.99999999999999 99.99999999999999
+			0, 0, 0 100.49999999999999 141.3248290463863"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="2s; rectangleEndAnimate.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 100.49999999999999 141.3248290463863
+			L 33.83333333333333 122.9744871391589"
+	  dur="1s"
+	  begin="rectangle1animate1Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="1 -1"
+	  dur="0s"
+	  begin="rectangle1animate1Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="81.6496580927726"
+	  to="66.66666666666666"
+	  dur="1s"
+	  begin="rectangle1animate1Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle1animate1shrink"
+	  attributeName="height"
+	  from="99.99999999999999"
+	  to="81.64965809277258"
+	  dur="1s"
+	  begin="rectangle1animate1Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle1animate1"
+	  dur="2s"
+	  begin="rectangle1animate1shrink.end"
+	  fill="freeze" />
+  <!-- rectangle1 animate1 cork end -->
+  <!-- rectangle2 animate2 -->
+  <animate
+	  href="#rectangle2"
+	  attributeName="width"
+	  values="81.6496580927726"
+	  begin="rectangle1animate1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle2"
+	  attributeName="height"
+	  values="33.33333333333333"
+	  begin="rectangle1animate1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle2"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle1animate1.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle2"
+	  id="rectangle2animate2path1"
+	  path="M 0.5 41.3248290463863
+			A 33.33333333333333 33.33333333333333
+			0, 0, 0 33.83333333333333 74.65816237971963"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle1animate1.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle2"
+	  path="M 33.83333333333333 74.65816237971963
+			L 33.83333333333333 122.97448713915891"
+	  dur="1s"
+	  begin="rectangle2animate2path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle2"
+	  attributeName="transform"
+	  type="scale"
+	  values="1 -1"
+	  dur="0s"
+	  begin="rectangle2animate2path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle2"
+	  attributeName="width"
+	  from="81.6496580927726"
+	  to="66.66666666666666"
+	  dur="1s"
+	  begin="rectangle2animate2path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle2"
+	  id="rectangle2animate2shrink"
+	  attributeName="height"
+	  from="33.33333333333333"
+	  to="27.21655269759086"
+	  dur="1s"
+	  begin="rectangle2animate2path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle2"
+	  id="rectangle2animate2"
+	  dur="2s"
+	  begin="rectangle2animate2shrink.end"
+	  fill="freeze" />
+  <!-- rectangle2 animate2 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="81.64965809277258"
+	  begin="rectangle1animate1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="66.66666666666666"
+	  begin="rectangle1animate1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle1animate1.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle2animate2Infinitypath1"
+	  path="M 33.83333333333333 122.9744871391589
+			A 81.64965809277258 81.64965809277258
+			0, 0, 0 115.48299142610591 41.32482904638631"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle1animate1.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 115.48299142610591 41.32482904638631
+			L 100.5 95.75793444156805"
+	  dur="1s"
+	  begin="rectangle2animate2Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 -1"
+	  dur="0s"
+	  begin="rectangle2animate2Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="81.64965809277258"
+	  to="66.66666666666664"
+	  dur="1s"
+	  begin="rectangle2animate2Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle2animate2shrink"
+	  attributeName="height"
+	  from="66.66666666666666"
+	  to="54.43310539518172"
+	  dur="1s"
+	  begin="rectangle2animate2Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle2animate2"
+	  dur="2s"
+	  begin="rectangle2animate2shrink.end"
+	  fill="freeze" />
+  <!-- rectangle2 animate2 cork end -->
+  <!-- rectangle3 animate3 -->
+  <animate
+	  href="#rectangle3"
+	  attributeName="width"
+	  values="27.21655269759086"
+	  begin="rectangle2animate2.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle3"
+	  attributeName="height"
+	  values="66.66666666666666"
+	  begin="rectangle2animate2.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle3"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle2animate2.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle3"
+	  id="rectangle3animate3path1"
+	  path="M 33.83333333333333 122.97448713915891
+			A 27.21655269759086 27.21655269759086
+			0, 0, 0 61.049886030924185 95.75793444156805"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle2animate2.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle3"
+	  path="M 61.049886030924185 95.75793444156805
+			L 100.5 95.75793444156805"
+	  dur="1s"
+	  begin="rectangle3animate3path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle3"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 -1"
+	  dur="0s"
+	  begin="rectangle3animate3path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle3"
+	  attributeName="width"
+	  from="27.21655269759086"
+	  to="22.22222222222221"
+	  dur="1s"
+	  begin="rectangle3animate3path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle3"
+	  id="rectangle3animate3shrink"
+	  attributeName="height"
+	  from="66.66666666666666"
+	  to="54.43310539518171"
+	  dur="1s"
+	  begin="rectangle3animate3path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle3"
+	  id="rectangle3animate3"
+	  dur="2s"
+	  begin="rectangle3animate3shrink.end"
+	  fill="freeze" />
+  <!-- rectangle3 animate3 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="54.43310539518172"
+	  begin="rectangle2animate2.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="66.66666666666664"
+	  begin="rectangle2animate2.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle2animate2.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle3animate3Infinitypath1"
+	  path="M 100.5 95.75793444156805
+			A 66.66666666666664 66.66666666666664
+			0, 0, 0 33.83333333333336 29.09126777490141"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle2animate2.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 33.83333333333336 29.09126777490141
+			L 78.27777777777779 41.3248290463863"
+	  dur="1s"
+	  begin="rectangle3animate3Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="54.43310539518172"
+	  to="44.44444444444442"
+	  dur="1s"
+	  begin="rectangle3animate3Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle3animate3shrink"
+	  attributeName="height"
+	  from="66.66666666666664"
+	  to="54.433105395181705"
+	  dur="1s"
+	  begin="rectangle3animate3Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle3animate3"
+	  dur="2s"
+	  begin="rectangle3animate3shrink.end"
+	  fill="freeze" />
+  <!-- rectangle3 animate3 cork end -->
+  <!-- rectangle4 animate4 -->
+  <animate
+	  href="#rectangle4"
+	  attributeName="width"
+	  values="54.43310539518171"
+	  begin="rectangle3animate3.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle4"
+	  attributeName="height"
+	  values="22.22222222222221"
+	  begin="rectangle3animate3.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle4"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle3animate3.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle4"
+	  id="rectangle4animate4path1"
+	  path="M 100.5 95.75793444156805
+			A 22.22222222222221 22.22222222222221
+			0, 0, 0 78.27777777777779 73.53571221934584"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle3animate3.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle4"
+	  path="M 78.27777777777779 73.53571221934584
+			L 78.27777777777779 41.3248290463863"
+	  dur="1s"
+	  begin="rectangle4animate4path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle4"
+	  attributeName="width"
+	  from="54.43310539518171"
+	  to="44.44444444444443"
+	  dur="1s"
+	  begin="rectangle4animate4path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle4"
+	  id="rectangle4animate4shrink"
+	  attributeName="height"
+	  from="22.22222222222221"
+	  to="18.14436846506057"
+	  dur="1s"
+	  begin="rectangle4animate4path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle4"
+	  id="rectangle4animate4"
+	  dur="2s"
+	  begin="rectangle4animate4shrink.end"
+	  fill="freeze" />
+  <!-- rectangle4 animate4 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="54.433105395181705"
+	  begin="rectangle3animate3.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="44.44444444444442"
+	  begin="rectangle3animate3.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle3animate3.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle4animate4Infinitypath1"
+	  path="M 78.27777777777779 41.3248290463863
+			A 54.433105395181705 54.433105395181705
+			0, 0, 0 23.84467238259608 95.75793444156801"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle3animate3.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 23.84467238259608 95.75793444156801
+			L 33.83333333333333 59.469197511446865"
+	  dur="1s"
+	  begin="rectangle4animate4Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0"
+	  to="-90"
+	  dur="0s"
+	  begin="rectangle4animate4Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="54.433105395181705"
+	  to="44.44444444444442"
+	  dur="1s"
+	  begin="rectangle4animate4Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle4animate4shrink"
+	  attributeName="height"
+	  from="44.44444444444442"
+	  to="36.28873693012114"
+	  dur="1s"
+	  begin="rectangle4animate4Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle4animate4"
+	  dur="2s"
+	  begin="rectangle4animate4shrink.end"
+	  fill="freeze" />
+  <!-- rectangle4 animate4 cork end -->
+  <!-- rectangle5 animate5 -->
+  <animate
+	  href="#rectangle5"
+	  attributeName="width"
+	  values="18.14436846506057"
+	  begin="rectangle4animate4.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle5"
+	  attributeName="height"
+	  values="44.44444444444443"
+	  begin="rectangle4animate4.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle5"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle4animate4.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle5"
+	  id="rectangle5animate5path1"
+	  path="M 78.27777777777779 41.3248290463863
+			A 18.14436846506057 18.14436846506057
+			0, 0, 0 60.13340931271722 59.469197511446865"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle4animate4.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle5"
+	  path="M 60.13340931271722 59.469197511446865
+			L 33.83333333333333 59.469197511446865"
+	  dur="1s"
+	  begin="rectangle5animate5path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle5"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0"
+	  to="-90"
+	  dur="0s"
+	  begin="rectangle5animate5path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle5"
+	  attributeName="width"
+	  from="18.14436846506057"
+	  to="14.814814814814804"
+	  dur="1s"
+	  begin="rectangle5animate5path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle5"
+	  id="rectangle5animate5shrink"
+	  attributeName="height"
+	  from="44.44444444444443"
+	  to="36.28873693012113"
+	  dur="1s"
+	  begin="rectangle5animate5path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle5"
+	  id="rectangle5animate5"
+	  dur="2s"
+	  begin="rectangle5animate5shrink.end"
+	  fill="freeze" />
+  <!-- rectangle5 animate5 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="36.28873693012114"
+	  begin="rectangle4animate4.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="44.44444444444442"
+	  begin="rectangle4animate4.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle4animate4.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle5animate5Infinitypath1"
+	  path="M 33.83333333333333 59.469197511446865
+			A 44.44444444444442 44.44444444444442
+			0, 0, 0 78.27777777777774 103.91364195589128"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle4animate4.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 78.27777777777774 103.91364195589128
+			L 48.64814814814813 95.75793444156804"
+	  dur="1s"
+	  begin="rectangle5animate5Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="1 -1"
+	  dur="0s"
+	  begin="rectangle5animate5Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="36.28873693012114"
+	  to="29.62962962962961"
+	  dur="1s"
+	  begin="rectangle5animate5Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle5animate5shrink"
+	  attributeName="height"
+	  from="44.44444444444442"
+	  to="36.28873693012113"
+	  dur="1s"
+	  begin="rectangle5animate5Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle5animate5"
+	  dur="2s"
+	  begin="rectangle5animate5shrink.end"
+	  fill="freeze" />
+  <!-- rectangle5 animate5 cork end -->
+  <!-- rectangle6 animate6 -->
+  <animate
+	  href="#rectangle6"
+	  attributeName="width"
+	  values="36.28873693012113"
+	  begin="rectangle5animate5.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle6"
+	  attributeName="height"
+	  values="14.814814814814804"
+	  begin="rectangle5animate5.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle6"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle5animate5.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle6"
+	  id="rectangle6animate6path1"
+	  path="M 33.83333333333333 59.469197511446865
+			A 14.814814814814804 14.814814814814804
+			0, 0, 0 48.64814814814813 74.28401232626167"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle5animate5.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle6"
+	  path="M 48.64814814814813 74.28401232626167
+			L 48.64814814814813 95.75793444156805"
+	  dur="1s"
+	  begin="rectangle6animate6path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle6"
+	  attributeName="transform"
+	  type="scale"
+	  values="1 -1"
+	  dur="0s"
+	  begin="rectangle6animate6path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle6"
+	  attributeName="width"
+	  from="36.28873693012113"
+	  to="29.629629629629612"
+	  dur="1s"
+	  begin="rectangle6animate6path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle6"
+	  id="rectangle6animate6shrink"
+	  attributeName="height"
+	  from="14.814814814814804"
+	  to="12.096245643373711"
+	  dur="1s"
+	  begin="rectangle6animate6path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle6"
+	  id="rectangle6animate6"
+	  dur="2s"
+	  begin="rectangle6animate6shrink.end"
+	  fill="freeze" />
+  <!-- rectangle6 animate6 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="36.28873693012113"
+	  begin="rectangle5animate5.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="29.62962962962961"
+	  begin="rectangle5animate5.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle5animate5.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle6animate6Infinitypath1"
+	  path="M 48.64814814814813 95.75793444156804
+			A 36.28873693012113 36.28873693012113
+			0, 0, 0 84.93688507826926 59.46919751144691"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle5animate5.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 84.93688507826926 59.46919751144691
+			L 78.27777777777779 83.66168879819435"
+	  dur="1s"
+	  begin="rectangle6animate6Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 -1"
+	  dur="0s"
+	  begin="rectangle6animate6Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="36.28873693012113"
+	  to="29.62962962962961"
+	  dur="1s"
+	  begin="rectangle6animate6Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle6animate6shrink"
+	  attributeName="height"
+	  from="29.62962962962961"
+	  to="24.192491286747423"
+	  dur="1s"
+	  begin="rectangle6animate6Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle6animate6"
+	  dur="2s"
+	  begin="rectangle6animate6shrink.end"
+	  fill="freeze" />
+  <!-- rectangle6 animate6 cork end -->
+  <!-- rectangle7 animate7 -->
+  <animate
+	  href="#rectangle7"
+	  attributeName="width"
+	  values="12.096245643373711"
+	  begin="rectangle6animate6.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle7"
+	  attributeName="height"
+	  values="29.629629629629612"
+	  begin="rectangle6animate6.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle7"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle6animate6.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle7"
+	  id="rectangle7animate7path1"
+	  path="M 48.64814814814813 95.75793444156805
+			A 12.096245643373711 12.096245643373711
+			0, 0, 0 60.744393791521844 83.66168879819435"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle6animate6.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle7"
+	  path="M 60.744393791521844 83.66168879819435
+			L 78.27777777777779 83.66168879819435"
+	  dur="1s"
+	  begin="rectangle7animate7path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle7"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 -1"
+	  dur="0s"
+	  begin="rectangle7animate7path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle7"
+	  attributeName="width"
+	  from="12.096245643373711"
+	  to="9.876543209876534"
+	  dur="1s"
+	  begin="rectangle7animate7path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle7"
+	  id="rectangle7animate7shrink"
+	  attributeName="height"
+	  from="29.629629629629612"
+	  to="24.192491286747416"
+	  dur="1s"
+	  begin="rectangle7animate7path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle7"
+	  id="rectangle7animate7"
+	  dur="2s"
+	  begin="rectangle7animate7shrink.end"
+	  fill="freeze" />
+  <!-- rectangle7 animate7 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="24.192491286747423"
+	  begin="rectangle6animate6.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="29.62962962962961"
+	  begin="rectangle6animate6.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle6animate6.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle7animate7Infinitypath1"
+	  path="M 78.27777777777779 83.66168879819435
+			A 29.62962962962961 29.62962962962961
+			0, 0, 0 48.64814814814818 54.03205916856474"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle6animate6.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 48.64814814814818 54.03205916856474
+			L 68.40123456790126 59.469197511446865"
+	  dur="1s"
+	  begin="rectangle7animate7Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="24.192491286747423"
+	  to="19.753086419753068"
+	  dur="1s"
+	  begin="rectangle7animate7Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle7animate7shrink"
+	  attributeName="height"
+	  from="29.62962962962961"
+	  to="24.192491286747412"
+	  dur="1s"
+	  begin="rectangle7animate7Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle7animate7"
+	  dur="2s"
+	  begin="rectangle7animate7shrink.end"
+	  fill="freeze" />
+  <!-- rectangle7 animate7 cork end -->
+  <!-- rectangle8 animate8 -->
+  <animate
+	  href="#rectangle8"
+	  attributeName="width"
+	  values="24.192491286747416"
+	  begin="rectangle7animate7.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle8"
+	  attributeName="height"
+	  values="9.876543209876534"
+	  begin="rectangle7animate7.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle8"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle7animate7.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle8"
+	  id="rectangle8animate8path1"
+	  path="M 78.27777777777779 83.66168879819435
+			A 9.876543209876534 9.876543209876534
+			0, 0, 0 68.40123456790126 73.78514558831782"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle7animate7.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle8"
+	  path="M 68.40123456790126 73.78514558831782
+			L 68.40123456790126 59.469197511446865"
+	  dur="1s"
+	  begin="rectangle8animate8path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle8"
+	  attributeName="width"
+	  from="24.192491286747416"
+	  to="19.753086419753068"
+	  dur="1s"
+	  begin="rectangle8animate8path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle8"
+	  id="rectangle8animate8shrink"
+	  attributeName="height"
+	  from="9.876543209876534"
+	  to="8.064163762249137"
+	  dur="1s"
+	  begin="rectangle8animate8path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle8"
+	  id="rectangle8animate8"
+	  dur="2s"
+	  begin="rectangle8animate8shrink.end"
+	  fill="freeze" />
+  <!-- rectangle8 animate8 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="24.192491286747412"
+	  begin="rectangle7animate7.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="19.753086419753068"
+	  begin="rectangle7animate7.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle7animate7.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle8animate8Infinitypath1"
+	  path="M 68.40123456790126 59.469197511446865
+			A 24.192491286747412 24.192491286747412
+			0, 0, 0 44.20874328115384 83.66168879819428"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle7animate7.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 44.20874328115384 83.66168879819428
+			L 48.64814814814813 67.533361273696"
+	  dur="1s"
+	  begin="rectangle8animate8Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0"
+	  to="-90"
+	  dur="0s"
+	  begin="rectangle8animate8Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="24.192491286747412"
+	  to="19.753086419753068"
+	  dur="1s"
+	  begin="rectangle8animate8Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle8animate8shrink"
+	  attributeName="height"
+	  from="19.753086419753068"
+	  to="16.128327524498275"
+	  dur="1s"
+	  begin="rectangle8animate8Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle8animate8"
+	  dur="2s"
+	  begin="rectangle8animate8shrink.end"
+	  fill="freeze" />
+  <!-- rectangle8 animate8 cork end -->
+  <!-- rectangle9 animate9 -->
+  <animate
+	  href="#rectangle9"
+	  attributeName="width"
+	  values="8.064163762249137"
+	  begin="rectangle8animate8.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle9"
+	  attributeName="height"
+	  values="19.753086419753068"
+	  begin="rectangle8animate8.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle9"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle8animate8.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle9"
+	  id="rectangle9animate9path1"
+	  path="M 68.40123456790126 59.469197511446865
+			A 8.064163762249137 8.064163762249137
+			0, 0, 0 60.33707080565212 67.533361273696"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle8animate8.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle9"
+	  path="M 60.33707080565212 67.533361273696
+			L 48.64814814814813 67.533361273696"
+	  dur="1s"
+	  begin="rectangle9animate9path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle9"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0"
+	  to="-90"
+	  dur="0s"
+	  begin="rectangle9animate9path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle9"
+	  attributeName="width"
+	  from="8.064163762249137"
+	  to="6.584362139917689"
+	  dur="1s"
+	  begin="rectangle9animate9path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle9"
+	  id="rectangle9animate9shrink"
+	  attributeName="height"
+	  from="19.753086419753068"
+	  to="16.128327524498275"
+	  dur="1s"
+	  begin="rectangle9animate9path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle9"
+	  id="rectangle9animate9"
+	  dur="2s"
+	  begin="rectangle9animate9shrink.end"
+	  fill="freeze" />
+  <!-- rectangle9 animate9 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="16.128327524498275"
+	  begin="rectangle8animate8.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="19.753086419753068"
+	  begin="rectangle8animate8.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle8animate8.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle9animate9Infinitypath1"
+	  path="M 48.64814814814813 67.533361273696
+			A 19.753086419753068 19.753086419753068
+			0, 0, 0 68.4012345679012 87.28644769344908"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle8animate8.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 68.4012345679012 87.28644769344908
+			L 55.23251028806582 83.66168879819433"
+	  dur="1s"
+	  begin="rectangle9animate9Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="1 -1"
+	  dur="0s"
+	  begin="rectangle9animate9Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="16.128327524498275"
+	  to="13.168724279835377"
+	  dur="1s"
+	  begin="rectangle9animate9Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle9animate9shrink"
+	  attributeName="height"
+	  from="19.753086419753068"
+	  to="16.128327524498275"
+	  dur="1s"
+	  begin="rectangle9animate9Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle9animate9"
+	  dur="2s"
+	  begin="rectangle9animate9shrink.end"
+	  fill="freeze" />
+  <!-- rectangle9 animate9 cork end -->
+  <!-- rectangle10 animate10 -->
+  <animate
+	  href="#rectangle10"
+	  attributeName="width"
+	  values="16.128327524498275"
+	  begin="rectangle9animate9.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle10"
+	  attributeName="height"
+	  values="6.584362139917689"
+	  begin="rectangle9animate9.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle10"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle9animate9.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle10"
+	  id="rectangle10animate10path1"
+	  path="M 48.64814814814813 67.533361273696
+			A 6.584362139917689 6.584362139917689
+			0, 0, 0 55.23251028806582 74.11772341361369"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle9animate9.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle10"
+	  path="M 55.23251028806582 74.11772341361369
+			L 55.23251028806582 83.66168879819435"
+	  dur="1s"
+	  begin="rectangle10animate10path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle10"
+	  attributeName="transform"
+	  type="scale"
+	  values="1 -1"
+	  dur="0s"
+	  begin="rectangle10animate10path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle10"
+	  attributeName="width"
+	  from="16.128327524498275"
+	  to="13.168724279835375"
+	  dur="1s"
+	  begin="rectangle10animate10path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle10"
+	  id="rectangle10animate10shrink"
+	  attributeName="height"
+	  from="6.584362139917689"
+	  to="5.376109174832758"
+	  dur="1s"
+	  begin="rectangle10animate10path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle10"
+	  id="rectangle10animate10"
+	  dur="2s"
+	  begin="rectangle10animate10shrink.end"
+	  fill="freeze" />
+  <!-- rectangle10 animate10 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="16.128327524498275"
+	  begin="rectangle9animate9.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="13.168724279835377"
+	  begin="rectangle9animate9.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle9animate9.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle10animate10Infinitypath1"
+	  path="M 55.23251028806582 83.66168879819433
+			A 16.128327524498275 16.128327524498275
+			0, 0, 0 71.36083781256409 67.53336127369606"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle9animate9.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 71.36083781256409 67.53336127369606
+			L 68.40123456790126 78.28557962336158"
+	  dur="1s"
+	  begin="rectangle10animate10Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 -1"
+	  dur="0s"
+	  begin="rectangle10animate10Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="16.128327524498275"
+	  to="13.168724279835374"
+	  dur="1s"
+	  begin="rectangle10animate10Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle10animate10shrink"
+	  attributeName="height"
+	  from="13.168724279835377"
+	  to="10.752218349665515"
+	  dur="1s"
+	  begin="rectangle10animate10Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle10animate10"
+	  dur="2s"
+	  begin="rectangle10animate10shrink.end"
+	  fill="freeze" />
+  <!-- rectangle10 animate10 cork end -->
+  <!-- rectangle11 animate11 -->
+  <animate
+	  href="#rectangle11"
+	  attributeName="width"
+	  values="5.376109174832758"
+	  begin="rectangle10animate10.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle11"
+	  attributeName="height"
+	  values="13.168724279835375"
+	  begin="rectangle10animate10.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle11"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle10animate10.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle11"
+	  id="rectangle11animate11path1"
+	  path="M 55.23251028806582 83.66168879819435
+			A 5.376109174832758 5.376109174832758
+			0, 0, 0 60.608619462898574 78.28557962336158"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle10animate10.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle11"
+	  path="M 60.608619462898574 78.28557962336158
+			L 68.40123456790126 78.28557962336158"
+	  dur="1s"
+	  begin="rectangle11animate11path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle11"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 -1"
+	  dur="0s"
+	  begin="rectangle11animate11path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle11"
+	  attributeName="width"
+	  from="5.376109174832758"
+	  to="4.389574759945124"
+	  dur="1s"
+	  begin="rectangle11animate11path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle11"
+	  id="rectangle11animate11shrink"
+	  attributeName="height"
+	  from="13.168724279835375"
+	  to="10.752218349665513"
+	  dur="1s"
+	  begin="rectangle11animate11path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle11"
+	  id="rectangle11animate11"
+	  dur="2s"
+	  begin="rectangle11animate11shrink.end"
+	  fill="freeze" />
+  <!-- rectangle11 animate11 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="10.752218349665515"
+	  begin="rectangle10animate10.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="13.168724279835374"
+	  begin="rectangle10animate10.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle10animate10.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle11animate11Infinitypath1"
+	  path="M 68.40123456790126 78.28557962336158
+			A 13.168724279835374 13.168724279835374
+			0, 0, 0 55.23251028806588 65.11685534352621"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle10animate10.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 55.23251028806588 65.11685534352621
+			L 64.01165980795614 67.533361273696"
+	  dur="1s"
+	  begin="rectangle11animate11Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="10.752218349665515"
+	  to="8.779149519890248"
+	  dur="1s"
+	  begin="rectangle11animate11Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle11animate11shrink"
+	  attributeName="height"
+	  from="13.168724279835374"
+	  to="10.752218349665512"
+	  dur="1s"
+	  begin="rectangle11animate11Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle11animate11"
+	  dur="2s"
+	  begin="rectangle11animate11shrink.end"
+	  fill="freeze" />
+  <!-- rectangle11 animate11 cork end -->
+  <!-- rectangle12 animate12 -->
+  <animate
+	  href="#rectangle12"
+	  attributeName="width"
+	  values="10.752218349665513"
+	  begin="rectangle11animate11.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle12"
+	  attributeName="height"
+	  values="4.389574759945124"
+	  begin="rectangle11animate11.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle12"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle11animate11.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle12"
+	  id="rectangle12animate12path1"
+	  path="M 68.40123456790126 78.28557962336158
+			A 4.389574759945124 4.389574759945124
+			0, 0, 0 64.01165980795614 73.89600486341647"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle11animate11.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle12"
+	  path="M 64.01165980795614 73.89600486341647
+			L 64.01165980795614 67.533361273696"
+	  dur="1s"
+	  begin="rectangle12animate12path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle12"
+	  attributeName="width"
+	  from="10.752218349665513"
+	  to="8.779149519890248"
+	  dur="1s"
+	  begin="rectangle12animate12path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle12"
+	  id="rectangle12animate12shrink"
+	  attributeName="height"
+	  from="4.389574759945124"
+	  to="3.5840727832218375"
+	  dur="1s"
+	  begin="rectangle12animate12path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle12"
+	  id="rectangle12animate12"
+	  dur="2s"
+	  begin="rectangle12animate12shrink.end"
+	  fill="freeze" />
+  <!-- rectangle12 animate12 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="10.752218349665512"
+	  begin="rectangle11animate11.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="8.779149519890248"
+	  begin="rectangle11animate11.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle11animate11.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle12animate12Infinitypath1"
+	  path="M 64.01165980795614 67.533361273696
+			A 10.752218349665512 10.752218349665512
+			0, 0, 0 53.259441458290624 78.28557962336151"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle11animate11.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 53.259441458290624 78.28557962336151
+			L 55.23251028806582 71.11743405691784"
+	  dur="1s"
+	  begin="rectangle12animate12Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0"
+	  to="-90"
+	  dur="0s"
+	  begin="rectangle12animate12Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="10.752218349665512"
+	  to="8.779149519890248"
+	  dur="1s"
+	  begin="rectangle12animate12Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle12animate12shrink"
+	  attributeName="height"
+	  from="8.779149519890248"
+	  to="7.168145566443675"
+	  dur="1s"
+	  begin="rectangle12animate12Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle12animate12"
+	  dur="2s"
+	  begin="rectangle12animate12shrink.end"
+	  fill="freeze" />
+  <!-- rectangle12 animate12 cork end -->
+  <!-- rectangle13 animate13 -->
+  <animate
+	  href="#rectangle13"
+	  attributeName="width"
+	  values="3.5840727832218375"
+	  begin="rectangle12animate12.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle13"
+	  attributeName="height"
+	  values="8.779149519890248"
+	  begin="rectangle12animate12.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle13"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle12animate12.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle13"
+	  id="rectangle13animate13path1"
+	  path="M 64.01165980795614 67.533361273696
+			A 3.5840727832218375 3.5840727832218375
+			0, 0, 0 60.4275870247343 71.11743405691784"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle12animate12.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle13"
+	  path="M 60.4275870247343 71.11743405691784
+			L 55.23251028806582 71.11743405691784"
+	  dur="1s"
+	  begin="rectangle13animate13path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle13"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0"
+	  to="-90"
+	  dur="0s"
+	  begin="rectangle13animate13path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle13"
+	  attributeName="width"
+	  from="3.5840727832218375"
+	  to="2.926383173296749"
+	  dur="1s"
+	  begin="rectangle13animate13path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle13"
+	  id="rectangle13animate13shrink"
+	  attributeName="height"
+	  from="8.779149519890248"
+	  to="7.168145566443675"
+	  dur="1s"
+	  begin="rectangle13animate13path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle13"
+	  id="rectangle13animate13"
+	  dur="2s"
+	  begin="rectangle13animate13shrink.end"
+	  fill="freeze" />
+  <!-- rectangle13 animate13 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="7.168145566443675"
+	  begin="rectangle12animate12.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="8.779149519890248"
+	  begin="rectangle12animate12.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle12animate12.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle13animate13Infinitypath1"
+	  path="M 55.23251028806582 71.11743405691784
+			A 8.779149519890248 8.779149519890248
+			0, 0, 0 64.01165980795606 79.8965835768081"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle12animate12.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 64.01165980795606 79.8965835768081
+			L 58.15889346136257 78.28557962336157"
+	  dur="1s"
+	  begin="rectangle13animate13Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="1 -1"
+	  dur="0s"
+	  begin="rectangle13animate13Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="7.168145566443675"
+	  to="5.852766346593498"
+	  dur="1s"
+	  begin="rectangle13animate13Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle13animate13shrink"
+	  attributeName="height"
+	  from="8.779149519890248"
+	  to="7.168145566443673"
+	  dur="1s"
+	  begin="rectangle13animate13Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle13animate13"
+	  dur="2s"
+	  begin="rectangle13animate13shrink.end"
+	  fill="freeze" />
+  <!-- rectangle13 animate13 cork end -->
+  <!-- rectangle14 animate14 -->
+  <animate
+	  href="#rectangle14"
+	  attributeName="width"
+	  values="7.168145566443675"
+	  begin="rectangle13animate13.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle14"
+	  attributeName="height"
+	  values="2.926383173296749"
+	  begin="rectangle13animate13.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle14"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle13animate13.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle14"
+	  id="rectangle14animate14path1"
+	  path="M 55.23251028806582 71.11743405691784
+			A 2.926383173296749 2.926383173296749
+			0, 0, 0 58.15889346136257 74.04381723021459"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle13animate13.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle14"
+	  path="M 58.15889346136257 74.04381723021459
+			L 58.15889346136257 78.28557962336158"
+	  dur="1s"
+	  begin="rectangle14animate14path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle14"
+	  attributeName="transform"
+	  type="scale"
+	  values="1 -1"
+	  dur="0s"
+	  begin="rectangle14animate14path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle14"
+	  attributeName="width"
+	  from="7.168145566443675"
+	  to="5.852766346593498"
+	  dur="1s"
+	  begin="rectangle14animate14path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle14"
+	  id="rectangle14animate14shrink"
+	  attributeName="height"
+	  from="2.926383173296749"
+	  to="2.3893818554812247"
+	  dur="1s"
+	  begin="rectangle14animate14path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle14"
+	  id="rectangle14animate14"
+	  dur="2s"
+	  begin="rectangle14animate14shrink.end"
+	  fill="freeze" />
+  <!-- rectangle14 animate14 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="7.168145566443673"
+	  begin="rectangle13animate13.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="5.852766346593498"
+	  begin="rectangle13animate13.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle13animate13.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle14animate14Infinitypath1"
+	  path="M 58.15889346136257 78.28557962336157
+			A 7.168145566443673 7.168145566443673
+			0, 0, 0 65.32703902780624 71.1174340569179"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle13animate13.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 65.32703902780624 71.1174340569179
+			L 64.01165980795614 75.89619776788037"
+	  dur="1s"
+	  begin="rectangle14animate14Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 -1"
+	  dur="0s"
+	  begin="rectangle14animate14Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="7.168145566443673"
+	  to="5.852766346593497"
+	  dur="1s"
+	  begin="rectangle14animate14Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle14animate14shrink"
+	  attributeName="height"
+	  from="5.852766346593498"
+	  to="4.7787637109624495"
+	  dur="1s"
+	  begin="rectangle14animate14Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle14animate14"
+	  dur="2s"
+	  begin="rectangle14animate14shrink.end"
+	  fill="freeze" />
+  <!-- rectangle14 animate14 cork end -->
+  <!-- rectangle15 animate15 -->
+  <animate
+	  href="#rectangle15"
+	  attributeName="width"
+	  values="2.3893818554812247"
+	  begin="rectangle14animate14.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle15"
+	  attributeName="height"
+	  values="5.852766346593498"
+	  begin="rectangle14animate14.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle15"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle14animate14.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle15"
+	  id="rectangle15animate15path1"
+	  path="M 58.15889346136257 78.28557962336158
+			A 2.3893818554812247 2.3893818554812247
+			0, 0, 0 60.54827531684379 75.89619776788037"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle14animate14.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle15"
+	  path="M 60.54827531684379 75.89619776788037
+			L 64.01165980795614 75.89619776788037"
+	  dur="1s"
+	  begin="rectangle15animate15path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle15"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 -1"
+	  dur="0s"
+	  begin="rectangle15animate15path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle15"
+	  attributeName="width"
+	  from="2.3893818554812247"
+	  to="1.9509221155311653"
+	  dur="1s"
+	  begin="rectangle15animate15path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle15"
+	  id="rectangle15animate15shrink"
+	  attributeName="height"
+	  from="5.852766346593498"
+	  to="4.778763710962449"
+	  dur="1s"
+	  begin="rectangle15animate15path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle15"
+	  id="rectangle15animate15"
+	  dur="2s"
+	  begin="rectangle15animate15shrink.end"
+	  fill="freeze" />
+  <!-- rectangle15 animate15 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="4.7787637109624495"
+	  begin="rectangle14animate14.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="5.852766346593497"
+	  begin="rectangle14animate14.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle14animate14.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle15animate15Infinitypath1"
+	  path="M 64.01165980795614 75.89619776788037
+			A 5.852766346593497 5.852766346593497
+			0, 0, 0 58.15889346136264 70.04343142128687"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle14animate14.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 58.15889346136264 70.04343142128687
+			L 62.06073769242497 71.11743405691784"
+	  dur="1s"
+	  begin="rectangle15animate15Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="4.7787637109624495"
+	  to="3.9018442310623307"
+	  dur="1s"
+	  begin="rectangle15animate15Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle15animate15shrink"
+	  attributeName="height"
+	  from="5.852766346593497"
+	  to="4.778763710962448"
+	  dur="1s"
+	  begin="rectangle15animate15Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle15animate15"
+	  dur="2s"
+	  begin="rectangle15animate15shrink.end"
+	  fill="freeze" />
+  <!-- rectangle15 animate15 cork end -->
+  <!-- rectangle16 animate16 -->
+  <animate
+	  href="#rectangle16"
+	  attributeName="width"
+	  values="4.778763710962449"
+	  begin="rectangle15animate15.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle16"
+	  attributeName="height"
+	  values="1.9509221155311653"
+	  begin="rectangle15animate15.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle16"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle15animate15.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle16"
+	  id="rectangle16animate16path1"
+	  path="M 64.01165980795614 75.89619776788037
+			A 1.9509221155311653 1.9509221155311653
+			0, 0, 0 62.06073769242497 73.9452756523492"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle15animate15.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle16"
+	  path="M 62.06073769242497 73.9452756523492
+			L 62.06073769242497 71.11743405691784"
+	  dur="1s"
+	  begin="rectangle16animate16path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle16"
+	  attributeName="width"
+	  from="4.778763710962449"
+	  to="3.901844231062331"
+	  dur="1s"
+	  begin="rectangle16animate16path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle16"
+	  id="rectangle16animate16shrink"
+	  attributeName="height"
+	  from="1.9509221155311653"
+	  to="1.5929212369874828"
+	  dur="1s"
+	  begin="rectangle16animate16path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle16"
+	  id="rectangle16animate16"
+	  dur="2s"
+	  begin="rectangle16animate16shrink.end"
+	  fill="freeze" />
+  <!-- rectangle16 animate16 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="4.778763710962448"
+	  begin="rectangle15animate15.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="3.9018442310623307"
+	  begin="rectangle15animate15.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle15animate15.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle16animate16Infinitypath1"
+	  path="M 62.06073769242497 71.11743405691784
+			A 4.778763710962448 4.778763710962448
+			0, 0, 0 57.28197398146253 75.8961977678803"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle15animate15.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 57.28197398146253 75.8961977678803
+			L 58.15889346136257 72.71035529390532"
+	  dur="1s"
+	  begin="rectangle16animate16Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0"
+	  to="-90"
+	  dur="0s"
+	  begin="rectangle16animate16Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="4.778763710962448"
+	  to="3.9018442310623307"
+	  dur="1s"
+	  begin="rectangle16animate16Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle16animate16shrink"
+	  attributeName="height"
+	  from="3.9018442310623307"
+	  to="3.1858424739749656"
+	  dur="1s"
+	  begin="rectangle16animate16Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle16animate16"
+	  dur="2s"
+	  begin="rectangle16animate16shrink.end"
+	  fill="freeze" />
+  <!-- rectangle16 animate16 cork end -->
+  <!-- rectangle17 animate17 -->
+  <animate
+	  href="#rectangle17"
+	  attributeName="width"
+	  values="1.5929212369874828"
+	  begin="rectangle16animate16.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle17"
+	  attributeName="height"
+	  values="3.901844231062331"
+	  begin="rectangle16animate16.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle17"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle16animate16.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle17"
+	  id="rectangle17animate17path1"
+	  path="M 62.06073769242497 71.11743405691784
+			A 1.5929212369874828 1.5929212369874828
+			0, 0, 0 60.467816455437486 72.71035529390532"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle16animate16.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle17"
+	  path="M 60.467816455437486 72.71035529390532
+			L 58.15889346136257 72.71035529390532"
+	  dur="1s"
+	  begin="rectangle17animate17path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle17"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0"
+	  to="-90"
+	  dur="0s"
+	  begin="rectangle17animate17path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle17"
+	  attributeName="width"
+	  from="1.5929212369874828"
+	  to="1.3006147436874436"
+	  dur="1s"
+	  begin="rectangle17animate17path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle17"
+	  id="rectangle17animate17shrink"
+	  attributeName="height"
+	  from="3.901844231062331"
+	  to="3.1858424739749656"
+	  dur="1s"
+	  begin="rectangle17animate17path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle17"
+	  id="rectangle17animate17"
+	  dur="2s"
+	  begin="rectangle17animate17shrink.end"
+	  fill="freeze" />
+  <!-- rectangle17 animate17 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="3.1858424739749656"
+	  begin="rectangle16animate16.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="3.9018442310623307"
+	  begin="rectangle16animate16.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle16animate16.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle17animate17Infinitypath1"
+	  path="M 58.15889346136257 72.71035529390532
+			A 3.9018442310623307 3.9018442310623307
+			0, 0, 0 62.060737692424894 76.61219952496765"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle16animate16.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 62.060737692424894 76.61219952496765
+			L 59.459508205050014 75.89619776788035"
+	  dur="1s"
+	  begin="rectangle17animate17Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="1 -1"
+	  dur="0s"
+	  begin="rectangle17animate17Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="3.1858424739749656"
+	  to="2.601229487374887"
+	  dur="1s"
+	  begin="rectangle17animate17Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle17animate17shrink"
+	  attributeName="height"
+	  from="3.9018442310623307"
+	  to="3.185842473974965"
+	  dur="1s"
+	  begin="rectangle17animate17Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle17animate17"
+	  dur="2s"
+	  begin="rectangle17animate17shrink.end"
+	  fill="freeze" />
+  <!-- rectangle17 animate17 cork end -->
+  <!-- rectangle18 animate18 -->
+  <animate
+	  href="#rectangle18"
+	  attributeName="width"
+	  values="3.1858424739749656"
+	  begin="rectangle17animate17.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle18"
+	  attributeName="height"
+	  values="1.3006147436874436"
+	  begin="rectangle17animate17.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle18"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle17animate17.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle18"
+	  id="rectangle18animate18path1"
+	  path="M 58.15889346136257 72.71035529390532
+			A 1.3006147436874436 1.3006147436874436
+			0, 0, 0 59.459508205050014 74.01097003759277"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle17animate17.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle18"
+	  path="M 59.459508205050014 74.01097003759277
+			L 59.459508205050014 75.89619776788037"
+	  dur="1s"
+	  begin="rectangle18animate18path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle18"
+	  attributeName="transform"
+	  type="scale"
+	  values="1 -1"
+	  dur="0s"
+	  begin="rectangle18animate18path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle18"
+	  attributeName="width"
+	  from="3.1858424739749656"
+	  to="2.601229487374887"
+	  dur="1s"
+	  begin="rectangle18animate18path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle18"
+	  id="rectangle18animate18shrink"
+	  attributeName="height"
+	  from="1.3006147436874436"
+	  to="1.0619474913249882"
+	  dur="1s"
+	  begin="rectangle18animate18path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle18"
+	  id="rectangle18animate18"
+	  dur="2s"
+	  begin="rectangle18animate18shrink.end"
+	  fill="freeze" />
+  <!-- rectangle18 animate18 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="3.185842473974965"
+	  begin="rectangle17animate17.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="2.601229487374887"
+	  begin="rectangle17animate17.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle17animate17.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle18animate18Infinitypath1"
+	  path="M 59.459508205050014 75.89619776788035
+			A 3.185842473974965 3.185842473974965
+			0, 0, 0 62.64535067902498 72.7103552939054"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle17animate17.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 62.64535067902498 72.7103552939054
+			L 62.06073769242497 74.83425027655538"
+	  dur="1s"
+	  begin="rectangle18animate18Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 -1"
+	  dur="0s"
+	  begin="rectangle18animate18Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="3.185842473974965"
+	  to="2.6012294873748867"
+	  dur="1s"
+	  begin="rectangle18animate18Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle18animate18shrink"
+	  attributeName="height"
+	  from="2.601229487374887"
+	  to="2.1238949826499764"
+	  dur="1s"
+	  begin="rectangle18animate18Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle18animate18"
+	  dur="2s"
+	  begin="rectangle18animate18shrink.end"
+	  fill="freeze" />
+  <!-- rectangle18 animate18 cork end -->
+  <!-- rectangle19 animate19 -->
+  <animate
+	  href="#rectangle19"
+	  attributeName="width"
+	  values="1.0619474913249882"
+	  begin="rectangle18animate18.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle19"
+	  attributeName="height"
+	  values="2.601229487374887"
+	  begin="rectangle18animate18.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle19"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle18animate18.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle19"
+	  id="rectangle19animate19path1"
+	  path="M 59.459508205050014 75.89619776788037
+			A 1.0619474913249882 1.0619474913249882
+			0, 0, 0 60.521455696375 74.83425027655538"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle18animate18.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle19"
+	  path="M 60.521455696375 74.83425027655538
+			L 62.06073769242497 74.83425027655538"
+	  dur="1s"
+	  begin="rectangle19animate19path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle19"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 -1"
+	  dur="0s"
+	  begin="rectangle19animate19path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle19"
+	  attributeName="width"
+	  from="1.0619474913249882"
+	  to="0.8670764957916287"
+	  dur="1s"
+	  begin="rectangle19animate19path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle19"
+	  id="rectangle19animate19shrink"
+	  attributeName="height"
+	  from="2.601229487374887"
+	  to="2.123894982649976"
+	  dur="1s"
+	  begin="rectangle19animate19path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle19"
+	  id="rectangle19animate19"
+	  dur="2s"
+	  begin="rectangle19animate19shrink.end"
+	  fill="freeze" />
+  <!-- rectangle19 animate19 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="2.1238949826499764"
+	  begin="rectangle18animate18.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="2.6012294873748867"
+	  begin="rectangle18animate18.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle18animate18.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle19animate19Infinitypath1"
+	  path="M 62.06073769242497 74.83425027655538
+			A 2.6012294873748867 2.6012294873748867
+			0, 0, 0 59.459508205050085 72.2330207891805"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle18animate18.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 59.459508205050085 72.2330207891805
+			L 61.19366119663334 72.71035529390532"
+	  dur="1s"
+	  begin="rectangle19animate19Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="2.1238949826499764"
+	  to="1.7341529915832574"
+	  dur="1s"
+	  begin="rectangle19animate19Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle19animate19shrink"
+	  attributeName="height"
+	  from="2.6012294873748867"
+	  to="2.123894982649976"
+	  dur="1s"
+	  begin="rectangle19animate19Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle19animate19"
+	  dur="2s"
+	  begin="rectangle19animate19shrink.end"
+	  fill="freeze" />
+  <!-- rectangle19 animate19 cork end -->
+  <!-- rectangle20 animate20 -->
+  <animate
+	  href="#rectangle20"
+	  attributeName="width"
+	  values="2.123894982649976"
+	  begin="rectangle19animate19.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle20"
+	  attributeName="height"
+	  values="0.8670764957916287"
+	  begin="rectangle19animate19.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle20"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle19animate19.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle20"
+	  id="rectangle20animate20path1"
+	  path="M 62.06073769242497 74.83425027655538
+			A 0.8670764957916287 0.8670764957916287
+			0, 0, 0 61.19366119663334 73.96717378076376"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle19animate19.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle20"
+	  path="M 61.19366119663334 73.96717378076376
+			L 61.19366119663334 72.71035529390532"
+	  dur="1s"
+	  begin="rectangle20animate20path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle20"
+	  attributeName="width"
+	  from="2.123894982649976"
+	  to="1.7341529915832574"
+	  dur="1s"
+	  begin="rectangle20animate20path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle20"
+	  id="rectangle20animate20shrink"
+	  attributeName="height"
+	  from="0.8670764957916287"
+	  to="0.7079649942166586"
+	  dur="1s"
+	  begin="rectangle20animate20path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle20"
+	  id="rectangle20animate20"
+	  dur="2s"
+	  begin="rectangle20animate20shrink.end"
+	  fill="freeze" />
+  <!-- rectangle20 animate20 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="2.123894982649976"
+	  begin="rectangle19animate19.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="1.7341529915832574"
+	  begin="rectangle19animate19.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle19animate19.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle20animate20Infinitypath1"
+	  path="M 61.19366119663334 72.71035529390532
+			A 2.123894982649976 2.123894982649976
+			0, 0, 0 59.069766213983364 74.8342502765553"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle19animate19.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 59.069766213983364 74.8342502765553
+			L 59.459508205050014 73.41832028812198"
+	  dur="1s"
+	  begin="rectangle20animate20Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0"
+	  to="-90"
+	  dur="0s"
+	  begin="rectangle20animate20Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="2.123894982649976"
+	  to="1.7341529915832572"
+	  dur="1s"
+	  begin="rectangle20animate20Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle20animate20shrink"
+	  attributeName="height"
+	  from="1.7341529915832574"
+	  to="1.4159299884333172"
+	  dur="1s"
+	  begin="rectangle20animate20Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle20animate20"
+	  dur="2s"
+	  begin="rectangle20animate20shrink.end"
+	  fill="freeze" />
+  <!-- rectangle20 animate20 cork end -->
+  <!-- rectangle21 animate21 -->
+  <animate
+	  href="#rectangle21"
+	  attributeName="width"
+	  values="0.7079649942166586"
+	  begin="rectangle20animate20.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle21"
+	  attributeName="height"
+	  values="1.7341529915832574"
+	  begin="rectangle20animate20.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle21"
+	  attributeName="transform"
+	  type="rotate"
+	  from="90"
+	  to="0"
+	  dur="0s"
+	  begin="rectangle20animate20.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle21"
+	  id="rectangle21animate21path1"
+	  path="M 61.19366119663334 72.71035529390532
+			A 0.7079649942166586 0.7079649942166586
+			0, 0, 0 60.48569620241668 73.41832028812198"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle20animate20.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangle21"
+	  path="M 60.48569620241668 73.41832028812198
+			L 59.459508205050014 73.41832028812198"
+	  dur="1s"
+	  begin="rectangle21animate21path1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangle21"
+	  attributeName="transform"
+	  type="rotate"
+	  from="0"
+	  to="-90"
+	  dur="0s"
+	  begin="rectangle21animate21path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle21"
+	  attributeName="width"
+	  from="0.7079649942166586"
+	  to="0.5780509971944191"
+	  dur="1s"
+	  begin="rectangle21animate21path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle21"
+	  id="rectangle21animate21shrink"
+	  attributeName="height"
+	  from="1.7341529915832574"
+	  to="1.4159299884333172"
+	  dur="1s"
+	  begin="rectangle21animate21path1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle21"
+	  id="rectangle21animate21"
+	  dur="2s"
+	  begin="rectangle21animate21shrink.end"
+	  fill="freeze" />
+  <!-- rectangle21 animate21 cork start -->
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="1.4159299884333172"
+	  begin="rectangle20animate20.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="height"
+	  values="1.7341529915832572"
+	  begin="rectangle20animate20.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="-1 1"
+	  dur="0s"
+	  begin="rectangle20animate20.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  id="rectangle21animate21Infinitypath1"
+	  path="M 59.459508205050014 73.41832028812198
+			A 1.7341529915832572 1.7341529915832572
+			0, 0, 0 61.19366119663327 75.15247327970523"
+	  rotate="auto-reverse"
+	  dur="1s"
+	  begin="rectangle20animate20.end"
+	  fill="freeze" />
+  <animateMotion
+	  href="#rectangleInfinity"
+	  path="M 61.19366119663327 75.15247327970523
+			L 60.03755920224443 74.83425027655537"
+	  dur="1s"
+	  begin="rectangle21animate21Infinitypath1.end"
+	  fill="freeze" />
+  <animateTransform
+	  xlink:href="#rectangleInfinity"
+	  attributeName="transform"
+	  type="scale"
+	  values="1 -1"
+	  dur="0s"
+	  begin="rectangle21animate21Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  from="1.4159299884333172"
+	  to="1.1561019943888382"
+	  dur="1s"
+	  begin="rectangle21animate21Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle21animate21shrink"
+	  attributeName="height"
+	  from="1.7341529915832572"
+	  to="1.4159299884333172"
+	  dur="1s"
+	  begin="rectangle21animate21Infinitypath1.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  id="rectangle21animate21"
+	  dur="2s"
+	  begin="rectangle21animate21shrink.end"
+	  fill="freeze" />
+  <!-- rectangle21 animate21 cork end -->
+  <!-- rectangle animation end -->
+  <!-- dynamic rectangle objects end -->
+  <animate
+	  href="#rectangle22"
+	  id="rectangleResetAnimate"
+	  attributeName="fill"
+	  values="yellowgreen"
+	  dur="2s"
+	  begin="rectangle21animate21.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle22"
+	  id="rectangleEndAnimate"
+	  attributeName="fill"
+	  values="yellowgreen"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle1"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle2"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle3"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle4"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle5"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle6"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle7"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle8"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle9"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle10"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle11"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle12"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle13"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle14"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle15"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle16"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle17"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle18"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle19"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle20"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangle21"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleInfinity"
+	  attributeName="width"
+	  values="0"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+  <animate
+	  href="#rectangleCork"
+	  attributeName="width"
+	  values="100"
+	  dur="2s"
+	  begin="rectangleResetAnimate.end"
+	  fill="freeze" />
+</svg>

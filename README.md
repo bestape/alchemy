@@ -185,6 +185,38 @@ As `b2` approaches a magnitude Infinitely larger than `a`, the automation approa
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/redcarpet.svg?raw=true" width="50%" >
 
+##
+
+A natural *PythagoreanMetal* order measures `ax` with `b2` unity or `b2x` with `a` unity.
+
+`ax = b2` is ISO 216, using [this WolframAlpha calculation](https://www.wolframalpha.com/input/?i=a%3D100%3B2b%3Ba%5E2%2Bb%5E2%3Dc%5E2%3B%28c-b%29%2Fa%3Dx%3Bax%3D2b):
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/b2equalsax.svg?raw=true" width="50%" >
+
+`2ax = b2`:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/b2equals2ax.svg?raw=true" width="50%" >
+
+`ax/2 = b2`:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/b2equalsAxOver2.svg?raw=true" width="50%" >
+
+`ax/3 = b2`:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/b2equalsAxOver3.svg?raw=true" width="50%" >
+
+Using this WolframAlpha calculation](https://www.wolframalpha.com/input/?i=a%3Bb%3D100%2F2%3Ba%5E2%2Bb%5E2%3Dc%5E2%3B%28c-b%29%2Fa%3Dx%3B2%282bx%29%3Da): 
+
+* `b2x != a`; 
+
+* `b2x !> a` unless `a` is imaginary;
+
+* `2(b2x) = a` has the same scale symmetry as `ax = b2`, `3(b2x) = a` has the same scale symmetry as `ax/2 = b2`, `4(b2x) = a` has the same scale symmetry as `ax/3 = b2` and so on.
+
+`3ax = 2b` uses `x = 1/2` Geometric series scale symmetry:
+
+<img src="https://github.com/bestape/alchemy/blob/master/images/b2equals3ax.svg?raw=true" width="50%" >
+
 </details>
 
 ### 5. technology

@@ -1,6 +1,4 @@
 #! /usr/bin/env node
-process.chdir( __dirname )
-;
 function animateMotion( $0, $1 ) {
 	function printCurve() {
 		return '  <animateMotion\n'
@@ -167,6 +165,15 @@ function animateShrink( $0, $1 ) {
 			  + '\t  fill="freeze" />\n'
 		;
 	}
+	function printPause() {
+		return '  <animate\n'
+			+ '\t  href="#' + _1.href + '"\n'
+			+ '\t  id="' + _1.id + '"\n'
+			+ '\t  dur="' + _0.pause + '"\n'
+			+ '\t  begin="' + _1.id + 'shrink.end"\n'
+			+ '\t  fill="freeze" />\n'
+		;
+	}
 	const _1 = new AnimateShrink( $0, $1 )
 	;
 	if ( _0.vertical ) {
@@ -198,10 +205,11 @@ function animateShrink( $0, $1 ) {
 	; _1.string += _1.printFromTo( {
 		type: 'height'
 		, href: _1.href
-		, id: _1.id
+		, id: _1.id + 'shrink'
 		, from: _1.width * _1.thisPower
 		, to: _1.width * _1.nextPower
 	} )
+	; _1.string += _1.printPause()
 	;
 	if ( _1.cork ) {
 		_1.string += '  <!-- ' + _0.id + _0.globalCount
@@ -223,6 +231,7 @@ function animateShrink( $0, $1 ) {
 			+ 'animate' + _0.localCount
 		; this.nextPower = $0.xPower
 		; this.printFromTo = printFromTo
+		; this.printPause = printPause
 		; this.speed = _0.speed.substr(	0, _0.speed.length - 1 ) / 2
 			+ _0.speed.substr( _0.speed.length - 1 )
 		; this.string = ''
@@ -740,7 +749,7 @@ function header() {
 		; this.printCork = printCork
 		; this.printParentStart = printParentStart
 		; this.printTailStart = printTailStart
-		; this.printTailEnd= printTailEnd
+		; this.printTailEnd = printTailEnd
 		; this.readFile = require( 'fs' ).readFile
 		; this.readNext = readNext
 		; this.string = ''
@@ -1451,18 +1460,20 @@ function runPart( $0 ) {
 	)
 	;
 }
-const _0 = new App
+process.chdir( __dirname )
+; const _0 = new App
 ; _0.pythagMetal()
 ; _0.header()
 ;
 function App() {
 	this.data = require( './app.json' )
 	; this.a = this.data.a
-//	; this.a = 990000/199
+//	; this.a = 100
 	; this.animateMotion = animateMotion
 	; this.animateShrink = animateShrink
 	; this.animateSize = animateSize
 	; this.b2 = this.data.b2
+//	; this.b2 = 150
 	; this.background = this.data.background
 	; this.borderColour = this.data.borderColour
 	; this.borderSize = this.data.borderSize
@@ -1500,6 +1511,7 @@ function App() {
 	; this.part2Loop = part2Loop
 	; this.part3Loop = part3Loop
 	; this.part4Loop = part4Loop
+	; this.pause = this.data.pause
 	; this.pythagMetal = pythagMetal
 	; this.RecordCorkPoints = RecordCorkPoints
 	; this.RecordPoints = RecordPoints
