@@ -12,6 +12,12 @@ Above: a `from iteration, to recursion` photograph-stack stereogram use case.
 
 !!! **[TIP JAR](https://github.com/sponsors/bestape)** !!!
 
+<img src="https://github.com/bestape/alchemy/blob/master/images/24hourStopwatch.svg?raw=true" width="100%">
+
+Above: a stopwatch that uses 50% of the remaining parent area to count in loops of 60 seconds, 60 minutes and 24 hours.
+
+##
+
 ### 0. contents
 
 <details>
@@ -123,7 +129,7 @@ Change its values to the choices you want then run `app.js` in a terminal with N
 | png              | boolean | **false** = jpg                          |
 | repeat           | number  | number of repeating rectangles >= 1      |
 | speed            | string  | the time it takes to move by 1 exponent  |
-| vertical         | boolean | reapeating rectangle starts vertical     |
+| vertical         | boolean | repeating rectangle starts vertical     |
 | viewBoxAdd       | object  | the width and height axis canvas size    |
 
 If you need to calculate a number option:
@@ -421,6 +427,8 @@ Text-sequence function-object structure:
   * `animateShrink( ... ) { ... }`
 
     * `printFromTo( ... ) { ... }`
+
+    * `printPause( ... ) { ... }`
 
     * *instructions*
 

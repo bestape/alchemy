@@ -34,7 +34,6 @@ function animateMotion( $0, $1 ) {
 			  + '\t  type="rotate"\n'
 			  + '\t  from="' + _2.from + '"\n'
 			  + '\t  to="' + _2.to + '"\n'
-			  + '\t  dur="0s"\n'
 			  + '\t  begin="' + _2.begin + '"\n'
 			  + '\t  fill="freeze" />\n'
 		;
@@ -46,7 +45,6 @@ function animateMotion( $0, $1 ) {
 			  + '\t  attributeName="transform"\n'
 			  + '\t  type="scale"\n'
 			  + '\t  values="' + _2.x + ' ' + _2.y + '"\n'
-			  + '\t  dur="0s"\n'
 			  + '\t  begin="' + _2.begin + '"\n'
 			  + '\t  fill="freeze" />\n'
 		;
@@ -205,11 +203,15 @@ function animateShrink( $0, $1 ) {
 	; _1.string += _1.printFromTo( {
 		type: 'height'
 		, href: _1.href
-		, id: _1.id + 'shrink'
+		, id: _1.id + ( _1.pause ? 'shrink' : '' )
 		, from: _1.width * _1.thisPower
 		, to: _1.width * _1.nextPower
 	} )
-	; _1.string += _1.printPause()
+	;
+	if ( _1.pause ) {
+		_1.string += _1.printPause()
+		;
+	}
 	;
 	if ( _1.cork ) {
 		_1.string += '  <!-- ' + _0.id + _0.globalCount
@@ -230,6 +232,7 @@ function animateShrink( $0, $1 ) {
 		; this.id =  _0.id + _0.globalCount
 			+ 'animate' + _0.localCount
 		; this.nextPower = $0.xPower
+		; this.pause = _0.pause == '0s' ? false : true
 		; this.printFromTo = printFromTo
 		; this.printPause = printPause
 		; this.speed = _0.speed.substr(	0, _0.speed.length - 1 ) / 2
@@ -509,7 +512,7 @@ function footer() {
 			+ '\t  id="' + _0.id + 'ResetAnimate"\n'
 			+ '\t  attributeName="fill"\n'
 			+ '\t  values="' + _1.endColour + '"\n'
-			+ '\t  dur="' + _0.speed + '"\n'
+			+ '\t  dur="' + _0.pause + '"\n'
 			+ '\t  begin="' + _1.begin0 + '.end"\n'
 			+ '\t  fill="freeze" />\n'
 		;
@@ -521,8 +524,8 @@ function footer() {
 			  + ( _2.id ? '\t  id="' + _0.id + 'EndAnimate"\n' : '' )
 			  + '\t  attributeName="' + _2.attributeName + '"\n'
 			  + '\t  values="' + _2.value + '"\n'
-			  + '\t  dur="' + _0.speed + '"\n'
-			  + '\t  begin="' + _1.begin1 + '.end"\n'
+			  + '\t  dur="' + _0.pause + '"\n'
+			  + '\t  begin="' + _2.begin + '.end"\n'
 			  + '\t  fill="freeze" />\n'
 		;
 	}
@@ -548,33 +551,48 @@ function footer() {
 	; _1.string += '  <!-- dynamic ' + _0.id + ' objects end -->\n'
 	;
 	if ( _0.loop || _0.clickStart ) {
-		_1.string += _1.printPause()
-		; _1.string += _1.printReset( {
-			href: _1.href
-			, id: true
-			, attributeName: 'fill'
-			, value: _0.startColour
-		} )
-		;
+		if ( _1.pause ) {
+			_1.string += _1.printPause()
+			; _1.string += _1.printReset( {
+				href: _1.href
+				, id: true
+				, attributeName: 'fill'
+				, value: _0.startColour
+				, begin: _1.begin1
+			} )
+			;
+		}
+		else {
+			_1.string += _1.printReset( {
+				href: _1.href
+				, attributeName: 'fill'
+				, value: _0.startColour
+				, begin: _1.begin0
+			} )
+			;
+		}
 		while ( _1.count < _0.repeat + 1 ) {
 			_1.string += _1.printReset( {
 				href: _0.id + _1.count
 				, attributeName: 'width'
 				, value: 0
+				, begin: _1.pause ? _1.begin1 : _1.begin0
 			} )
 			; _1.count ++
 			;
 		}
-		if ( _0.cork ) {
+		if ( _0.cork && _1.pause ) {
 			_1.string += _1.printReset( {
 				href: _0.id + 'Infinity'
 				, attributeName: 'width'
 				, value: 0
+				, begin: _1.begin1
 			} )
 			; _1.string += _1.printReset( {
 				href: _0.id + 'Cork'
 				, attributeName: 'width'
 				, value: _0.vertical ? _0.corkA : _0.a
+				, begin: _1.begin1
 			} )
 			;
 		}
@@ -590,11 +608,12 @@ function footer() {
 		this.begin0 = _0.id + _0.repeat
 			+ 'animate' + _0.repeat
 		; this.begin1 = _0.id + 'ResetAnimate'
-		; this.count = 1
+		; this.count = _0.pause == '0s' ? 2 : 1
 		; this.endColour = _0.colours[
 			( _0.globalCount + 1 ) % _0.colours.length
 		]
 		; this.href = _0.id + ( _0.repeat + 1 )
+		; this.pause = _0.pause == '0s' ? false : true
 		; this.printPause = printPause
 		; this.printReset = printReset
 		; this.string = '  <!-- ' + _0.id + ' animation end -->\n'
@@ -893,7 +912,7 @@ function part1Loop() {
 	if ( _1.firstLoop ) {
 		if ( _1.firstObject ) {
 			_1.begin = _1.start + (
-				_0.loop ? '; ' + _0.id + 'EndAnimate.end' : ''
+				_0.loop ? '; ' +  _1.loopStart : ''
 			)
 			;
 		}
@@ -941,6 +960,11 @@ function part1Loop() {
 		; this.lastCorkRecord = _0.corkThread[ 3 ] ?
 			_0.corkThread[ 3 ] : null
 		; this.lastRecord = _0.thread[ 3 ] ? _0.thread[ 3 ] : null
+		; this.loopStart = (
+			_0.pause == '0s' ?
+				_0.id + _0.repeat + 'animate' + _0.repeat
+				: _0.id + 'EndAnimate'
+		) + '.end'
 		; this.nextPart = _0.part2Loop
 		; this.pointC = null
 		; this.PointC = PointC
@@ -949,7 +973,7 @@ function part1Loop() {
 		; this.radiusX = - this.radius
 		; this.radiusY = this.radius
 		; this.start = _0.clickStart ?
-			_0.id + ( _0.repeat + 1) + '.click' : _0.speed
+			_0.id + ( _0.repeat + 1) + '.click' : _0.pause
 		; this.string = (
 			this.firstLoop ?
 				'  <!-- dynamic object automation -->\n' : ''
