@@ -18,6 +18,8 @@ Above: a stopwatch that uses 75% of the remaining parent area to count in loops 
 
 ##
 
+!!! **[TIP JAR](https://github.com/sponsors/bestape)** !!!
+
 ### 0. contents
 
 <details>
@@ -65,6 +67,8 @@ Make Infinite copies of yourself. Super selfies!
 #### selfie
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/fergus.svg?raw=true" width="50%">
+
+!!! **[TIP JAR](https://github.com/sponsors/bestape)** !!!
 
 ### 2. use
 
@@ -380,7 +384,7 @@ Action-sequence along the main level:
 
 8. `part4Loop()`
 
-9. *repeat `5, 6, 7, 8` until cycle satisfied*
+9. *repeat* `5, 6, 7, 8` *until cycle satisfied*
 
 10. `footer()`
 
@@ -398,7 +402,7 @@ Within a `part#Loop()` round, the action-sequence runs (*sans* cork or path opti
 
 5. `animateShrink()`
 
-6. *repeat `1, 2, 3, 4, 5` until round satisfied*
+6. *repeat* `1, 2, 3, 4, 5` *until round satisfied*
 
 7. `endParts()`
 
@@ -717,6 +721,8 @@ Write and open source publish code that prints the following SVG-SMIL animations
 [![The Hyper Metal Multi-Dimension](https://img.youtube.com/vi/I84qsslRH8w/0.jpg)](https://www.youtube.com/watch?v=I84qsslRH8w&list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe)
 
 </details>
+
+!!! **[TIP JAR](https://github.com/sponsors/bestape)** !!!
 
 ##
 
