@@ -506,12 +506,6 @@ Text-sequence function-object structure:
 
     * `Header() { ... }`
 
-  * `metalPythag() { ... }`
-
-    * *instructions*
-
-    * `MetalPythag() { ... }`
-
   * `part1Loop() { ... }`
 
     * `CorkPointC() { ... }`
@@ -582,9 +576,15 @@ Text-sequence function-object structure:
 
     * `Part4Loop() { ... }`
 
-  * `recordCorkPoints( ... ) { ... }`
+  * `pythagMetal() { ... }`
 
-  * `recordPoints( ... ) { ... }`
+    * *instructions*
+
+    * `PythagMetal() { ... }`
+
+  * `RecordCorkPoints( ... ) { ... }`
+
+  * `RecordPoints( ... ) { ... }`
 
   * `runPart( ... ) { ... }`
 
