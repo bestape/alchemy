@@ -66,6 +66,8 @@ Make Infinite copies of yourself. Super selfies!
 
 #### selfie
 
+##
+
 <img src="https://github.com/bestape/alchemy/blob/master/images/fergus.svg?raw=true" width="50%">
 
 ##
@@ -75,6 +77,8 @@ Make Infinite copies of yourself. Super selfies!
 ##
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/catman.svg?raw=true" width="50%">
+
+##
 
 !!! **[TIP JAR](https://github.com/sponsors/bestape)** !!!
 
