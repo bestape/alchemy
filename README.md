@@ -10,7 +10,7 @@ Above: a `from iteration, to recursion` photograph-stack stereogram use case.
 
 ## *an animated SVG printer using a* PythagoreanMetal *engine*
 
-!!! **[TIP JAR](https://github.com/sponsors/bestape)** !!!
+!!! **[TIP JAR](https://www.buymeacoffee.com/bestape)** !!!
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/24hourStopwatch.svg?raw=true" width="100%">
 
@@ -18,7 +18,7 @@ Above: a stopwatch that uses 75% of the remaining parent area to count in loops 
 
 ##
 
-!!! **[TIP JAR](https://github.com/sponsors/bestape)** !!!
+!!! **[TIP JAR](https://www.buymeacoffee.com/bestape)** !!!
 
 ### 0. contents
 
@@ -80,7 +80,7 @@ Make Infinite copies of yourself. Super selfies!
 
 ##
 
-!!! **[TIP JAR](https://github.com/sponsors/bestape)** !!!
+!!! **[TIP JAR](https://www.buymeacoffee.com/bestape)** !!!
 
 ### 2. use
 
@@ -734,7 +734,7 @@ Write and open source publish code that prints the following SVG-SMIL animations
 
 </details>
 
-!!! **[TIP JAR](https://github.com/sponsors/bestape)** !!!
+!!! **[TIP JAR](https://www.buymeacoffee.com/bestape)** !!!
 
 ##
 
