@@ -12,7 +12,7 @@ Above: a `from iteration, to recursion` photograph-stack stereogram use case.
 
 !!! **[TIP JAR](https://www.buymeacoffee.com/bestape)** !!!
 
-!!! **[MERCH](http://teespring.com/bestape)** !!!
+!!! **[MERCH](https://teespring.com/stores/bestape)** !!!
 
 <img src="https://github.com/bestape/alchemy/blob/master/images/24hourStopwatch.svg?raw=true" width="100%">
 
