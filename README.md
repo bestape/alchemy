@@ -358,7 +358,7 @@ For a `( a^2 + b^2 )^( 1 / 2 )` diagonal, the non-halting part is `(c - b) / a` 
 
 <summary>next</summary>
 
-[This Wolfram blog post](https://community.wolfram.com/groups/-/m/t/1719229) explores other potential uses of the non-halting property, including many beyond the scope of this repository.
+[This Wolfram blog post](https://www.reddit.com/r/powerlawgeometry/comments/l9kwao/the_phoenix_post_wolfram_deleted_herein_rises/) explores other potential uses of the non-halting property, including many beyond the scope of this repository.
 
 [These YouTube videos](https://www.youtube.com/playlist?list=PLL0gyjXno6ehsPQI3heOW21iPpggmDIWe) also explore other potential uses of the non-halting property, including:
 
