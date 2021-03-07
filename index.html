@@ -137,7 +137,6 @@
     , "embed": false
     , "file": "spiral.svg"
     , "id": "rectangle"
-    , "lead": true
     , "loop": true
     , "offset": {
 	"x": 0
@@ -148,7 +147,7 @@
     , "picture": false
     , "repeat": 12
     , "speed": "5s"
-    , "vertical": true
+    , "vertical": false
     , "viewBoxAdd": {
 	"width": 0
 	, "height": 0
@@ -1988,7 +1987,8 @@
 		  ; this.init = $0
 		  ; this.inputImg = this.doc
 			  .getElementsByClassName( 'input' )[0]
-		  ; this.lead = this.data.lead
+		  ; this.lead = true
+//		  ; this.lead = this.data.lead
 		  ; this.localCount = 1
 		  ; this.loop = this.data.loop
 		  ; this.offset = {
