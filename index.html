@@ -1152,7 +1152,6 @@
 		  }
 	  }
 	  function html() {
-		  console.log(_0)
 		  if ( _0.init ) {
 			  _0.alchemyScript.addEventListener( 'click', () => {
 				  _0.alchemy()
@@ -1174,6 +1173,7 @@
 			  ;
 		  }
 		  return true
+		  ;
 	  }
 	  function part1Loop() {
 		  function CorkPointC() {
@@ -2178,6 +2178,7 @@
 			  _1.inputDiv.remove()
 			  ;
 		  } )
+		  ;
 		  function Input( $0 ) {
 			  this.basinDiv = _0.doc.getElementById( 'basin' )
 			  ; this.click = 0
@@ -2354,7 +2355,6 @@
 		  }
 		  function Refresh() {
 			  this.click = 0
-			  ; this.basinDiv = _0.doc.getElementById( 'basin' )
 			  ; this.input = [
 				  ... _0.doc.getElementsByClassName( 'input' )
 			  ]
@@ -2381,7 +2381,7 @@
 		  } )
 		  ;
 		  function Select() {
-			  ; this.selectInput = _0.doc.createElement( 'input' )
+			  this.selectInput = _0.doc.createElement( 'input' )
 			  ; this.selectInput.accept = 'image/*'
 			  ; this.selectInput.multiple = true
 			  ; this.selectInput.type = 'file'
@@ -2445,6 +2445,6 @@
 				  .style.display = 'block'
 			  ;
       } )
-	  ;
+      ;
   }
 </script>
