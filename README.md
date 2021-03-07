@@ -1,3 +1,25 @@
+## for MozFest, 2021
+
+<details>
+
+<summary>for MozFest, 2021</summary>
+
+During the workshop, we'll have fun with [https://bestape.github.io/alchemy/](https://bestape.github.io/alchemy/).
+
+We'll discuss `(c - b)/a` as well as `a*(x^0) = 2*b*(x^1) + a*(x^2)`.
+
+Before the workshop, please visit: 
+
+* [https://en.wikipedia.org/wiki/Metallic_mean](https://en.wikipedia.org/wiki/Metallic_mean)
+
+  * [https://en.wikipedia.org/wiki/Golden_spiral](https://en.wikipedia.org/wiki/Golden_spiral)
+  
+  * [https://en.wikipedia.org/wiki/Continued_fraction](https://en.wikipedia.org/wiki/Continued_fraction)
+
+* https://www.reddit.com/r/powerlawgeometry/comments/lzkrg9/cba_compared_to_ax0_2bx1_ax2/
+
+</details>
+
 <p align="center">
 
    <img src="https://github.com/bestape/alchemy/blob/master/images/muybridge.svg?raw=true" width="100%">
