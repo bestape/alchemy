@@ -14,6 +14,8 @@ Before the workshop, please visit:
 
 * https://www.reddit.com/r/powerlawgeometry/comments/lzkrg9/cba_compared_to_ax0_2bx1_ax2/
 
+If we have time, we might explore [https://www.instagram.com/p/B6MDtg9AJqH/](https://www.instagram.com/p/B6MDtg9AJqH/).
+
 ##
 
 <p align="center">
