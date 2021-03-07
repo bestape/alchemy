@@ -1,0 +1,2433 @@
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="monetization" content="$ilp.uphold.com/fwRLJUpZZYXH">
+	<title>PythagMetal - Alchemy</title>
+	<style>
+	  #basin {
+		  background-color: #fff;
+		  border-radius: 20px;
+		  box-shadow: 0 0 35px rgba(0,0,0,0.05);
+		  text-align: left;
+		  transition: .3s;
+	  }
+	  #download {
+		  background-color: #fff;
+		  border-radius: 20px;
+		  box-shadow: 0 0 35px rgba(0,0,0,0.05);
+		  text-align: left;
+		  transition: .3s;
+	  }
+	  .feedback {
+		  margin-top:20px;
+		  display: inline-block;
+		  position:relative;
+		  margin-right: 13px;
+		  margin-bottom: 13px;
+	  }
+	  .feedback img {
+		  max-width: 100px;
+		  max-height: 100px;
+	  }
+	  #interface {
+		  cursor: pointer;
+	  }
+	  #interface:hover {
+		  box-shadow: 0 0 45px rgba(0,0,0,0.1);
+	  }
+	  #make {
+		  cursor: pointer;
+	  }
+	  #make:hover {
+		  box-shadow: 0 0 45px rgba(0,0,0,0.1);
+	  }
+	  #output {
+		  background-color: #fff;
+		  border-radius: 20px;
+		  box-shadow: 0 0 35px rgba(0,0,0,0.05);
+		  text-align: left;
+		  cursor: pointer;
+		  transition: .3s;
+	  }
+	  #output:hover {
+		  box-shadow:0 0 45px rgba(0,0,0,0.1);
+	  }
+	  #save {
+		  cursor: pointer;
+	  }
+	  #save:hover {
+		  box-shadow: 0 0 45px rgba(0,0,0,0.1);
+	  }
+	  svg {
+		  max-width: 400px;
+		  max-height: 400px;
+	  }
+	</style>
+  </head>
+  <body>
+	<div id="introduction">
+	  <p id="title"><b>PYTHAGOREAN METAL</b></p>
+	  <p id="subtitle"><i>PI/2 MATRIX INFINITY SPIRALS</i></p>
+	</div>
+	<div id="svg"></div>
+	<div id="basin">
+	  <div id="download"></div>
+	  <div id="interfaceButton">
+	  <p>////////////////////////////////////////////</p>
+		  <button id="interface" style="background-color: peachpuff;">
+			click or drag/drop
+			<br> images here
+			<br> to upload
+		  </button>
+	  </div>
+	</div>
+	<div id="function">
+	  <div id="makeButton">
+		<p>////////////////////////////////////////////</p>
+		<div id="output">
+		  <button id="make" style="background-color: thistle;">
+			click here
+			<br> to output to spiral
+		  </button>
+		</div>
+		<p>////////////////////////////////////////////</p>
+		<div>Options:</div>
+	  </div>
+	  <pre id="Option"><code id="json">{
+    "a": 600
+    , "author": "besta.pe"
+    , "b2": 500
+    , "background": "navajowhite"
+    , "borderColour": "black"
+    , "borderSize": 2
+    , "cellBorderColour": "black"
+    , "cellBorderSize": "1"
+    , "clickStart": true
+    , "colours": [
+	"red"
+	, "blue"
+	, "hotpink"
+	, "red"
+    ]
+    , "cork": "orange"
+    , "drawPath1": false
+    , "drawPath2": false
+    , "drawPath3": false
+    , "drawPath4": false
+    , "drawPathOpacity": ".7"
+    , "drawPathSizeInner": 5
+    , "drawPathSizeOuter": 5
+    , "embed": false
+    , "file": "spiral.svg"
+    , "id": "rectangle"
+    , "lead": true
+    , "loop": true
+    , "offset": {
+	"x": 0
+	, "y": 0
+    }
+    , "opacity": "1"
+    , "pause": "1s"
+    , "picture": false
+    , "repeat": 12
+    , "speed": "5s"
+    , "vertical": true
+    , "viewBoxAdd": {
+	"width": 0
+	, "height": 0
+    }
+}</code></pre>
+	  <div id="OptionNote">
+		<p>"picture": true must repeat in multiples of 4 (for now).</p>
+		<p>To edit Options, use the Inspector gadget (Ctrl+Shift+i).</p>
+	  </div>
+	</div>
+	<div id="note">
+	  <p>////////////////////////////////////////////</p>
+	  <div id="thankYou" style="color: red; display: none;">
+		<p><b>Thank you for supporting me via Web Monetization!</b></p>
+	  </div>
+	  <p>
+		<a href="https://www.buymeacoffee.com/bestape">
+		  !!! TIP JAR !!!
+		</a>
+	  </p>
+	  <p>
+		<a href="https://teespring.com/stores/bestape">
+		  !!! MERCH !!!
+		</a>
+	  </p>
+	  <p>////////////////////////////////////////////</p>
+	  <p>
+		<a href="http://alchemy.besta.pe">Alchemy.Besta.pe</a>
+	  </p>
+	  <p>
+		<a href="http://diagonalmethods.com">DiagonalMethods.com</a>
+	  </p>
+	  <p>
+		<a href="http://powerlawgeometry.com">PowerLawGeometry.com</a>
+	  </p>
+	  <p id="date">Made for MozFest March, 2021.</p>
+	</div>
+  </body>
+</html>
+<script id="alchemy">
+  ( function alchemy( $0 ) {
+	  function animateMotion( $0, $1 ) {
+		  function printCurve() {
+			  return '  <animateMotion\n'
+				  + '\t  href="#' + _1.href + '"\n'
+				  + '\t  id="' + _1.id + 'path1"\n'
+				  + '\t  path="'
+				  + 'M ' + _1.point.A.x + ' ' + _1.point.A.y + '\n'
+				  + '\t\t\tA ' + _1.radius + ' ' + _1.radius + '\n'
+				  + '\t\t\t0, 0, 0 '
+				  + _1.point.B.x + ' ' + _1.point.B.y + '"\n'
+				  + '\t  rotate="auto-reverse"\n'
+				  + '\t  dur="' + _1.speed + '"\n'
+				  + '\t  begin="' + _1.begin0 + '"\n'
+				  + '\t  fill="freeze" />\n'
+			  ;
+		  }
+		  function printLine() {
+			  return '  <animateMotion\n'
+				  + '\t  href="#' + _1.href + '"\n'
+				  + '\t  path="'
+				  + 'M ' + _1.point.B.x + ' ' + _1.point.B.y + '\n'
+				  + '\t\t\tL ' + _1.point.C.x + ' ' + _1.point.C.y
+				  + '"\n'
+				  + '\t  dur="' + _1.speed + '"\n'
+				  + '\t  begin="' + _1.id + 'path1.end"\n'
+				  + '\t  fill="freeze" />\n'
+			  ;
+		  }
+		  function printRotate( $0 ) {
+			  const _2 = $0
+			  ; return '  <animateTransform\n'
+					+ '\t  xlink:href="#' + _1.href + '"\n'
+					+ '\t  attributeName="transform"\n'
+					+ '\t  type="rotate"\n'
+					+ '\t  from="' + _2.from + '"\n'
+					+ '\t  to="' + _2.to + '"\n'
+					+ '\t  begin="' + _2.begin + '"\n'
+					+ '\t  fill="freeze" />\n'
+			  ;
+		  }
+		  function printScale( $0 ) {
+			  const _2 = $0
+			  ; return '  <animateTransform\n'
+					+ '\t  xlink:href="#' + _1.href + '"\n'
+					+ '\t  attributeName="transform"\n'
+					+ '\t  type="scale"\n'
+					+ '\t  values="' + _2.x + ' ' + _2.y + '"\n'
+					+ '\t  begin="' + _2.begin + '"\n'
+					+ '\t  fill="freeze" />\n'
+			  ;
+		  }
+		  const _1 = new AnimateMotion( $0, $1 )
+		  ;
+		  if ( _1.cork ) {
+			  _1.href = _0.id + 'Infinity'
+			  ; _1.id = _1.id + 'Infinity'
+			  ; _1.part2Loop = _0.localCount % 4 == 1 ? true : false
+			  ; _1.part3Loop = _0.localCount % 4 == 2 ? true : false
+			  ; _1.part4Loop = _0.localCount % 4 == 3 ? true : false
+			  ; _1.part1Loop = _0.localCount % 4 == 0 ? true : false
+			  ;
+		  }
+		  if ( _0.vertical ) {
+			  if ( _1.cork ) {
+				  _1.part3Loop = _0.localCount % 4 == 1 ?
+					  true : false
+				  ; _1.part4Loop = _0.localCount % 4 == 2 ?
+					  true : false
+				  ; _1.part1Loop = _0.localCount % 4 == 3 ?
+					  true : false
+				  ; _1.part2Loop = _0.localCount % 4 == 0 ?
+					  true : false
+				  ;
+			  }
+			  else {
+				  _1.part2Loop = _0.localCount % 4 == 1 ?
+					  true : false
+				  ; _1.part3Loop = _0.localCount % 4 == 2 ?
+					  true : false
+				  ; _1.part4Loop = _0.localCount % 4 == 3 ?
+					  true : false
+				  ; _1.part1Loop = _0.localCount % 4 == 0 ?
+					  true : false
+				  ;
+			  }
+		  }
+		  if (  _1.part1Loop || _1.part3Loop ) {
+			  _1.string += _1.printRotate( {
+				  from: 90
+				  , to: 0
+				  , begin: _1.begin0
+			  } )
+			  ;
+		  }
+		  if ( _1.part2Loop || _1.part4Loop ) {
+			  _1.string += _1.printScale( {
+				  x: -1
+				  , y: 1
+				  , begin: _1.begin0
+			  } )
+			  ;
+		  }
+		  _1.string += _1.printCurve()
+		  ; _1.string += _1.printLine()
+		  ;
+		  if ( _1.part1Loop ) {
+			  _1.string += _1.printRotate( {
+				  from: 0
+				  , to: -90
+				  , begin: _1.begin1
+			  } )
+			  ;
+		  }
+		  if ( _1.part2Loop ) {
+			  _1.string += _1.printScale( {
+				  x: 1
+				  , y: -1
+				  , begin: _1.begin1
+			  } )
+			  ;
+		  }
+		  if ( _1.part3Loop ) {
+			  _1.string += _1.printScale( {
+				  x: -1
+				  , y: -1
+				  , begin: _1.begin1
+			  } )
+			  ;
+		  }
+		  return _1.string
+		  ;
+		  function AnimateMotion( $0, $1 ) {
+			  this.begin0 = $0.begin
+			  ; this.begin1 = _0.id + _0.globalCount
+				  + 'animate' + _0.localCount
+				  + ( $1 ? 'Infinity' : '' )
+				  + 'path1.end'
+			  ; this.cork = $1
+			  ; this.href = _0.id + _0.globalCount
+			  ; this.id = _0.id + _0.globalCount
+				  + 'animate' + _0.localCount
+			  ; this.part1Loop = _0.localCount % 4 == 1 ?
+				  true : false
+			  ; this.part2Loop = _0.localCount % 4 == 2 ?
+				  true : false
+			  ; this.part3Loop = _0.localCount % 4 == 3 ?
+				  true : false
+			  ; this.part4Loop = _0.localCount % 4 == 0 ?
+				  true : false
+			  ; this.point = $1 ?
+				  $0.thisCorkRecord : $0.thisRecord
+			  ; this.printCurve = printCurve
+			  ; this.printLine = printLine
+			  ; this.printRotate = printRotate
+			  ; this.printScale = printScale
+			  ; this.radius = $1 ?
+				  $0.corkRadius : $0.radius
+			  ; this.speed = _0.speed
+				  .substr( 0, _0.speed.length - 1 ) / 2
+				  + _0.speed.substr( _0.speed.length - 1 )
+			  ; this.string = ''
+			  ;
+		  }
+	  }
+	  function animateShrink( $0, $1 ) {
+		  function printFromTo( $0 ) {
+			  const _2 = $0
+			  ; return '  <animate\n'
+					+ '\t  href="#' + _1.href + '"\n'
+					+ ( _2.id ? '\t  id="' + _2.id + '"\n' : '' )
+					+ '\t  attributeName="' + _2.type + '"\n'
+					+ '\t  from="' + _2.from + '"\n'
+					+ '\t  to="' + _2.to + '"\n'
+					+ '\t  dur="' + _1.speed + '"\n'
+					+ '\t  begin="' + _1.begin + '"\n'
+					+ '\t  fill="freeze" />\n'
+			  ;
+		  }
+		  function printPause() {
+			  return '  <animate\n'
+				  + '\t  href="#' + _1.href + '"\n'
+				  + '\t  id="' + _1.id + '"\n'
+				  + '\t  dur="' + _0.pause + '"\n'
+				  + '\t  begin="' + _1.id + 'shrink.end"\n'
+				  + '\t  fill="freeze" />\n'
+			  ;
+		  }
+		  const _1 = new AnimateShrink( $0, $1 )
+		  ;
+		  if ( _0.vertical ) {
+			  _1.flip = _0.localCount % 2 > 0 ? true : false
+			  ;
+		  }
+		  if ( _1.cork ) {
+			  _1.href = _0.id + 'Infinity'
+			  ; _1.height = _0.corkA
+			  ; _1.width = _0.corkB2
+			  ;
+			  if ( _1.flip ) {
+				  _1.height = _0.corkB2
+				  ; _1.width = _0.corkA
+				  ;
+			  }
+		  }
+		  else if ( _1.flip ) {
+			  _1.height = _0.a
+			  ; _1.width = _0.b2
+			  ;
+		  }
+		  _1.string += _1.printFromTo( {
+			  type: 'width'
+			  , href: _1.href
+			  , from: _1.height * _1.thisPower
+			  , to: _1.height * _1.nextPower
+		  } )
+		  ; _1.string += _1.printFromTo( {
+			  type: 'height'
+			  , href: _1.href
+			  , id: _1.id + ( _1.pause ? 'shrink' : '' )
+			  , from: _1.width * _1.thisPower
+			  , to: _1.width * _1.nextPower
+		  } )
+		  ;
+		  if ( _1.pause ) {
+			  _1.string += _1.printPause()
+			  ;
+		  }
+		  if ( _1.cork ) {
+			  _1.string += '  <!-- ' + _0.id + _0.globalCount
+				  + ' animate' + _0.localCount + ' cork end -->\n'
+			  ;
+		  }
+		  return _1.string
+		  ;
+		  function AnimateShrink( $0, $1 ) {
+			  this.begin = _0.id + _0.globalCount
+				  + 'animate' + _0.localCount
+				  + ( $1 ? 'Infinity' : '' )
+				  + 'path1.end'
+			  ; this.cork = $1
+			  ; this.flip = _0.localCount % 2 > 0 ? false : true
+			  ; this.height = _0.b2
+			  ; this.href = _0.id + _0.globalCount
+			  ; this.id =  _0.id + _0.globalCount
+				  + 'animate' + _0.localCount
+			  ; this.nextPower = $0.xPower
+			  ; this.pause = _0.pause == '0s' ? false : true
+			  ; this.printFromTo = printFromTo
+			  ; this.printPause = printPause
+			  ; this.speed = _0.speed
+				  .substr( 0, _0.speed.length - 1 ) / 2
+				  + _0.speed.substr( _0.speed.length - 1 )
+			  ; this.string = ''
+			  ; this.thisPower = $0.xPowerMinus1
+			  ; this.width = _0.a
+			  ;
+		  }
+	  }
+	  function animateSize( $0, $1 ) {
+		  function printValue( $0 ) {
+			  const _2 = $0
+			  ; return '  <animate\n'
+					+ '\t  href="#' + _1.href + '"\n'
+					+ '\t  attributeName="' + _2.type + '"\n'
+					+ '\t  values="' + _2.value + '"\n'
+					+ '\t  begin="' + _1.begin + '"\n'
+					+ '\t  fill="freeze" />\n'
+			  ;
+		  }
+		  const _1 = new AnimateSize( $0, $1 )
+		  ;
+		  if ( ( _0.vertical && ! _1.cork ) || _1.cork ) {
+			  _1.flip = _0.localCount % 2 > 0 ? true : false
+			  ;
+		  }
+		  if ( _1.cork ) {
+			  _1.string += '  <!-- ' + _0.id + _0.globalCount
+				  + ' animate' + _0.localCount + ' cork start -->\n'
+			  ; _1.href = _0.id + 'Infinity'
+			  ; _1.height = _0.corkA
+			  ; _1.width = _0.corkB2
+			  ;
+			  if (
+				  ( ! _0.vertical && _1.flip )
+					  || ( _0.vertical && ! _1.flip )
+			  ) {
+				  _1.height = _0.corkB2
+				  ; _1.width = _0.corkA
+				  ;
+			  }
+			  if ( _0.localCount == 1 ) {
+				  _1.href = _0.id + 'Cork'
+				  ; _1.string += _1.printValue( {
+					  type: 'width'
+					  , value: 0
+				  } )
+				  ; _1.href = _0.id + 'Infinity'
+				  ;
+			  }
+		  }
+		  else if ( _1.flip ) {
+			  _1.height = _0.b2
+			  ; _1.width = _0.a
+			  ;
+		  }
+		  _1.string += _1.printValue( {
+			  type: 'width'
+			  , value: _1.width * _1.thisPower
+		  } )
+		  ; _1.string += _1.printValue( {
+			  type: 'height'
+			  , value: _1.height * _1.thisPower
+		  } )
+		  ; return _1.string
+		  ;
+		  function AnimateSize( $0, $1 ) {
+			  this.begin = $0.begin
+			  ; this.cork = $1
+			  ; this.flip = _0.localCount % 2 > 0 ? false : true
+			  ; this.height = _0.a
+			  ; this.href = _0.id + _0.globalCount
+			  ; this.printValue = printValue
+			  ; this.string = ''
+			  ; this.thisPower = $0.xPowerMinus1
+			  ; this.width = _0.b2
+			  ;
+		  }
+	  }
+	  function download( $0 ) {
+		  const _1 = new Download( $0 )
+		  ;
+		  if ( _1.file[0] ) {
+			  _1.lastFileA.id = 'file' + _1.file.length
+			  ;
+		  }
+		  _1.fileA.id = 'file'
+		  ; _1.fileA.setAttribute(
+			  'href'
+			  , 'data:text/plain;charset=utf-8,'
+				  + encodeURIComponent( _1.text )
+		  )
+		  ; _0.doc.body.append( _1.fileA )
+		  ; _1.downloadDiv.prepend( _1.socialNoteP )
+		  ; _1.downloadDiv.prepend( _1.breakerP )
+		  ;
+		  function Download( $0 ) {
+			  this.breakerP = _0.doc.createElement( 'p' )
+			  ; this.breakerP.innerHTML = '//////////////////////'
+				  + '//////////////////////'
+			  ; this.downloadDiv = _0.doc
+				  .getElementById( 'download' )
+			  ; this.downloadDiv.innerHTML = '<button id="save"'
+				  + 'style="background-color: lightsalmon;">'
+				  + 'click here to download the spiral</button>'
+			  ; this.file = [
+				  ... _0.doc.getElementsByClassName( 'file' )
+			  ]
+			  ; this.fileA = _0.doc.createElement( 'a' )
+			  ; this.fileA.style.display = 'none'
+			  ; this.fileA.download = _0.file
+			  ; this.fileA.className = 'file'
+			  ; this.lastFileA = _0.doc.getElementById( 'file' )
+			  ; this.socialNoteP = _0.doc.createElement( 'p' )
+			  ; this.socialNoteP.innerHTML = '<b>#pythagmetal</b>'
+				  + ' is the social media hash'
+				  + ' for images made by this program.'
+			  ; this.svg = _0.doc.getElementById( 'svg' )
+			  ; this.text = $0
+			  ;
+		  }
+	  }
+	  function drawPath( $0, $1 ) {
+		  function printCurve( $0 ) {
+			  const _2 = $0
+			  ; return '  <path\n'
+					+ '\t  id="' + _2.id + '"\n'
+					+ '\t  d="M ' + _1.point.A.x + ' '
+					+ _1.point.A.y + '\n'
+					+ '\t\t A ' + _1.radius + ' ' + _1.radius + '\n'
+					+ '\t\t 0, 0, 0 '
+					+ _1.point.B.x + ' ' + _1.point.B.y + '"\n'
+					+ '\t  opacity="' + _1.opacity + '"\n'
+					+ '\t  stroke-width="' + _2.size + '"\n'
+					+ '\t  stroke="' + _2.colour + '" />\n'
+			  ;
+		  }
+		  function printLine( $0 ) {
+			  const _2 = $0
+			  ; return '  <path\n'
+					+ '\t  id="' + _2.id + '"\n'
+					+ '\t  d="M ' + _1.point.B.x + ' '
+					+ _1.point.B.y + '\n'
+					+ '\t\t L ' + _1.point.C.x + ' '
+					+ _1.point.C.y + '"\n'
+					+ '\t  opacity="' + _1.opacity + '"\n'
+					+ '\t  stroke-width="' + _2.size + '"\n'
+					+ '\t  stroke="' + _2.colour + '" />\n'
+			  ;
+		  }
+		  const _1 = new DrawPath( $0, $1 )
+		  ; _1.string += '  <!-- ' + _1.id
+				+ ' animate' + _0.localCount + ' path start -->\n'
+		  ; _1.string += _1.printCurve( {
+			  id: _1.id + 'curve1in1'
+			  , size: _1.innerSize
+			  , colour: _1.innerColour
+		  } )
+		  ; _1.string += _1.printCurve( {
+			  id: _1.id + 'curve1'
+			  , size: _1.outerSize
+			  , colour: _1.outerColour
+		  } )
+		  ; _1.string += _1.printLine( {
+			  id: _1.id + 'line1in1'
+			  , size: _1.innerSize
+			  , colour: _1.innerColour
+		  } )
+		  ; _1.string += _1.printLine( {
+			  id: _1.id + 'line1'
+			  , size: _1.outerSize
+			  , colour: _1.outerColour
+		  } )
+		  ; _1.string += '  <!-- ' + _1.id
+				+ ' animate' + _0.localCount + ' path end -->\n'
+		  ; return _1.string
+		  ;
+		  function DrawPath( $0, $1 ) {
+			  this.id = _0.id
+				  + ( $1 ? 'Infinity' : '' )
+				  + _0.globalCount
+			  ; this.innerColour = 'black'
+			  ; this.innerSize = _0.drawPathSizeInner
+			  ; this.opacity = _0.drawPathOpacity
+			  ; this.outerColour = $1 ?
+				  _0.colours[
+					  ( _0.globalCount ) % _0.colours.length
+				  ]
+				  : _0.colours[
+					  ( _0.globalCount - 1 ) % _0.colours.length
+				  ]
+			  ; this.outerSize = _0.drawPathSizeOuter
+			  ; this.point = $1 ?
+				  $0.thisCorkRecord : $0.thisRecord
+			  ; this.printCurve = printCurve
+			  ; this.printLine = printLine
+			  ; this.radius = $1 ? $0.corkRadius : $0.radius
+			  ; this.string = ''
+			  ;
+		  }
+	  }
+	  function dynamicObjectLoop( $0 ) {
+		  function getPoints() {
+			  if ( _0.vertical ) {
+				  _1.part2Loop = _1.count % 4 == 1 ? true : false
+				  ; _1.part3Loop = _1.count % 4 == 2 ? true : false
+				  ; _1.part4Loop = _1.count % 4 == 3 ? true : false
+				  ; _1.part1Loop = _1.count % 4 == 0 ? true : false
+				  ;
+			  }
+			  _1.endPoint = _0.endPoints[ _1.index ]
+			  ; _1.endPointHorizontal = _1.part1Loop
+				  || _1.part3Loop ?
+				  _0.a * _1.endPointX : _0.b2 * _1.endPointX
+			  ; _1.endPointVertical = _1.part1Loop
+				  || _1.part3Loop ?
+				  _0.b2 * _1.endPointX : _0.a * _1.endPointX
+			  ;
+			  if ( _1.part1Loop ) {
+				  _1.string += _1.printObjectDimension( {
+					  x: _1.endPoint.x
+					  , y: _1.endPoint.y - _1.endPointVertical
+				  } )
+				  ; return
+				  ;
+			  }
+			  if ( _1.part3Loop ) {
+				  _1.string += _1.printObjectDimension( {
+					  x: _1.endPoint.x - _1.endPointHorizontal
+					  , y: _1.endPoint.y
+				  } )
+				  ; return
+				  ;
+			  }
+			  if ( _1.part4Loop ) {
+				  _1.string += _1.printObjectDimension( {
+					  x: _1.endPoint.x - _1.endPointHorizontal
+					  , y: _1.endPoint.y - _1.endPointVertical
+				  } )
+				  ; return
+				  ;
+			  }
+			  _1.string += _1.printObjectDimension( {
+				  x: _1.endPoint.x
+				  , y: _1.endPoint.y
+			  } )
+			  ; return
+			  ;
+		  }
+		  function next() {
+			  if ( _1.count > -1 ) {
+				  if ( _0.picture && ! _1.end ) {
+					  _1.writeNext()
+					  ; return
+					  ;
+				  }
+				  _0.svg += _1.string
+				  ; _1.writeNext()
+				  ; return
+				  ;
+			  }
+			  if ( _1.count > -2 && _0.cork ) {
+				  _0.corkThread[ 3 ] = { C: {
+					  x: _1.corkX
+					  , y: _1.corkY
+				  } }
+				  ; _1.string += _1.printCork()
+				  ;
+				  if ( _0.picture && ! _1.end ) {
+					  _1.writeNext()
+					  ; return
+					  ;
+				  }
+				  _0.svg += _1.string
+				  ; _1.writeNext()
+				  ; return
+				  ;
+			  }
+			  if ( _0.picture && _1.end ) {
+				  _0.footer( true )
+				  ; return
+				  ;
+			  }
+			  _0.part1Loop()
+			  ;
+		  }
+		  function printCork() {
+			  return '  <rect\n'
+				  + '\t  id="' + _0.id + 'Infinity"\n'
+				  + '\t  stroke="' + _0.cellBorderColour + '"\n'
+				  + '\t  stroke-width="' + _0.cellBorderSize + '"\n'
+				  + '\t  opacity="' + _0.opacity + '"\n'
+				  + '\t  fill="' + _0.cork + '" />\n'
+			  ;
+		  }
+		  function printObjectEnd() {
+			  return '\t  stroke="' + _0.cellBorderColour + '"\n'
+				  + '\t  stroke-width="' + _0.cellBorderSize + '"\n'
+				  + '\t  opacity="' + _0.opacity + '"\n'
+				  + '\t  fill="' + _0.colours[
+					  ( _1.index - 1 ) % _0.colours.length
+				  ] + '" />\n'
+			  ;
+		  }
+		  function printObjectDimension( $0 ) {
+			  const _2 = $0
+			  ; return '\t  height="' + _1.endPointVertical + '"\n'
+					+ '\t  width="' + _1.endPointHorizontal + '"\n'
+					+ '\t  x="' + _2.x + '"\n'
+					+ '\t  y="' + _2.y + '"\n'
+			  ;
+		  }
+		  function readNext( $0, $1 ) {
+			  const _2 = { error: $0, data: $1 }
+			  ;
+			  if ( _2.error ) {
+				  console.log(
+					  '> warn <\n', _2.error, '\n', _1, '\n< warn >'
+				  )
+				  ;
+			  }
+			  _1.string += _2.data + '"\n'
+			  ; _1.string += _1.printObjectEnd()
+			  ; _1.next()
+			  ;
+		  }
+		  function writeNext( $0 ) {
+			  const _2 = { error: $0 }
+			  ;
+			  if ( _2.error ) {
+				  console.log(
+					  '> warn <\n', _2.error, '\n', _1, '\n< warn >'
+				  )
+				  ;
+			  }
+			  _0.dynamicObjectLoop(
+				  { count: _1.count, end: _1.end }
+			  )
+			  ;
+		  }
+		  const _1 = new DynamicObjectLoop( $0 )
+		  ; _1.count --
+		  ;
+		  if ( _0.picture && _1.end && _1.count > -1 ) {
+			  _1.getPoints()
+			  ;
+		  }
+		  if ( _0.imageDiv[0] ) {
+			  _1.string += (
+				  _0.picture && _1.count > - 1 ?
+					  '' : '\t  width="0"\n'
+			  ) + '\t  xlink:href="' + _1.imageDiv.querySelector(
+				  '[id=image' + (
+					  _0.vertical ?
+						  ( _1.index + 2 ) % 4 : _1.index % 4
+				  ) + ']'
+			  ).href + '"\n'
+			  ; _1.string += _1.printObjectEnd()
+			  ; _1.next()
+			  ; return
+			  ;
+		  }
+		  _1.string += _1.printObjectEnd()
+		  ; _1.next()
+		  ;
+		  function DynamicObjectLoop( $0 ) {
+			  this.count = $0.count
+			  ; this.end = $0.end
+			  ; this.endPoint = null
+			  ; this.endPointHorizontal = null
+			  ; this.endPointVertical = null
+			  ; this.getPoints = getPoints
+			  ; this.imageDiv = _0.imageDiv[
+				  ( _0.repeat - this.count ) % _0.imageDiv.length
+			  ]
+			  ; this.index = _0.repeat - this.count
+			  ;
+			  this.endPointX = Math.pow( _0.x, this.index )
+			  ; this.next = next
+			  ; this.part1Loop = this.count % 4 == 0 ? true : false
+			  ; this.part2Loop = this.count % 4 == 1 ? true : false
+			  ; this.part3Loop = this.count % 4 == 2 ? true : false
+			  ; this.part4Loop = this.count % 4 == 3 ? true : false
+			  ; this.printCork = printCork
+			  ; this.printObjectEnd = printObjectEnd
+			  ; this.printObjectDimension = printObjectDimension
+			  ; this.readNext = readNext
+			  ; this.string = (
+				  _0.imageDiv[0] ? '  <image\n' : '  <rect\n'
+			  ) + '\t  id="' + _0.id + this.index + '"\n'
+			  ; this.writeNext = writeNext
+			  ;
+		  }
+	  }
+	  function endParts() {
+		  _0.globalCount ++
+		  ;
+		  if ( _0.picture ) {
+			  if ( _0.cork ) {
+				  _0.corkEndPoints.push(
+					  _0.corkThread[ ( _0.localCount - 1 ) % 4 ].C
+				  )
+				  ;
+			  }
+			  _0.endPoints.push(
+				  _0.thread[ ( _0.localCount - 1 ) % 4 ].C
+			  )
+			  ;
+		  }
+		  if ( _0.repeat - _0.globalCount + 1 ) {
+			  _0.localCount = 1
+			  ; _0.corkThread = [ null, null, null, null ]
+			  ; _0.thread = [ null, null, null, null ]
+			  ; _0.part1Loop()
+			  ; return
+			  ;
+		  }
+		  _0.footer()
+		  ;
+	  }
+	  function footer( $0 ) {
+		  function printPause() {
+			  return '  <animate\n'
+				  + '\t  href="#' + _1.href + '"\n'
+				  + '\t  id="' + _0.id + 'ResetAnimate"\n'
+				  + '\t  attributeName="fill"\n'
+				  + '\t  values="' + _1.endColour + '"\n'
+				  + '\t  dur="' + _0.pause + '"\n'
+				  + '\t  begin="' + _1.begin0 + '.end"\n'
+				  + '\t  fill="freeze" />\n'
+			  ;
+		  }
+		  function printReset( $0 ) {
+			  const _2 = $0
+			  ; return '  <animate\n'
+					+ '\t  href="#' + _2.href + '"\n'
+					+ (
+						_2.id ?
+							'\t  id="' + _0.id + 'EndAnimate"\n'
+							: ''
+					)
+					+ '\t  attributeName="' + _2.attributeName
+					+ '"\n'
+					+ '\t  values="' + _2.value + '"\n'
+					+ '\t  dur="' + _0.pause + '"\n'
+					+ '\t  begin="' + _2.begin + '.end"\n'
+					+ '\t  fill="freeze" />\n'
+			  ;
+		  }
+		  function writeNext( $0 ) {
+			  const _2 = { error: $0 }
+			  ;
+			  if ( _2.error ) {
+				  console.log(
+					  '> warn <\n', _2.error, '\n', _1, '\n< warn >'
+				  )
+				  ;
+			  }
+			  _0.doc.getElementById( 'svg' ).innerHTML = _0.svg
+			  ; _0.download( _0.svg )
+			  ; console.log(
+				  '> log <\n'
+				  , 'Finished making ' + _0.file
+					  + ' with a ' + _0.x + ' scale invariant.\n'
+					  + ' :0) :O) :o)\n'
+					  + '< log >'
+			  )
+			  ;
+		  }
+		  if ( _0.picture && ! $0 ) {
+			  _0.dynamicObjectLoop( { count: _0.repeat, end: true } )
+			  ; return
+			  ;
+		  }
+		  const _1 = new Footer
+		  ; _1.string += '  <!-- dynamic ' + _0.id
+				+ ' objects end -->\n'
+		  ;
+		  if ( _0.loop || _0.clickStart ) {
+			  if ( _1.pause ) {
+				  _1.string += _1.printPause()
+				  ; _1.string += _1.printReset( {
+					  href: _1.href
+					  , id: true
+					  , attributeName: 'fill'
+					  , value: _0.startColour
+					  , begin: _1.begin1
+				  } )
+				  ;
+			  }
+			  else {
+				  _1.string += _1.printReset( {
+					  href: _1.href
+					  , attributeName: 'fill'
+					  , value: _0.startColour
+					  , begin: _1.begin0
+				  } )
+				  ;
+			  }
+			  while ( _1.count < _0.repeat + 1 ) {
+				  _1.string += _1.printReset( {
+					  href: _0.id + _1.count
+					  , attributeName: 'width'
+					  , value: 0
+					  , begin: _1.pause ? _1.begin1 : _1.begin0
+				  } )
+				  ; _1.count ++
+				  ;
+			  }
+			  if ( _0.cork && _1.pause ) {
+				  _1.string += _1.printReset( {
+					  href: _0.id + 'Infinity'
+					  , attributeName: 'width'
+					  , value: 0
+					  , begin: _1.begin1
+				  } )
+				  ; _1.string += _1.printReset( {
+					  href: _0.id + 'Cork'
+					  , attributeName: 'width'
+					  , value: _0.vertical ? _0.corkA : _0.a
+					  , begin: _1.begin1
+				  } )
+				  ;
+			  }
+		  }
+		  _1.string += (
+			  _0.embed ? '  <!-- ' + _0.id + ' end -->' : '</svg>\n'
+		  )
+		  ; _0.svg += _1.string
+		  ; _1.writeNext()
+		  ;
+		  function Footer() {
+			  this.begin0 = _0.id + _0.repeat
+				  + 'animate' + _0.repeat
+			  ; this.begin1 = _0.id + 'ResetAnimate'
+			  ; this.count = _0.pause == '0s' ? 2 : 1
+			  ; this.endColour = _0.colours[
+				  ( _0.globalCount + 1 ) % _0.colours.length
+			  ]
+			  ; this.href = _0.id + ( _0.repeat + 1 )
+			  ; this.pause = _0.pause == '0s' ? false : true
+			  ; this.printPause = printPause
+			  ; this.printReset = printReset
+			  ; this.string = '  <!-- ' + _0.id
+				  + ' animation end -->\n'
+			  ; this.writeNext = writeNext
+			  ;
+		  }
+	  }
+	  function header() {
+		  function CorkMeasure() {
+			  this.height = - _0.borderSize
+				  + (
+					  _0.vertical ?
+						  _0.totalHeight : _0.totalHeight - _0.b2
+				  )
+			  ; this.width = - _0.borderSize
+				  + (
+					  _0.vertical ?
+						  _0.totalWidth - _0.b2 : _0.totalWidth
+				  )
+			  ; this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + ( _0.vertical ? _0.b2 : 0 )
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + ( _0.vertical ? 0 : _0.b2 )
+			  ;
+		  }
+		  function next() {
+			  _1.string += _1.printTailEnd()
+			  ;
+			  if ( _0.cork ) {
+				  _1.corkMeasure = new _1.CorkMeasure
+				  ; _1.string += _1.printCork()
+				  ;
+			  }
+			  _1.string += '  <!-- static ' + _0.id
+				  + ' objects end -->\n'
+			  ; _1.string += '  <!-- dynamic '
+				  + _0.id + ' objects start -->\n'
+			  ; _0.svg += _1.string
+			  ; _1.writeNext()
+			  ;
+		  }
+		  function printCanvas() {
+			  return '  <rect\n'
+				  + '\t  id="' + _0.id + '0"\n'
+				  + '\t  width="' + _0.totalWidth + '"\n'
+				  + '\t  height="' + _0.totalHeight + '"\n'
+				  + '\t  x="' + _0.offset.x + '"\n'
+				  + '\t  y="' + _0.offset.y + '"\n'
+				  + (
+					  _0.background ?
+						  '\t  fill="' + _0.background + '"\n' : ''
+				  )
+				  + '\t  stroke="' + _0.borderColour + '"\n'
+				  + '\t  stroke-width="' + _0.borderSize + '" />\n'
+			  ;
+		  }
+		  function printCork() {
+			  return '  <rect\n'
+				  + '\t  id="' + _0.id + 'Cork"\n'
+				  + '\t  width="' + _1.corkMeasure.width + '"\n'
+				  + '\t  height="' + _1.corkMeasure.height + '"\n'
+				  + '\t  x="' + _1.corkMeasure.x + '"\n'
+				  + '\t  y="' + _1.corkMeasure.y + '"\n'
+				  + '\t  stroke="' + _0.cellBorderColour + '"\n'
+				  + '\t  stroke-width="' + _0.cellBorderSize + '"\n'
+				  + '\t  opacity="' + _0.opacity + '"\n'
+				  + '\t  fill="' + _0.cork + '" />\n'
+			  ;
+		  }
+		  function printParentStart() {
+			  return '<svg \n'
+				  + '\txmlns="http://www.w3.org/2000/svg"\n'
+				  +' \txmlns:xlink="http://www.w3.org/1999/xlink"\n'
+				  + '\tversion="1.1"\n'
+				  + '\tviewBox="' + ( - _0.viewBoxAdd.width )
+				  + ' ' + ( - _0.viewBoxAdd.height )
+				  + ' ' + _1.viewBoxWidth
+				  + ' ' + _1.viewBoxHeight
+				  + '"\n'
+				  + '\tfill="none" >\n'
+			  ;
+		  }
+		  function printTailEnd() {
+			  return '\t  width="' + _1.width + '"\n'
+				  + '\t  height="' + _1.height + '"\n'
+				  + '\t  x="' + ( _0.offset.x + _0.borderSize / 2 )
+				  + '"\n'
+				  + '\t  y="' + ( _0.offset.y + _0.borderSize / 2 )
+				  + '"\n'
+				  + '\t  opacity="' + _0.opacity + '"\n'
+				  + '\t  fill="' + _0.startColour + '"\n'
+				  + '\t  stroke="' + _0.cellBorderColour + '"\n'
+				  + '\t  stroke-width="' + _0.cellBorderSize
+				  + '" />\n'
+			  ;
+		  }
+		  function printTailStart() {
+			  return ( _0.imageDiv[0] ? '  <image\n' : '  <rect\n' )
+				  + '\t  id="' + _0.id + ( _0.repeat + 1 ) + '"\n'
+				  + ( _0.imageDiv[0] ? '\t  href="' : '' )
+			  ;
+		  }
+		  function readNext( $0, $1 ) {
+			  const _2 = { error: $0, data: $1 }
+			  ;
+			  if ( _2.error ) {
+				  console.log(
+					  '> warn <\n', _2.error, '\n', _1, '\n< warn >'
+				  )
+				  ;
+			  }
+		  }
+		  function writeNext( $0 ) {
+			  const _2 = { error: $0 }
+			  ;
+			  if ( _2.error ) {
+				  console.log(
+					  '> warn <\n', _2.error, '\n', _1, '\n< warn >'
+				  )
+				  ;
+			  }
+			  _0.dynamicObjectLoop( { count: _0.repeat } )
+			  ;
+		  }
+		  const _1 = new Header
+		  ; _1.string += _1.printParentStart()
+		  ;
+		  if ( _0.embed ) {
+			  _1.string = ''
+			  ;
+		  }
+		  _1.string += '  <!-- static ' + _0.id
+			  + ' objects start -->\n'
+		  ; _1.string += _1.printCanvas()
+		  ; _1.string += _1.printTailStart()
+		  ;
+		  if ( _1.imageDiv ) {
+			  _1.string += _1.imageDiv
+				  .querySelector( '[id=image0]' ).href + '"\n'
+			  ; _1.string += _1.printTailEnd()
+			  ; _1.next()
+			  ; return
+			  ;
+		  }
+		  _1.next()
+		  ;
+		  function Header() {
+			  this.corkMeasure = null
+			  ; this.CorkMeasure = CorkMeasure
+			  ; this.height = _0.vertical ? _0.a : _0.b2
+			  ; this.imageDiv = _0.imageDiv.shift()
+			  ; this.next = next
+			  ; this.printCanvas = printCanvas
+			  ; this.printCork = printCork
+			  ; this.printParentStart = printParentStart
+			  ; this.printTailStart = printTailStart
+			  ; this.printTailEnd = printTailEnd
+			  ; this.readNext = readNext
+			  ; this.string = ''
+			  ; this.viewBoxWidth = _0.totalWidth
+				  + ( _0.viewBoxAdd.width * 2 )
+			  ; this.viewBoxHeight = _0.totalHeight
+				  + ( _0.viewBoxAdd.height * 2 )
+			  ; this.width = _0.vertical ? _0.b2 : _0.a
+			  ; this.writeNext = writeNext
+			  ;
+		  }
+	  }
+	  function html() {
+		  console.log(_0)
+		  if ( _0.init ) {
+			  _0.alchemyScript.addEventListener( 'click', () => {
+				  _0.alchemy()
+				  ;
+			  } )
+			  ; return false
+			  ;
+		  }
+		  if ( _0.inputImg && _0.data.vertical ) {
+			  _0.a = _0.inputImg.naturalHeight
+			  ; _0.totalHeight = _0.a + _0.borderSize
+			  ; _0.b2 = _0.inputImg.naturalWidth
+			  ;
+		  }
+		  if ( _0.inputImg && ! _0.data.vertical ) {
+			  _0.a = _0.inputImg.naturalWidth
+			  ; _0.totalWidth = _0.a + _0.borderSize
+			  ; _0.b2 = _0.inputImg.naturalHeight
+			  ;
+		  }
+		  return true
+	  }
+	  function part1Loop() {
+		  function CorkPointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPower
+			  ; this.addToX = _0.b2 * _1.xPower
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus1
+				  + _0.a * _1.xPower
+			  ; this.addToY = - _0.b2 * _1.xPowerMinus3
+			  ;
+		  }
+		  function firstLastCorkRecord() {
+			  if ( _0.vertical ) {
+				  _1.lastCorkRecord = { C: {
+					  x: _0.offset.x
+						  + _0.borderSize / 2
+						  + _0.b2 * _1.xPowerMinus1
+					  , y: _0.offset.y
+						  + _0.borderSize / 2
+						  + _0.a * _1.xPowerMinus1
+				  } }
+				  ; return
+				  ;
+			  }
+			  _1.lastCorkRecord = { C: {
+				  x: _0.offset.x
+					  + _0.borderSize / 2
+				  , y: _0.offset.y
+					  + _0.borderSize / 2
+					  + _0.b2 * _1.xPowerMinus1
+			  } }
+			  ;
+		  }
+		  function firstLastRecord() {
+			  if ( _0.vertical ) {
+				  _1.lastRecord = { C: {
+					  x: _0.offset.x
+						  + _0.borderSize / 2
+					  , y: _0.offset.y
+						  + _0.borderSize / 2
+				  } }
+				  ; return
+				  ;
+			  }
+			  _1.lastRecord = { C: {
+				  x: _0.offset.x
+					  + _0.borderSize / 2
+					  + _0.a * _1.xPowerMinus1
+				  , y: _0.offset.y
+					  + _0.borderSize / 2
+			  } }
+			  ;
+		  }
+		  function PointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+			  ; this.addToX = _0.b2 * _1.xPowerMinus4
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus1
+			  ; this.addToY = _0.b2 * _1.xPowerMinus1
+			  ;
+		  }
+		  function printValue() {
+			  return '  <animate\n'
+				  + '\t  href="#' + _0.id
+				  + ( _0.repeat + 1 ) + '"\n'
+				  + '\t  attributeName="fill"\n'
+				  + '\t  values="' + _1.colour + '"\n'
+
+				  + '\t  dur="' + (
+					  _1.firstObject ? '0s' : _0.speed
+				  ) + '"\n'
+				  + '\t  begin="' + _1.begin + '"\n'
+				  + '\t  fill="freeze" />\n'
+			  ;
+		  }
+		  function VerticalCorkPointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus1
+				  + _0.a * _1.xPower
+			  ; this.addToX = - _0.b2 * _1.xPowerMinus3
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.a * _1.xPowerMinus1
+				  - _0.b2 * _1.xPower
+			  ; this.addToY = - _0.b2 * _1.xPower
+			  ;
+		  }
+		  function VerticalPointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus1
+			  ; this.addToX = _0.b2 * _1.xPowerMinus1
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.a * _1.xPowerMinus1
+			  ; this.addToY = - _0.b2 * _1.xPowerMinus4
+			  ;
+		  }
+		  function writeNext( $0 ) {
+			  const _2 = { error: $0 }
+			  ;
+			  if ( _2.error ) {
+				  console.log(
+					  '> warn <\n', _2.error, '\n', _1, '\n< warn >'
+				  )
+				  ;
+			  }
+			  if ( _0.globalCount - _0.localCount ) {
+				  _0.localCount ++
+				  ; _1.nextPart( _1 )
+				  ; return
+				  ;
+			  }
+			  _0.endParts()
+			  ;
+		  }
+		  const _1 = new Part1Loop
+		  ;
+		  if ( ! _1.lastRecord ) {
+			  _1.firstLastRecord()
+			  ;
+			  if ( _0.cork ) {
+				  _1.firstLastCorkRecord()
+				  ;
+			  }
+		  }
+		  if ( _1.firstLoop ) {
+			  if ( _1.firstObject ) {
+				  _1.begin = _1.start + (
+					  _0.loop ? '; ' +  _1.loopStart : ''
+				  )
+				  ;
+			  }
+			  else {
+				  _1.begin = _0.id + ( _0.globalCount - 1 )
+					  + 'animate' + ( _0.globalCount - 1 )
+					  + '.end'
+				  ;
+			  }
+			  if ( ! _0.lead ) {
+				  _1.string += _1.printValue()
+				  ;
+			  }
+		  }
+		  if ( _0.vertical ) {
+			  _1.radiusX = _1.radius
+			  ; _1.corkRadiusY = - _1.corkRadius
+			  ;
+		  }
+		  _0.runPart( _1 )
+		  ;
+		  function Part1Loop() {
+			  this.begin = _0.id + (
+				  _0.lead ?
+					  ( _0.globalCount - 1 )
+					  + 'animate' + ( _0.localCount - 1 )
+					  : _0.globalCount
+					  + 'animate' + ( _0.localCount - 1 )
+			  ) + '.end'
+			  ; this.colour = _0.globalCount == _0.repeat
+				  && _0.lead ?
+				  _0.colours[ _0.colours.length -1 ]
+				  : _0.colours[ _0.globalCount % _0.colours.length ]
+			  ; this.corkPointC = null
+			  ; this.CorkPointC = CorkPointC
+			  ; this.corkRadius = _0.corkB2 * Math.pow(
+				  _0.x, _0.localCount - 1
+			  )
+			  ; this.corkRadiusX = this.corkRadius
+			  ; this.corkRadiusY = this.corkRadius
+			  ; this.drawPath = _0.drawPath1
+			  ; this.firstLastCorkRecord = firstLastCorkRecord
+			  ; this.firstLastRecord = firstLastRecord
+			  ; this.firstLoop = _0.localCount < 5 ? true : false
+			  ; this.firstObject = _0.globalCount < 2 ? true : false
+			  ; this.lastCorkRecord = _0.corkThread[ 3 ] ?
+				  _0.corkThread[ 3 ] : null
+			  ; this.lastRecord = _0.thread[ 3 ] ?
+				  _0.thread[ 3 ] : null
+			  ; this.loopStart = (
+				  _0.pause == '0s' ?
+					  _0.id + _0.repeat + 'animate' + _0.repeat
+					  : _0.id + 'EndAnimate'
+			  ) + '.end'
+			  ; this.nextPart = _0.part2Loop
+			  ; this.pointC = null
+			  ; this.PointC = PointC
+			  ; this.printValue = printValue
+			  ; this.radius = _0.b2 * Math.pow(
+				  _0.x, _0.localCount - 1
+			  )
+			  ; this.radiusX = - this.radius
+			  ; this.radiusY = this.radius
+			  ; this.start = _0.clickStart ?
+				  _0.id + ( _0.repeat + 1) + '.click' : _0.pause
+			  ; this.string = (
+				  this.firstLoop ?
+					  '  <!-- dynamic object automation -->\n' : ''
+			  )
+				  + '  <!-- ' + _0.id + _0.globalCount
+				  + ' animate' + _0.localCount + ' -->\n'
+			  ; this.thisCorkRecord = _0.corkThread[ 0 ] ?
+				  _0.corkThread[ 0 ] : null
+			  ; this.thisRecord = _0.thread[ 0 ] ?
+				  _0.thread[ 0 ] : null
+			  ; this.threadCount = ( _0.localCount - 1 ) % 4
+			  ; this.VerticalCorkPointC = VerticalCorkPointC
+			  ; this.VerticalPointC = VerticalPointC
+			  ; this.writeNext = writeNext
+			  ; this.xPower = Math.pow( _0.x, _0.localCount )
+			  ; this.xPowerMinus1 = Math.pow(
+				  _0.x, _0.localCount - 1
+			  )
+			  ; this.xPowerMinus3 = Math.pow(
+				  _0.x, _0.localCount - 3
+			  )
+			  ; this.xPowerMinus4 = Math.pow(
+				  _0.x, _0.localCount - 4
+			  )
+			  ;
+		  }
+	  }
+	  function part2Loop() {
+		  function CorkPointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.a * _1.xPowerMinus2
+			  ; this.addToX = - _0.b2 * _1.xPowerMinus3
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.a * _1.xPowerMinus3
+				  - _0.b2 * _1.xPower
+			  ; this.addToY = - _0.b2 * _1.xPower
+			  ;
+		  }
+		  function PointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus1
+			  ; this.addToX = _0.b2 * _1.xPowerMinus1
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.a * _1.xPowerMinus3
+			  ; this.addToY = - _0.b2 * _1.xPowerMinus4
+			  ;
+		  }
+		  function VerticalCorkPointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.a * _1.xPowerMinus3
+				  - _0.b2 * _1.xPower
+			  ; this.addToX = - _0.b2 * _1.xPower
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+			  ; this.addToY = _0.b2 * _1.xPowerMinus3
+			  ;
+		  }
+		  function VerticalPointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.a * _1.xPowerMinus3
+			  ; this.addToX = - _0.b2 * _1.xPowerMinus4
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.a * _1.xPower
+			  ; this.addToY = - _0.b2 * _1.xPowerMinus1
+			  ;
+		  }
+		  function writeNext( $0 ) {
+			  const _2 = { error: $0 }
+			  ;
+			  if ( _2.error ) {
+				  console.log(
+					  '> warn <\n', _2.error, '\n', _1, '\n< warn >'
+				  )
+				  ;
+			  }
+			  if ( _0.globalCount - _0.localCount ) {
+				  _0.localCount ++
+				  ; _1.nextPart( _1 )
+				  ; return
+				  ;
+			  }
+			  _0.endParts()
+			  ;
+		  }
+		  const _1 = new Part2Loop
+		  ;
+		  if ( _0.vertical ) {
+			  _1.radiusY = - _1.radius
+			  ; _1.corkRadiusX = - _1.corkRadius
+			  ;
+		  }
+		  _0.runPart( _1 )
+		  ;
+		  function Part2Loop() {
+			  this.begin = _0.id + (
+				  _0.lead ?
+					  ( _0.globalCount - 1 )
+					  + 'animate' + ( _0.globalCount - 1 )
+					  : _0.globalCount
+					  + 'animate' + ( _0.localCount - 1 )
+			  ) + '.end'
+			  ; this.corkPointC = null
+			  ; this.CorkPointC = CorkPointC
+			  ; this.corkRadius = _0.corkB2 * Math.pow(
+				  _0.x, _0.localCount - 1
+			  )
+			  ; this.corkRadiusX = this.corkRadius
+			  ; this.corkRadiusY = - this.corkRadius
+			  ; this.drawPath = _0.drawPath2
+			  ; this.lastCorkRecord = _0.corkThread[ 0 ] ?
+				  _0.corkThread[ 0 ] : null
+			  ; this.lastRecord = _0.thread[ 0 ]
+			  ; this.nextPart = _0.part3Loop
+			  ; this.pointC = null
+			  ; this.PointC = PointC
+			  ; this.radius = _0.b2 * Math.pow(
+				  _0.x, _0.localCount - 1
+			  )
+			  ; this.radiusX = this.radius
+			  ; this.radiusY = this.radius
+			  ; this.string = '  <!-- ' + _0.id + _0.globalCount
+				  + ' animate' + _0.localCount + ' -->\n'
+			  ; this.thisCorkRecord = _0.corkThread[ 1 ] ?
+				  _0.corkThread[ 1 ] : null
+			  ; this.thisRecord = _0.thread[ 1 ] ?
+				  _0.thread[ 1 ] : null
+			  ; this.threadCount = ( _0.localCount - 1 ) % 4
+			  ; this.VerticalCorkPointC = VerticalCorkPointC
+			  ; this.VerticalPointC = VerticalPointC
+			  ; this.writeNext = writeNext
+			  ; this.xPower = Math.pow( _0.x, _0.localCount )
+			  ; this.xPowerMinus1 = Math.pow(
+				  _0.x, _0.localCount - 1
+			  )
+			  ; this.xPowerMinus2 = Math.pow(
+				  _0.x, _0.localCount - 2
+			  )
+			  ; this.xPowerMinus3 = Math.pow(
+				  _0.x, _0.localCount - 3
+			  )
+			  ; this.xPowerMinus4 = Math.pow(
+				  _0.x, _0.localCount - 4
+			  )
+			  ;
+		  }
+	  }
+	  function part3Loop() {
+		  function CorkPointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.a * _1.xPowerMinus3
+				  - _0.b2 * _1.xPower
+			  ; this.addToX = - _0.b2 * _1.xPower
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus3
+			  ; this.addToY = _0.b2 * _1.xPowerMinus3
+			  ;
+		  }
+		  function PointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.a * _1.xPowerMinus3
+			  ; this.addToX = - _0.b2 * _1.xPowerMinus4
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.a * _1.xPowerMinus4
+				  - _0.b2 * _1.xPowerMinus1
+			  ; this.addToY = - _0.b2 * _1.xPowerMinus1
+			  ;
+		  }
+		  function VerticalCorkPointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus3
+			  ; this.addToX = _0.b2 * _1.xPowerMinus3
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPower
+			  ; this.addToY = _0.b2 * _1.xPower
+			  ;
+		  }
+		  function VerticalPointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.a * _1.xPowerMinus4
+				  - _0.b2 * _1.xPowerMinus1
+			  ; this.addToX = - _0.b2 * _1.xPowerMinus1
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+			  ; this.addToY = _0.b2 * _1.xPowerMinus4
+			  ;
+		  }
+		  function writeNext( $0 ) {
+			  const _2 = { error: $0 }
+			  ;
+			  if ( _2.error ) {
+				  console.log(
+					  '> warn <\n', _2.error, '\n', _1, '\n< warn >'
+				  )
+				  ;
+			  }
+			  if ( _0.globalCount - _0.localCount ) {
+				  _0.localCount ++
+				  ; _1.nextPart( _1 )
+				  ; return
+				  ;
+			  }
+			  _0.endParts()
+			  ;
+		  }
+		  const _1 = new Part3Loop
+		  ;
+		  if ( _0.vertical ) {
+			  _1.radiusX = - _1.radius
+			  ; _1.corkRadiusY = _1.corkRadius
+			  ;
+		  }
+		  _0.runPart( _1 )
+		  ;
+		  function Part3Loop() {
+			  this.begin = _0.id + (
+				  _0.lead ?
+					  ( _0.globalCount - 1 )
+					  + 'animate' + ( _0.globalCount - 1 )
+					  : _0.globalCount
+					  + 'animate' + ( _0.localCount - 1 )
+			  ) + '.end'
+			  ; this.corkPointC = null
+			  ; this.CorkPointC = CorkPointC
+			  ; this.corkRadius = _0.corkB2 * Math.pow(
+				  _0.x, _0.localCount - 1
+			  )
+			  ; this.corkRadiusX = - this.corkRadius
+			  ; this.corkRadiusY = - this.corkRadius
+			  ; this.drawPath = _0.drawPath3
+			  ; this.lastCorkRecord = _0.corkThread[ 1 ] ?
+				  _0.corkThread[ 1 ] : null
+			  ; this.lastRecord = _0.thread[ 1 ]
+			  ; this.nextPart = _0.part4Loop
+			  ; this.pointC = null
+			  ; this.PointC = PointC
+			  ; this.radius = _0.b2 * Math.pow(
+				  _0.x, _0.localCount - 1
+			  )
+			  ; this.radiusX = this.radius
+			  ; this.radiusY = - this.radius
+			  ; this.string = '  <!-- ' + _0.id + _0.globalCount
+				  + ' animate' + _0.localCount + ' -->\n'
+			  ; this.thisCorkRecord = _0.corkThread[ 2 ] ?
+				  _0.corkThread[ 2 ] : null
+			  ; this.thisRecord = _0.thread[ 2 ] ?
+				  _0.thread[ 2 ] : null
+			  ; this.threadCount = ( _0.localCount - 1 ) % 4
+			  ; this.VerticalCorkPointC = VerticalCorkPointC
+			  ; this.VerticalPointC = VerticalPointC
+			  ; this.writeNext = writeNext
+			  ; this.xPower = Math.pow( _0.x, _0.localCount )
+			  ; this.xPowerMinus1 = Math.pow(
+				  _0.x, _0.localCount - 1
+			  )
+			  ; this.xPowerMinus3 = Math.pow(
+				  _0.x, _0.localCount - 3
+			  )
+			  ; this.xPowerMinus4 = Math.pow(
+				  _0.x, _0.localCount - 4
+			  )
+			  ;
+		  }
+	  }
+	  function part4Loop() {
+		  function CorkPointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus3
+			  ; this.addToX = _0.b2 * _1.xPowerMinus3
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus4
+				  + _0.b2 * _1.xPower
+			  ; this.addToY = _0.b2 * _1.xPower
+			  ;
+		  }
+		  function PointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.a * _1.xPowerMinus4
+				  - _0.b2 * _1.xPowerMinus1
+			  ; this.addToX = - _0.b2 * _1.xPowerMinus1
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus4
+			  ; this.addToY = _0.b2 * _1.xPowerMinus4
+			  ;
+		  }
+		  function VerticalCorkPointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus4
+				  + _0.b2 * _1.xPower
+			  ; this.addToX = _0.b2 * _1.xPower
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus1
+				  + _0.a * _1.xPower
+			  ; this.addToY = - _0.b2 * _1.xPowerMinus3
+			  ;
+		  }
+		  function VerticalPointC() {
+			  this.x = _0.offset.x
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus4
+			  ; this.addToX = + _0.b2 * _1.xPowerMinus4
+			  ; this.y = _0.offset.y
+				  + _0.borderSize / 2
+				  + _0.b2 * _1.xPowerMinus1
+			  ; this.addToY = _0.b2 * _1.xPowerMinus1
+			  ;
+		  }
+		  function writeNext( $0 ) {
+			  const _2 = { error: $0 }
+			  ;
+			  if ( _2.error ) {
+				  console.log(
+					  '> warn <\n', _2.error, '\n', _1, '\n< warn >'
+				  )
+				  ;
+			  }
+			  if ( _0.globalCount - _0.localCount ) {
+				  _0.localCount ++
+				  ; _1.nextPart( _1 )
+				  ; return
+				  ;
+			  }
+			  _0.endParts()
+			  ;
+		  }
+		  const _1 = new Part4Loop
+		  ;
+		  if ( _0.vertical ) {
+			  _1.radiusY = _1.radius
+			  ; _1.corkRadiusX = _1.corkRadius
+			  ;
+		  }
+		  _0.runPart( _1 )
+		  ;
+		  function Part4Loop() {
+			  this.begin = _0.id + (
+				  _0.lead ?
+					  ( _0.globalCount - 1 )
+					  + 'animate' + ( _0.globalCount - 1 )
+					  : _0.globalCount
+					  + 'animate' + ( _0.localCount - 1 )
+			  ) + '.end'
+			  ; this.corkPointC = null
+			  ; this.CorkPointC = CorkPointC
+			  ; this.corkRadius = _0.corkB2 * Math.pow(
+				  _0.x, _0.localCount - 1
+			  )
+			  ; this.corkRadiusX = - this.corkRadius
+			  ; this.corkRadiusY = this.corkRadius
+			  ; this.drawPath = _0.drawPath4
+			  ; this.lastCorkRecord = _0.corkThread[ 2 ] ?
+				  _0.corkThread[ 2 ] : null
+			  ; this.lastRecord = _0.thread[ 2 ]
+			  ; this.nextPart = _0.part1Loop
+			  ; this.pointC = null
+			  ; this.PointC = PointC
+			  ; this.radius = _0.b2 * Math.pow(
+				  _0.x, _0.localCount - 1
+			  )
+			  ; this.radiusX = - this.radius
+			  ; this.radiusY = - this.radius
+			  ; this.string = '  <!-- ' + _0.id + _0.globalCount
+				  + ' animate' + _0.localCount + ' -->\n'
+			  ; this.thisCorkRecord = _0.corkThread[ 3 ] ?
+				  _0.corkThread[ 3 ] : null
+			  ; this.thisRecord = _0.thread[ 3 ] ?
+				  _0.thread[ 3 ] : null
+			  ; this.threadCount = ( _0.localCount - 1 ) % 4
+			  ; this.VerticalCorkPointC = VerticalCorkPointC
+			  ; this.VerticalPointC = VerticalPointC
+			  ; this.writeNext = writeNext
+			  ; this.xPower = Math.pow( _0.x, _0.localCount )
+			  ; this.xPowerMinus1 = Math.pow(
+				  _0.x, _0.localCount - 1
+			  )
+			  ; this.xPowerMinus3 = Math.pow(
+				  _0.x, _0.localCount - 3
+			  )
+			  ; this.xPowerMinus4 = Math.pow(
+				  _0.x, _0.localCount - 4
+			  )
+			  ;
+		  }
+	  }
+	  function pythagMetal() {
+		  const _1 = new PythagMetal
+		  ; _0.x = ( _1.c - _0.b2 / 2 ) / _0.a
+		  ; _0.totalWidth = _0.vertical ?
+				_0.b2 + ( _0.a * _0.x ) + _0.borderSize
+				: _0.totalWidth
+		  ; _0.totalHeight = _0.vertical ?
+				_0.totalHeight
+				: _0.b2 + ( _0.a * _0.x ) + _0.borderSize
+		  ;
+		  if ( _0.cork ) {
+			  if ( _0.vertical ) {
+				  _0.corkA = ( _0.totalHeight - _0.borderSize )
+					  * _0.x
+				  ; _0.corkB2 = ( _0.totalWidth - _0.borderSize )
+					  * _0.x
+				  ; return
+				  ;
+			  }
+			  _0.corkA = ( _0.totalWidth - _0.borderSize )
+				  * _0.x
+			  ; _0.corkB2 = ( _0.totalHeight - _0.borderSize )
+				  * _0.x
+			  ;
+		  }
+		  function PythagMetal() {
+			  this.axa = Math.pow( _0.a, 2 )
+			  ; this.bxb = Math.pow( _0.b2 / 2, 2 )
+			  ; this.cxc = this.axa + this.bxb
+			  ;
+			  this.c = Math.pow( this.cxc, 1 / 2 )
+			  ;
+		  }
+	  }
+	  function RecordCorkPoints( $0 ) {
+		  const _1 = $0
+		  ; this.A = {
+			  x: _1.lastCorkRecord.C.x
+			  , y: _1.lastCorkRecord.C.y
+		  }
+		  ; this.B = {
+			  x: this.A.x
+				  + _1.corkRadiusX
+			  , y: this.A.y
+				  + _1.corkRadiusY
+		  }
+		  ;
+		  if ( _1.thisCorkRecord ) {
+			  this.C = {
+				  x: _1.thisCorkRecord.C.x
+					  + _1.corkPointC.addToX
+				  , y: _1.thisCorkRecord.C.y
+					  + _1.corkPointC.addToY
+			  }
+			  ; return
+			  ;
+		  }
+		  this.C = {
+			  x: _1.corkPointC.x
+			  , y: _1.corkPointC.y
+		  }
+		  ;
+	  }
+	  function RecordPoints( $0 ) {
+		  const _1 = $0
+		  ; this.A = {
+			  x: _1.lastRecord.C.x
+			  , y: _1.lastRecord.C.y
+		  }
+		  ; this.B = {
+			  x: this.A.x
+				  + _1.radiusX
+			  , y: this.A.y
+				  + _1.radiusY
+		  }
+		  ;
+		  if ( _1.thisRecord ) {
+			  this.C = {
+				  x: _1.thisRecord.C.x
+					  + _1.pointC.addToX
+				  , y: _1.thisRecord.C.y
+					  + _1.pointC.addToY
+			  }
+			  ; return
+			  ;
+		  }
+		  this.C = {
+			  x: _1.pointC.x
+			  , y: _1.pointC.y
+		  }
+		  ;
+	  }
+	  function runPart( $0 ) {
+		  const _1 = $0
+		  ;
+		  if ( _0.cork ) {
+			  if ( _0.vertical ) {
+				  _1.corkPointC = new _1.VerticalCorkPointC
+				  ;
+			  }
+			  else {
+				  _1.corkPointC = new _1.CorkPointC
+				  ;
+			  }
+			  _0.corkThread[ _1.threadCount ] = new _0
+				  .RecordCorkPoints( _1 )
+			  ; _1.thisCorkRecord = _0.corkThread[ _1.threadCount ]
+			  ;
+		  }
+		  if ( _0.vertical ) {
+			  _1.pointC = new _1.VerticalPointC
+			  ;
+		  }
+		  else {
+			  _1.pointC = new _1.PointC
+			  ;
+		  }
+		  _0.thread[ _1.threadCount ] = new _0.RecordPoints( _1 )
+		  ; _1.thisRecord = _0.thread[ _1.threadCount ]
+		  ;
+		  if ( _0.lead && _0.globalCount > _0.localCount ) {
+			  _0.localCount ++
+			  ; _1.nextPart( _1 )
+			  ; return
+			  ;
+		  }
+		  if ( _1.drawPath && _0.globalCount == _0.localCount ) {
+			  if ( _0.cork ) {
+				  _1.string += _0.drawPath( _1, true )
+				  ;
+			  }
+			  _1.string += _0.drawPath( _1 )
+			  ;
+		  }
+		  if ( ! _0.lead || _0.globalCount == _0.localCount ) {
+			  _1.string += _0.animateSize( _1 )
+			  ; _1.string += _0.animateMotion( _1 )
+			  ; _1.string += _0.animateShrink( _1 )
+			  ;
+			  if ( _0.cork ) {
+				  _1.string += _0.animateSize( _1, true )
+				  ; _1.string += _0.animateMotion( _1, true )
+				  ; _1.string += _0.animateShrink( _1, true )
+				  ;
+			  }
+		  }
+		  if ( _0.picture ) {
+			  _1.writeNext()
+			  ; return
+			  ;
+		  }
+		  _0.svg += _1.string
+		  ; _1.writeNext()
+		  ;
+	  }
+	  const _0 = new Alchemy( $0 )
+	  ;
+	  if ( _0.html() ) {
+		  _0.pythagMetal()
+		  ; _0.header()
+		  ;
+	  }
+	  function Alchemy( $0 ) {
+		  this.doc = document
+		  ; this.data = JSON.parse(
+			  this.doc.getElementById( 'json' ).innerHTML
+		  )
+		  ;
+		  ; this.a = this.data.a
+		  ; this.alchemy = alchemy
+		  ; this.alchemyScript = this.doc.getElementById( 'alchemy' )
+		  ; this.animateMotion = animateMotion
+		  ; this.animateShrink = animateShrink
+		  ; this.animateSize = animateSize
+		  ; this.b2 = this.data.b2
+		  ; this.background = this.data.background
+		  ; this.borderColour = this.data.borderColour
+		  ; this.borderSize = this.data.borderSize
+		  ; this.cellBorderColour = this.data.cellBorderColour
+		  ; this.cellBorderSize = this.data.cellBorderSize
+		  ; this.clickStart = this.data.clickStart
+		  ; this.cork = this.data.cork
+		  ; this.corkEndPoints = []
+		  ; this.corkThread = [ null, null, null, null ]
+		  ; this.colours = this.data.colours
+		  ; this.download = download
+		  ; this.drawPath = drawPath
+		  ; this.drawPath1 = this.data.drawPath1
+		  ; this.drawPath2 = this.data.drawPath2
+		  ; this.drawPath3 = this.data.drawPath3
+		  ; this.drawPath4 = this.data.drawPath4
+		  ; this.drawPathOpacity = this.data.drawPathOpacity
+		  ; this.drawPathSizeInner = this.data.drawPathSizeInner
+		  ; this.drawPathSizeOuter = this.data.drawPathSizeOuter
+		  ; this.dynamicObjectLoop = dynamicObjectLoop
+		  ; this.embed = this.data.embed
+		  ; this.endParts = endParts
+		  ; this.endPoints = []
+		  ; this.file = this.data.file
+		  ; this.footer = footer
+		  ; this.globalCount = 1
+		  ; this.header = header
+		  ; this.html = html
+		  ; this.id = this.data.id
+		  ; this.imageDiv = [
+			  ... this.doc.getElementsByClassName( 'image' )
+		  ]
+		  ; this.init = $0
+		  ; this.inputImg = this.doc
+			  .getElementsByClassName( 'input' )[0]
+		  ; this.lead = this.data.lead
+		  ; this.localCount = 1
+		  ; this.loop = this.data.loop
+		  ; this.offset = {
+			  x: this.data.offset.x
+			  , y: this.data.offset.y
+		  }
+		  ; this.opacity = this.data.opacity
+		  ; this.part1Loop = part1Loop
+		  ; this.part2Loop = part2Loop
+		  ; this.part3Loop = part3Loop
+		  ; this.part4Loop = part4Loop
+		  ; this.pause = this.data.pause
+		  ; this.picture = this.data.picture
+		  ; this.pythagMetal = pythagMetal
+		  ; this.RecordCorkPoints = RecordCorkPoints
+		  ; this.RecordPoints = RecordPoints
+		  ; this.repeat = this.data.repeat
+		  ; this.rotateCenter = this.data.rotateCenter
+		  ; this.runPart = runPart
+		  ; this.speed = this.data.speed
+		  ; this.startColour = this.colours.shift()
+		  ; this.svg = ''
+		  ; this.thread = [ null, null, null, null ]
+		  ; this.totalHeight = this.data.vertical ?
+			  this.a + this.borderSize : null
+		  ; this.totalWidth = this.data.vertical ?
+			  null : this.a + this.borderSize
+		  ; this.vertical = this.data.vertical
+		  ; this.viewBoxAdd = this.data.viewBoxAdd
+		  ; this.x = null
+		  ;
+	  }
+  } )( true )
+  ;
+  </script>
+<script id="html">
+  ( function html() {
+	  function change( $0 ) {
+		  const _1 = $0
+		  ;
+		  if ( _1.picture ) {
+			  if ( _1.vertical ) {
+				  if ( _1.click % 4 == 0 ) {
+					  _1.context.scale( -1, -1 )
+					  ;
+				  }
+				  if ( _1.click % 4 == 1 ) {
+					  _1.context.rotate( Math.PI / -2 )
+					  ; _1.context.scale( -1, -1 )
+					  ;
+				  }
+				  if ( _1.click % 4 == 2 ) {
+					  _1.context.rotate( Math.PI / -1 )
+					  ; _1.context.scale( -1, -1 )
+					  ;
+				  }
+				  if ( _1.click % 4 == 3 ) {
+					  _1.context.rotate( Math.PI / 2 )
+					  ; _1.context.scale( -1, -1 )
+					  ;
+				  }
+				  return
+				  ;
+			  }
+			  if ( _1.click % 4 == 1 ) {
+				  _1.context.rotate( Math.PI / -2 )
+				  ;
+			  }
+			  if ( _1.click % 4 == 2 ) {
+				  _1.context.rotate( Math.PI / -1 )
+				  ;
+			  }
+			  if ( _1.click % 4 == 3 ) {
+				  _1.context.rotate( Math.PI / 2 )
+				  ;
+			  }
+			  return
+			  ;
+		  }
+		  if ( _1.vertical ) {
+			  if ( _1.click % 4 == 1 ) {
+				  _1.context.rotate( Math.PI / -2 )
+				  ; _1.context.scale( -1, 1 )
+				  ;
+			  }
+			  if ( _1.click % 4 == 2 ) {
+				  _1.context.rotate( Math.PI / -1 )
+				  ; _1.context.scale( -1, -1 )
+				  ;
+			  }
+			  if ( _1.click % 4 == 3 ) {
+				  _1.context.rotate( Math.PI / 2 )
+				  ; _1.context.scale( 1, -1 )
+				  ;
+			  }
+			  return
+			  ;
+		  }
+		  if ( _1.click % 4 == 0 ) {
+			  _1.context.scale( -1, 1 )
+			  ;
+		  }
+		  if ( _1.click % 4 == 1 ) {
+			  _1.context.rotate( Math.PI / -2 )
+			  ;
+		  }
+		  if ( _1.click % 4 == 2 ) {
+			  _1.context.rotate( Math.PI / -1 )
+			  ; _1.context.scale( 1, -1 )
+			  ;
+		  }
+		  if ( _1.click % 4 == 3 ) {
+			  _1.context.rotate( Math.PI / 2 )
+			  ; _1.context.scale( -1, -1 )
+			  ;
+		  }
+	  }
+	  function drop() {
+		  function dropNext( $0 ) {
+			  const _2 = $0
+			  ; _0.handle( _2.dataTransfer.files )
+			  ;
+		  }
+		  function noDefault( $0 ) {
+			  const _2 = $0
+			  ; _2.preventDefault()
+			  ; _2.stopPropagation()
+			  ;
+		  }
+		  const _1 = new Drop
+		  ; _0.interfaceButton.addEventListener(
+			  'dragenter', _1.noDefault, false
+		  )
+		  ; _0.interfaceButton.addEventListener(
+			  'dragleave', _1.noDefault, false
+		  )
+		  ; _0.interfaceButton.addEventListener(
+			  'dragover', _1.noDefault, false
+		  )
+		  ; _0.interfaceButton.addEventListener(
+			  'drop', _1.noDefault, false
+		  )
+		  ; _0.interfaceButton.addEventListener(
+			  'drop', _1.dropNext, false
+		  )
+		  ;
+		  function Drop() {
+			  this.dropNext = dropNext
+			  ; this.noDefault = noDefault
+			  ;
+		  }
+	  }
+	  function handle( $0 ) {
+		  const _1 = new Handle( $0 )
+		  ;
+		  while ( _1.length > _1.clickAll ) {
+			  if ( _0.validate( _1.image[ _1.clickAll ] ) ) {
+				  _1.clickSet ++
+				  ; _0.input( {
+					  clickSet: _1.clickSet
+					  , image: _1.image[ _1.clickAll ]
+				  } )
+				  ;
+			  }
+			  _1.clickAll ++
+			  ;
+		  }
+		  function Handle( $0 ) {
+			  this.clickAll = 0
+			  ; this.clickSet = _0.doc
+				  .getElementsByClassName( 'image' ).length
+			  ; this.image = $0
+			  ; this.length = $0.length
+			  ;
+		  }
+	  }
+	  function input( $0 ) {
+		  function readerNext( $0 ) {
+			  _1.inputImg.src = $0.target.result
+			  ;
+		  }
+		  const _1 = new Input( $0 )
+		  ; _1.basinDiv.append( _1.inputDiv )
+		  ; _1.inputDiv.append( _1.inputImg )
+		  ; _1.reader.readAsDataURL( _1.image )
+		  ; _1.inputDiv.addEventListener( 'click', () => {
+			  _1.inputDiv.remove()
+			  ;
+		  } )
+		  function Input( $0 ) {
+			  this.basinDiv = _0.doc.getElementById( 'basin' )
+			  ; this.click = 0
+			  ; this.clickSet = $0.clickSet
+			  ; this.image = $0.image
+			  ; this.inputImg = _0.doc.createElement( 'img' )
+			  ; this.inputImg.className = 'input'
+			  ; this.inputImg.id = 'input' + this.clickSet
+			  ; this.inputDiv = _0.doc.createElement( 'div' )
+			  ; this.inputDiv.className = 'feedback'
+			  ; this.reader = new FileReader()
+			  ; this.reader.onload = readerNext
+			  ; this.storeDiv = _0.doc.getElementById( 'store' )
+			  ;
+		  }
+	  }
+	  function listen() {
+		  function downloadNext() {
+			  const _2 = new DownloadNext
+			  ; _2.file.click()
+			  ;
+			  function DownloadNext() {
+				  this.file = _0.doc.getElementById( 'file' )
+				  ;
+			  }
+		  }
+		  function makeNext() {
+			  const _2 = new MakeNext
+			  ;
+			  if ( _2.input.length > 0 ) {
+				  _0.refresh()
+				  ; return
+				  ;
+			  }
+			  if ( _2.store ) {
+				  _2.store.remove()
+				  ;
+			  }
+			  _0.alchemy.click()
+			  ;
+			  function MakeNext() {
+				  this.input = _0.doc.getElementsByClassName( 'input' )
+				  ; this.store = _0.doc.getElementById( 'store' )
+				  ;
+			  }
+		  }
+		  const _1 = new Listen
+		  ; _0.download.addEventListener( 'click', _1.downloadNext )
+		  ; _0.make.addEventListener( 'click', _1.makeNext )
+		  ;
+		  function Listen() {
+			  this.downloadNext = downloadNext
+			  ; this.makeNext = makeNext
+			  ;
+		  }
+	  }
+	  function modify( $0 ) {
+		  const _1 = new Modify( $0 )
+		  ;
+		  if ( _1.canvas.width == 0 ) {
+			  if ( ! _1.attempt ) {
+				  _1.attempt = 0
+				  ;
+			  }
+			  _1.attempt ++
+			  ;
+			  if ( _1.attempt > 20 ) {
+				  console.warn( 'no width' )
+				  ; return
+				  ;
+			  }
+			  console.warn( 'relied on setTimeout x' + _1.attempt )
+			  ; setTimeout( () => { modify( _1 ); }, 1 )
+			  ; return
+			  ;
+		  }
+		  _1.context.translate(
+			  _1.canvas.width / 2, _1.canvas.height / 2
+		  )
+		  ;
+		  if ( _1.picture || _1.clickSet > 0 ) {
+			  _0.change( _1 )
+			  ;
+		  }
+		  _1.context.translate(
+			  _1.canvas.width / -2, _1.canvas.height / -2
+		  )
+		  ; _1.context.drawImage(
+			  _1.inputImg
+			  , (
+				  _1.canvas.width - _1.inputImg.naturalWidth
+			  ) / 2
+			  , (
+				  _1.canvas.height - _1.inputImg.naturalHeight
+			  ) / 2
+		  )
+		  ; _1.imageA.href = _1.canvas.toDataURL( 'image/png' )
+		  ; _1.imageDiv.append( _1.imageA )
+		  ;
+		  if ( _1.length == _1.clickSet && _1.click > 2 ) {
+			  _0.alchemy.click()
+			  ;
+		  }
+		  function Modify( $0, $1 ) {
+			  this.attempt = $0.attempt
+			  ; this.canvas = _0.doc.createElement( 'canvas' )
+			  ; this.canvas.height = $0.click % 2 == 1 ?
+				  $0.inputImg.naturalWidth
+				  : $0.inputImg.naturalHeight
+			  ; this.canvas.width = $0.click % 2 == 1 ?
+				  $0.inputImg.naturalHeight
+				  : $0.inputImg.naturalWidth
+			  ; this.click = $0.click
+			  ; this.clickSet = $0.clickSet
+			  ; this.context = this.canvas.getContext( '2d' )
+			  ; this.data = JSON.parse(
+				  _0.doc.getElementById( 'json' ).innerHTML
+			  )
+			  ; this.imageA = _0.doc.createElement( 'a' )
+			  ; this.imageA.id = 'image' + this.click
+			  ; this.imageDiv = $0.imageDiv
+			  ; this.inputImg = $0.inputImg
+			  ; this.length = $0.length
+			  ; this.picture = this.data.picture
+			  ; this.vertical = this.data.vertical
+			  ;
+		  }
+	  }
+	  function refresh() {
+		  function next() {
+			  const _2 = new Next
+			  ; _1.newStoreDiv.append( _2.imageDiv )
+			  ;
+			  if ( _2.clickSet == 0 ) {
+				  _0.modify( _2 )
+				  ; return
+				  ;
+			  }
+			  while ( _2.click < 4 ) {
+				  _0.modify( _2 )
+				  ; _2.click ++
+				  ;
+			  }
+			  function Next() {
+				  this.click = 0
+				  ; this.clickSet = _1.click
+				  ; this.imageDiv = _0.doc.createElement( 'div' )
+				  ; this.imageDiv.className = 'image'
+				  ; this.imageDiv.id = 'image' + this.clickSet
+				  ; this.inputCount = 1 > this.clickSet ?
+					  this.clickSet : this.clickSet - 1
+				  ; this.inputImg = _1.input[ this.inputCount ]
+				  ; this.length = _1.length - 1
+				  ;
+			  }
+		  }
+		  const _1 = new Refresh
+		  ;
+		  if ( _1.oldStoreDiv ) {
+			  _1.oldStoreDiv.remove()
+			  ;
+		  }
+		  _1.interfaceButton.after( _1.newStoreDiv )
+		  ;
+		  while ( _1.length > _1.click ) {
+			  if ( _1.click == 0 ) {
+				  _1.next()
+				  ; _1.click ++
+				  ;
+			  }
+			  _1.next()
+			  ; _1.click ++
+			  ;
+		  }
+		  function Refresh() {
+			  this.click = 0
+			  ; this.basinDiv = _0.doc.getElementById( 'basin' )
+			  ; this.input = [
+				  ... _0.doc.getElementsByClassName( 'input' )
+			  ]
+			  ; this.interfaceButton = _0.doc
+				  .getElementById( 'interfaceButton' )
+			  ; this.length = this.input.length + 1
+			  ; this.next = next
+			  ; this.oldStoreDiv = _0.doc.getElementById( 'store' )
+			  ;
+			  ; this.newStoreDiv = _0.doc.createElement( 'store' )
+			  ; this.newStoreDiv.id = 'store'
+			  ;
+		  }
+	  }
+	  function select() {
+		  const _1 = new Select
+		  ; _0.interfaceButton.addEventListener( 'click', () => {
+			  _1.selectInput.click()
+			  ;
+		  } )
+		  ; _1.selectInput.addEventListener( 'change', () => {
+			  _0.handle( _1.selectInput.files )
+			  ;
+		  } )
+		  ;
+		  function Select() {
+			  ; this.selectInput = _0.doc.createElement( 'input' )
+			  ; this.selectInput.accept = 'image/*'
+			  ; this.selectInput.multiple = true
+			  ; this.selectInput.type = 'file'
+			  ;
+		  }
+	  }
+	  function validate( $0 ) {
+		  const _1 = new Validate( $0 )
+		  ;
+		  if ( _1.types.indexOf( _1.image.type ) == -1 ) {
+			  alert( 'wrong file type' )
+			  ; return false
+			  ;
+		  }
+		  if ( _1.image.size > _1.maxSize ) {
+			  alert( 'file size over ' + _1.maxSize )
+			  ; return false
+			  ;
+		  }
+		  return true
+		  ;
+		  function Validate( $0 ) {
+			  this.image = $0
+			  ; this.maxSize = 10e6
+			  ; this.types = [ 'image/jpeg', 'image/png' ]
+			  ;
+		  }
+	  }
+	  const _0 = new Html
+	  ; _0.drop()
+	  ; _0.select()
+	  ; _0.listen()
+	  ;
+	  function Html() {
+		  this.doc = document
+		  ;
+		  this.alchemy = this.doc.getElementById( 'alchemy' )
+		  ; this.change = change
+		  ; this.download = this.doc.getElementById( 'download' )
+		  ; this.drop = drop
+		  ; this.handle = handle
+		  ; this.input = input
+		  ; this.interfaceButton = this.doc
+			  .getElementById( 'interface' )
+		  ; this.listen = listen
+		  ; this.make = this.doc.getElementById( 'make' )
+		  ; this.modify = modify
+		  ; this.refresh = refresh
+		  ; this.select = select
+		  ; this.validate = validate
+		  ;
+	  }
+  } )()
+  ;
+</script>
+<script id="monetize">
+  if (document.monetization) {
+      document.monetization
+		  .addEventListener( 'monetizationprogress', () => {
+			  document.getElementById( 'thankYou' )
+				  .style.display = 'block'
+			  ;
+      } )
+	  ;
+  }
+</script>
