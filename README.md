@@ -14,13 +14,15 @@ Before the workshop, please visit:
   
   * [https://en.wikipedia.org/wiki/Continued_fraction](https://en.wikipedia.org/wiki/Continued_fraction)
 
-* https://www.reddit.com/r/powerlawgeometry/comments/lzkrg9/cba_compared_to_ax0_2bx1_ax2/
+* [https://www.reddit.com/r/powerlawgeometry/comments/lzkrg9/cba_compared_to_ax0_2bx1_ax2/](https://www.reddit.com/r/powerlawgeometry/comments/lzkrg9/cba_compared_to_ax0_2bx1_ax2/)
 
 A question to ponder, "Is the Harmonic Series convergent or divergent, given the correct 'resonant' base?":
 
-* https://en.wikipedia.org/wiki/Geometric_series
+* [https://en.wikipedia.org/wiki/Geometric_series](https://en.wikipedia.org/wiki/Geometric_series)
 
-* https://en.wikipedia.org/wiki/Harmonic_series_(mathematics)
+* [https://en.wikipedia.org/wiki/Harmonic_series_(mathematics)](https://en.wikipedia.org/wiki/Harmonic_series_(mathematics))
+
+* [https://en.wikipedia.org/wiki/Logarithm](https://en.wikipedia.org/wiki/Logarithm)
 
 If we have time, we might explore how integer sequences as music relate to `a*(x^0) = (x^(y – 1))*(a*x + 2*b)`: 
 
