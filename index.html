@@ -8,20 +8,19 @@
 		  background-color: #fff;
 		  border-radius: 20px;
 		  box-shadow: 0 0 35px rgba(0,0,0,0.05);
-		  text-align: left;
+		  text-align: center;
 		  transition: .3s;
 	  }
 	  #download {
 		  background-color: #fff;
 		  border-radius: 20px;
 		  box-shadow: 0 0 35px rgba(0,0,0,0.05);
-		  text-align: left;
 		  transition: .3s;
 	  }
 	  .feedback {
-		  margin-top:20px;
+		  margin-top: 20px;
 		  display: inline-block;
-		  position:relative;
+		  position: relative;
 		  margin-right: 13px;
 		  margin-bottom: 13px;
 	  }
@@ -35,17 +34,35 @@
 	  #interface:hover {
 		  box-shadow: 0 0 45px rgba(0,0,0,0.1);
 	  }
+	  #introduction {
+		  text-align: center;
+	  }
 	  #make {
 		  cursor: pointer;
 	  }
+	  #makeButton {
+		  text-align: center;
+	  }
 	  #make:hover {
 		  box-shadow: 0 0 45px rgba(0,0,0,0.1);
+	  }
+	  #note {
+		  text-align: center;
+	  }
+	  #Option {
+		  text-align: center;
+	  }
+	  #OptionJson {
+		  display: inline-block;
+		  text-align: left;
+	  }
+	  #OptionNote {
+		  text-align: center;
 	  }
 	  #output {
 		  background-color: #fff;
 		  border-radius: 20px;
 		  box-shadow: 0 0 35px rgba(0,0,0,0.05);
-		  text-align: left;
 		  cursor: pointer;
 		  transition: .3s;
 	  }
@@ -61,6 +78,7 @@
 	  svg {
 		  max-width: 400px;
 		  max-height: 400px;
+		  text-align: center;
 	  }
 	</style>
   </head>
@@ -69,7 +87,7 @@
 	  <p id="title"><b>PYTHAGOREAN METAL</b></p>
 	  <p id="subtitle"><i>PI/2 MATRIX INFINITY SPIRALS</i></p>
 	</div>
-	<div id="svg"></div>
+	<center id="svg"></center>
 	<div id="basin">
 	  <div id="download"></div>
 	  <div id="interfaceButton">
@@ -93,7 +111,7 @@
 		<p>////////////////////////////////////////////</p>
 		<div>Options:</div>
 	  </div>
-	  <pre id="Option"><code id="json">{
+	  <div id="Option"><pre id="OptionJson"><code id="json">{
     "a": 600
     , "author": "besta.pe"
     , "b2": 500
@@ -136,7 +154,7 @@
 	"width": 0
 	, "height": 0
     }
-}</code></pre>
+}</code></pre></div>
 	  <div id="OptionNote">
 		<p>"picture": true must repeat in multiples of 4 (for now).</p>
 		<p>To edit Options, use the Inspector gadget (Ctrl+Shift+i).</p>
