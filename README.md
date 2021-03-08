@@ -6,7 +6,9 @@ During the workshop, we'll have fun with:
 
 We'll discuss `(c - b)/a` as well as `a*(x^0) = 2*b*(x^1) + a*(x^2)`.
 
-Before the workshop, please visit: 
+<details>
+
+<summary>Before the workshop, please visit:</summary> 
 
 * [https://en.wikipedia.org/wiki/Metallic_mean](https://en.wikipedia.org/wiki/Metallic_mean)
 
@@ -16,7 +18,11 @@ Before the workshop, please visit:
 
 * [https://www.reddit.com/r/powerlawgeometry/comments/lzkrg9/cba_compared_to_ax0_2bx1_ax2/](https://www.reddit.com/r/powerlawgeometry/comments/lzkrg9/cba_compared_to_ax0_2bx1_ax2/)
 
-A question to ponder, "Is the Harmonic Series convergent or divergent, given the correct 'resonant' base?":
+</details>
+
+<details>
+
+<summary>A question to ponder, "Is the Harmonic Series convergent or divergent, given the correct 'resonant' base?":</summary>
 
 * [https://en.wikipedia.org/wiki/Geometric_series](https://en.wikipedia.org/wiki/Geometric_series)
 
@@ -24,9 +30,27 @@ A question to ponder, "Is the Harmonic Series convergent or divergent, given the
 
 * [https://en.wikipedia.org/wiki/Logarithm](https://en.wikipedia.org/wiki/Logarithm)
 
-If we have time, we might explore how integer sequences as music relate to `a*(x^0) = (x^(y – 1))*(a*x + 2*b)`: 
+</details>
+
+<details>
+
+<summary>If we have time, we might explore how integer sequences as music relate to `a*(x^0) = (x^(y – 1))*(a*x + 2*b)`:</summary>
 
 * For instance, [https://www.instagram.com/p/B6MDtg9AJqH/](https://www.instagram.com/p/B6MDtg9AJqH/)
+
+</details>
+
+<details>
+
+<summary>Additional resources:</summary>
+
+* [https://youtu.be/MIxvZ6jwTuA](https://youtu.be/MIxvZ6jwTuA)
+
+* [https://youtu.be/ubHVK71F01M](https://youtu.be/ubHVK71F01M)
+
+* [https://youtu.be/sj8Sg8qnjOg](https://youtu.be/sj8Sg8qnjOg)
+
+</details>
 
 ##
 
