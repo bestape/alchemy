@@ -18,6 +18,8 @@ We'll discuss `(c - b)/a` as well as `a*(x^0) = 2*b*(x^1) + a*(x^2)`.
 
 * [https://www.reddit.com/r/powerlawgeometry/comments/lzkrg9/cba_compared_to_ax0_2bx1_ax2/](https://www.reddit.com/r/powerlawgeometry/comments/lzkrg9/cba_compared_to_ax0_2bx1_ax2/)
 
+* [https://en.wikipedia.org/wiki/Vanishing_point](https://en.wikipedia.org/wiki/Vanishing_point)
+
 </details>
 
 <details>
@@ -44,11 +46,11 @@ We'll discuss `(c - b)/a` as well as `a*(x^0) = 2*b*(x^1) + a*(x^2)`.
 
 <summary>Additional resources:</summary>
 
-* [https://youtu.be/MIxvZ6jwTuA](https://youtu.be/MIxvZ6jwTuA)
+* PBS SpaceTime about Vera's Metallic Means: [https://youtu.be/MIxvZ6jwTuA](https://youtu.be/MIxvZ6jwTuA)
 
-* [https://youtu.be/ubHVK71F01M](https://youtu.be/ubHVK71F01M)
+* Mathologer about visual Infinite descent: [https://youtu.be/ubHVK71F01M](https://youtu.be/ubHVK71F01M)
 
-* [https://youtu.be/sj8Sg8qnjOg](https://youtu.be/sj8Sg8qnjOg)
+* Numberphile about Golden ratio irrationality: [https://youtu.be/sj8Sg8qnjOg](https://youtu.be/sj8Sg8qnjOg)
 
 </details>
 
