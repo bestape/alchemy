@@ -20,6 +20,8 @@ We'll discuss `(c - b)/a` as well as `a*(x^0) = 2*b*(x^1) + a*(x^2)`.
 
 * [https://en.wikipedia.org/wiki/Vanishing_point](https://en.wikipedia.org/wiki/Vanishing_point)
 
+* slides: [https://drive.google.com/file/d/1h5_yIxx6-2i6cFSzdyoftcfK8xBxfYKJ/view?usp=sharing](https://drive.google.com/file/d/1h5_yIxx6-2i6cFSzdyoftcfK8xBxfYKJ/view?usp=sharing)
+
 </details>
 
 <details>
