@@ -1,0 +1,16 @@
+{
+  "name": "folkfest",
+  "description": "Create a stateless entity with qualified code deference.\n\nReview the DAO Charter and Wrappr docs to understand your CHARTER NFT.",
+  "external_url": "https://www.wrappr.wtf/",
+  "image": "https://raw.githubusercontent.com/bestape/alchemy/master/images/100by50-1.svg",
+  "attributes": [
+    {
+      "trait_type": "Entity",
+      "value": "Charter"
+    },
+    {
+      "trait_type": "Agreement",
+      "value": "https://content.wrappr.wtf/ipfs/QmfQdtrDwny4zEoTKbWBmVauk78tfzLA63WBQSqKrv7yep"
+    }
+  ]
+}
