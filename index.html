@@ -1,125 +1,192 @@
-<!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PythagMetal - Alchemy</title>
-    <meta name="monetization" content="$ilp.uphold.com/fwRLJUpZZYXH">
-
-    <style>
-      body {
-        font-family: sans-serif;
-        margin: 2rem;
-        background: #fafafa;
-      }
-
-      #basin, #output, #download {
-        background-color: #fff;
-        border-radius: 20px;
-        box-shadow: 0 0 35px rgba(0,0,0,0.05);
-        text-align: center;
-        transition: 0.3s;
-        padding: 1rem;
-        margin: 1rem auto;
-        max-width: 600px;
-      }
-
-      #interface, #make, #save {
-        cursor: pointer;
-        padding: 1rem;
-        border: none;
-        border-radius: 12px;
-        font-size: 1rem;
-        width: 80%;
-        transition: 0.2s;
-      }
-      #interface:hover, #make:hover, #save:hover {
-        box-shadow: 0 0 45px rgba(0,0,0,0.1);
-      }
-
-      #json {
-        background: #f0f0f0;
-        padding: 0.5rem;
-        border-radius: 10px;
-        max-height: 300px;
-        overflow: auto;
-        font-family: monospace;
-        font-size: 0.9rem;
-      }
-
-      svg {
-        max-width: 400px;
-        max-height: 400px;
-      }
-    </style>
+	<meta charset="utf-8">
+	<meta name="monetization" content="$ilp.uphold.com/fwRLJUpZZYXH">
+	<title>PythagMetal - Alchemy</title>
+	<style>
+	  #basin {
+		  background-color: #fff;
+		  border-radius: 20px;
+		  box-shadow: 0 0 35px rgba(0,0,0,0.05);
+		  text-align: center;
+		  transition: .3s;
+	  }
+	  #download {
+		  background-color: #fff;
+		  border-radius: 20px;
+		  box-shadow: 0 0 35px rgba(0,0,0,0.05);
+		  transition: .3s;
+	  }
+	  .feedback {
+		  margin-top: 20px;
+		  display: inline-block;
+		  position: relative;
+		  margin-right: 13px;
+		  margin-bottom: 13px;
+	  }
+	  .feedback img {
+		  max-width: 100px;
+		  max-height: 100px;
+	  }
+	  #interface {
+		  cursor: pointer;
+	  }
+	  #interface:hover {
+		  box-shadow: 0 0 45px rgba(0,0,0,0.1);
+	  }
+	  #introduction {
+		  text-align: center;
+	  }
+	  #make {
+		  cursor: pointer;
+	  }
+	  #makeButton {
+		  text-align: center;
+	  }
+	  #make:hover {
+		  box-shadow: 0 0 45px rgba(0,0,0,0.1);
+	  }
+	  #note {
+		  text-align: center;
+	  }
+	  #Option {
+		  text-align: center;
+	  }
+	  #OptionJson {
+		  display: inline-block;
+		  text-align: left;
+	  }
+	  #OptionNote {
+		  text-align: center;
+	  }
+	  #output {
+		  background-color: #fff;
+		  border-radius: 20px;
+		  box-shadow: 0 0 35px rgba(0,0,0,0.05);
+		  cursor: pointer;
+		  transition: .3s;
+	  }
+	  #output:hover {
+		  box-shadow:0 0 45px rgba(0,0,0,0.1);
+	  }
+	  #save {
+		  cursor: pointer;
+	  }
+	  #save:hover {
+		  box-shadow: 0 0 45px rgba(0,0,0,0.1);
+	  }
+	  svg {
+		  max-width: 400px;
+		  max-height: 400px;
+	  }
+	</style>
   </head>
-
   <body>
-    <h1 style="text-align:center;">PYTHAGOREAN METAL</h1>
-    <h3 style="text-align:center;">PI/2 MATRIX INFINITY SPIRALS</h3>
-
-    <center id="svg"></center>
-
-    <div id="basin">
-      <div id="download"></div>
-      <button id="interface" style="background-color: peachpuff;">
-        click or drag/drop<br>images here<br>to upload
-      </button>
-    </div>
-
-    <div id="output">
-      <button id="make" style="background-color: thistle;">
-        click here<br>to output spiral
-      </button>
-      <div style="margin-top:1rem;">Options:</div>
-      <pre id="json"><code>{
-  "a": 600,
-  "author": "besta.pe",
-  "b2": 500,
-  "background": "navajowhite",
-  "borderColour": "black",
-  "borderSize": 2,
-  "cellBorderColour": "black",
-  "cellBorderSize": 1,
-  "clickStart": false,
-  "colours": ["red","blue","hotpink","red"],
-  "cork": "orange",
-  "drawPath1": false,
-  "drawPath2": false,
-  "drawPath3": false,
-  "drawPath4": false,
-  "drawPathOpacity": 0.7,
-  "drawPathSizeInner": 5,
-  "drawPathSizeOuter": 5,
-  "embed": false,
-  "file": "spiral.svg",
-  "id": "rectangle",
-  "loop": true,
-  "offset": { "x": 0, "y": 0 },
-  "opacity": 1,
-  "pause": "1s",
-  "picture": false,
-  "repeat": 12,
-  "speed": "5s",
-  "vertical": false,
-  "viewBoxAdd": { "width": 0, "height": 0 }
-}</code></pre>
-    </div>
-
-    <p style="text-align:center;">Made for <a href="https://youtu.be/nEmPBHXNwxQ">MozFest 2021</a> by besta.pe</p>
-
-    <!-- ✅ Use relative imports (GitHub Pages safe) -->
-    <script type="module">
-      import { CONFIG } from './module1-config.js';
-      import { parseOptions } from './module2-utils.js';
-      import { PythagMetal } from './module5-core.js';
-      import { UI } from './module6-ui.js';
-
-      const raw = document.getElementById('json').innerText || '{}';
-      const options = parseOptions(raw, CONFIG.DEFAULTS);
-
-      const pm = new PythagMetal(options, document);
-      UI.bind(pm, document);
-    </script>
+	<div id="introduction">
+	  <p id="title"><b>PYTHAGOREAN METAL</b></p>
+	  <p id="subtitle"><i>PI/2 MATRIX INFINITY SPIRALS</i></p>
+	</div>
+	<center id="svg"></center>
+	<div id="basin">
+	  <div id="download"></div>
+	  <div id="interfaceButton">
+	  <p>////////////////////////////////////////////</p>
+		  <button id="interface" style="background-color: peachpuff;">
+			click or drag/drop
+			<br> images here
+			<br> to upload
+		  </button>
+	  </div>
+	</div>
+	<div id="function">
+	  <div id="makeButton">
+		<p>////////////////////////////////////////////</p>
+		<div id="output">
+		  <button id="make" style="background-color: thistle;">
+			click here
+			<br> to output spiral
+		  </button>
+		</div>
+		<p>////////////////////////////////////////////</p>
+		<div>Options:</div>
+	  </div>
+	  <div id="Option"><pre id="OptionJson"><code id="json">{
+    "a": 600
+    , "author": "besta.pe"
+    , "b2": 500
+    , "background": "navajowhite"
+    , "borderColour": "black"
+    , "borderSize": 2
+    , "cellBorderColour": "black"
+    , "cellBorderSize": "1"
+    , "clickStart": false
+    , "colours": [
+	"red"
+	, "blue"
+	, "hotpink"
+	, "red"
+    ]
+    , "cork": "orange"
+    , "drawPath1": false
+    , "drawPath2": false
+    , "drawPath3": false
+    , "drawPath4": false
+    , "drawPathOpacity": ".7"
+    , "drawPathSizeInner": 5
+    , "drawPathSizeOuter": 5
+    , "embed": false
+    , "file": "spiral.svg"
+    , "id": "rectangle"
+    , "loop": true
+    , "offset": {
+	"x": 0
+	, "y": 0
+    }
+    , "opacity": "1"
+    , "pause": "1s"
+    , "picture": false
+    , "repeat": 12
+    , "speed": "5s"
+    , "vertical": false
+    , "viewBoxAdd": {
+	"width": 0
+	, "height": 0
+    }
+}</code></pre></div>
+	  <div id="OptionNote">
+		<p>"picture": true must repeat in multiples of 4 (for now).</p>
+		<p>To edit Options, use the Inspector gadget (Ctrl+Shift+i).</p>
+	  </div>
+	</div>
+	<div id="note">
+	  <p>////////////////////////////////////////////</p>
+	  <div id="thankYou" style="color: red; display: none;">
+		<p><b>Thank you for supporting me via Web Monetization!</b></p>
+	  </div>
+	  <p>
+		<a href="https://www.buymeacoffee.com/bestape">
+		  !!! TIP JAR !!!
+		</a>
+	  </p>
+	  <p>
+		<a href="https://teespring.com/stores/bestape">
+		  !!! MERCH !!!
+		</a>
+	  </p>
+	  <p>////////////////////////////////////////////</p>
+	  <p>
+		<a href="http://alchemy.besta.pe">Alchemy.Besta.pe</a>
+	  </p>
+	  <p>
+		<a href="http://diagonalmethods.com">DiagonalMethods.com</a>
+	  </p>
+	  <p>
+		<a href="http://powerlawgeometry.com">PowerLawGeometry.com</a>
+	  </p>
+		<p id="date">Made for <a href="https://youtu.be/nEmPBHXNwxQ">this Global Culture & Heritage MozFest workshop</a> March, 2021.</p>
+	</div>
+	<script id="seed" src="./public/seed.js"></script>
+	<script id="alchemy" src="./public/alchemy.js"></script>
+	<script id="html" src="./public/html.js"></script>
   </body>
 </html>
