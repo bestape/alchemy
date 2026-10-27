@@ -1,0 +1,9 @@
+{
+	"name": "alchemy"
+	, "version": "2.1.0"
+	, "description": "PythagoreanMetal SVG/SMIL Infinity Spiral Engine"
+	, "main": "alchemy.js"
+	, "type": "commonjs"
+	, "author": "besta.pe"
+	, "license": "GPL-2.0"
+}

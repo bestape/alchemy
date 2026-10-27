@@ -1,0 +1,44 @@
+{
+	"a": 200
+	, "author": "besta.pe"
+	, "b2": 100
+	, "background": "navajowhite"
+	, "borderColour": "black"
+	, "borderSize": 1
+	, "cellBorderColour": "black"
+	, "cellBorderSize": "0.5"
+	, "clickStart": true
+	, "colours": [
+		"gold"
+		, "coral"
+		, "yellowgreen"
+		, "turquoise"
+		, "violet"
+		, "gold"
+	]
+	, "cork": "lightgrey"
+	, "drawPath1": false
+	, "drawPath2": false
+	, "drawPath3": false
+	, "drawPath4": false
+	, "embed": false
+	, "file": "./app.svg"
+	, "id": "rectangle"
+	, "images": []
+	, "lead": true
+	, "loop": false
+	, "offset": {
+		"x": 0
+		, "y": 0 
+	}
+	, "opacity": ".8"
+	, "pause": "2s"
+	, "png": true
+	, "repeat": 10
+	, "speed": "5s"
+	, "vertical": false
+	, "viewBoxAdd": {
+		"width": 20
+		, "height": 60
+	}
+}
